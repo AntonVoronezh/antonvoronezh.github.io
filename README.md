@@ -1,2 +1,1 @@
-# basicshtmlantonvoronezh.github.io
-basics html anton voronezh
+# antonvoronezh.github.io
