@@ -1,3 +1,4 @@
+/* start sidebar icons */
 .icon-main {
     background-image: url('../img/sidebar-icons/main_icon.png');
 }
@@ -27,3 +28,30 @@ a:hover>.icon-crew {
     width: 17pt;
     height: 17pt;
 }
+/* end sidebar icons */
+
+/* start tariffs icons */
+.icon-standart {
+    background: black;
+    background-image: url('../img/tariffs-icon/flower.png');
+}
+
+.icon-premium {
+    background: black;
+    background-image: url('../img/tariffs-icon/star.png');
+}
+
+.icon-laksheri {
+    background: black;
+    background-image: url('../img/tariffs-icon/palette.png');
+}
+
+.tariffs__element {
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 50%;
+    width: 50pt;
+    height: 50pt;
+
+}
+/* end tariffs icons */
