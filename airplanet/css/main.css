@@ -5,9 +5,34 @@
 **
 ****************************/
 
+/* start page */
+
 .page {
     align-content: center;
 }
+
+@font-face {
+    font-family: 'Roboto-Light_1';
+    src: url('../css/fonts/Roboto-Light_1.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Bold_1';
+    src: url('../css/fonts/Roboto-Bold_1.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-LightItalic_1';
+    src: url('../css/fonts/Roboto-LightItalic_1.ttf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* end page */
 
 /* start header*/
 
@@ -80,11 +105,27 @@ a:hover>.icon-crew {
 
 /* end tariffs icons */
 
-/* start news icons */
+/* start news */
 
-.icon-premium {
-    background-image: url('../img/news-img/1.png');
-    
+/* end news */
+
+/* start footer*/
+
+.footer {
+    height: 75px;
+    width: 1100px;
+    background: #4b73b5;
 }
 
-/* end news icons */
+.footer__signature {
+    width: 236px;
+    height: 50px;
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+}
+
+/* end footer */
