@@ -1,0 +1,29 @@
+.icon-main {
+    background-image: url('../img/sidebar-icons/main_icon.png');
+}
+
+a:hover>.icon-main {
+    background-image: url('../img/sidebar-icons/main_icon-black.png');
+}
+
+.icon-comments {
+    background-image: url('../img/sidebar-icons/feed_icon.png');
+}
+
+a:hover>.icon-comments {
+    background-image: url('../img/sidebar-icons/feed_icon-black.png');
+}
+
+.icon-crew {
+    background-image: url('../img/sidebar-icons/team_icon.png');
+}
+
+a:hover>.icon-crew {
+    background-image: url('../img/sidebar-icons/team_icon-black.png');
+}
+
+.menu__icon {
+    background-repeat: no-repeat;
+    width: 17pt;
+    height: 17pt;
+}
