@@ -79,3 +79,12 @@ a:hover>.icon-crew {
 }
 
 /* end tariffs icons */
+
+/* start news icons */
+
+.icon-premium {
+    background-image: url('../img/news-img/1.png');
+    
+}
+
+/* end news icons */
