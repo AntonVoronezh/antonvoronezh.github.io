@@ -213,7 +213,6 @@ a:hover>.icon-crew {
 .tariffs__element {
     display: inline-block;
     width: 248px;
-    border: 1px solid #000000;
     text-align: center;
 }
 
@@ -273,4 +272,7 @@ a:hover>.icon-crew {
     margin-top: 20px;
 }
 
+.news {
+    margin-top: 90px;
+}
 /* end tarifs */
