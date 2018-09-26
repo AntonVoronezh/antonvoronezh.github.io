@@ -34,7 +34,7 @@ body {
 
 .maincontent__aside {
     width: 200px;
-     float: left;
+    float: left;
 }
 
 .maincontent__container {
@@ -51,3 +51,60 @@ body {
 }
 
 /* end big blocks */
+
+/* start fonts */
+
+@font-face {
+    font-family: 'Roboto-Light_1';
+    src: url('../css/fonts/Roboto-Light_1.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-Bold_1';
+    src: url('../css/fonts/Roboto-Bold_1.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto-LightItalic_1';
+    src: url('../css/fonts/Roboto-LightItalic_1.ttf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* end fonts */
+
+* {
+    font-family: Roboto-Light_1;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* start header */
+
+.header>.logotype {
+    float: left;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.header>.headerinfo {
+    float: right;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+
+.phone {
+    font-family: Roboto-Light_1;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 700;
+    /* line-height: 54px; */
+    text-align: left;
+}
+/* end header */
