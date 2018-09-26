@@ -206,4 +206,71 @@ a:hover>.icon-crew {
     padding: 0px;
 }
 
+.tariffs__elements {
+    list-style: none;
+}
+
+.tariffs__element {
+    display: inline-block;
+    width: 248px;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+.tariffs__element .icon-standart,
+.tariffs__element .icon-premium,
+.tariffs__element .icon-laksheri {
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 50%;
+    width: 50pt;
+    height: 50pt;
+}
+
+.icon-standart {
+    background: #4b73b5;
+    background-image: url('../img/tariffs-icon/flower.png');
+}
+
+.icon-premium {
+    background: #4b73b5;
+    background-image: url('../img/tariffs-icon/star.png');
+}
+
+.icon-laksheri {
+    background: #4b73b5;
+    background-image: url('../img/tariffs-icon/palette.png');
+}
+
+.tariffs__element-items {
+    text-align: left;
+}
+
+.tariffs__element-name {
+    color: #212121;
+    font-family: Roboto-Bold_1;
+    letter-spacing: 3px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 12px;
+}
+
+.tariffs__element-description,
+.tariffs__element-items {
+    color: #221f1f;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 33px;
+}
+
+.tariffs__element-price {
+    color: #212121;
+    font-size: 54px;
+    font-weight: bold;
+    line-height: 57px;
+    text-align: center;
+    margin-top: 20px;
+}
+
 /* end tarifs */
