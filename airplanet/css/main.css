@@ -43,13 +43,13 @@ body {
     width: 900px;
     float: right;
     vertical-align: top;
-    
+    text-align: top;
 }
 
 .maincontent__sidebar {
     text-align: left;
     margin-left: 0px;
- }
+}
 
 .footer {
     clear: both;
@@ -121,28 +121,20 @@ a {
 /* start aside*/
 
 .menu {
-    /* text-align: left;
-    margin-left: 0px; */
-    /* border: 1px solid #000000; */
-    /* margin-top: 0px; */
     margin-left: 0px;
 }
 
 .menu__list {
     list-style: none;
-    /* border: 1px solid #f00d0d; */
     padding-left: 20px;
-    margin-top:35px;
+    margin-top: 30px;
 }
 
 .menu__item {
-    /* display: block; */
     vertical-align: top;
     overflow: auto;
-    /* border: 1px solid #6306fa; */
     margin-top: 25px;
     margin-left: 0px;
-    
 }
 
 .menu__icon {
@@ -151,19 +143,16 @@ a {
     height: 17pt;
     float: left;
     margin-left: 0px;
-    /* border: 1px solid #000000; */
 }
 
 .menu__text {
-    /* float: right; */
     font-family: Roboto-Bold_1;
+    letter-spacing: 3px;
     color: #4b73b5;
     font-size: 12px;
     font-weight: 700;
     line-height: 20px;
-    /* margin-top: 40px; */
     margin-left: 35px;
-    /* border:1px solid #4b73b5; */
 }
 
 a:hover>.menu__text {
@@ -195,3 +184,26 @@ a:hover>.icon-crew {
 }
 
 /* end aside */
+
+/* start tariffs */
+
+.big-photo {
+    margin: 0px;
+    padding: 0px;
+}
+
+.tariffs {
+    margin: 0px;
+    padding: 0px;
+    text-align: top;
+}
+
+.title__h {
+    font-family: Roboto-Bold_1;
+    color: #221f1f;
+    font-size: 49px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* end tarifs */
