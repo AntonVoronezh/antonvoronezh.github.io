@@ -30,10 +30,12 @@ body {
 
 .maincontent {
     height: 100%;
+    margin-top: 5px;
 }
 
 .maincontent__aside {
     width: 200px;
+    margin-left: 0px;
     float: left;
 }
 
@@ -41,7 +43,13 @@ body {
     width: 900px;
     float: right;
     vertical-align: top;
+    
 }
+
+.maincontent__sidebar {
+    text-align: left;
+    margin-left: 0px;
+ }
 
 .footer {
     clear: both;
@@ -107,4 +115,83 @@ a {
     /* line-height: 54px; */
     text-align: left;
 }
+
 /* end header */
+
+/* start aside*/
+
+.menu {
+    /* text-align: left;
+    margin-left: 0px; */
+    /* border: 1px solid #000000; */
+    /* margin-top: 0px; */
+    margin-left: 0px;
+}
+
+.menu__list {
+    list-style: none;
+    /* border: 1px solid #f00d0d; */
+    padding-left: 20px;
+    margin-top:35px;
+}
+
+.menu__item {
+    /* display: block; */
+    vertical-align: top;
+    overflow: auto;
+    /* border: 1px solid #6306fa; */
+    margin-top: 25px;
+    margin-left: 0px;
+    
+}
+
+.menu__icon {
+    background-repeat: no-repeat;
+    width: 17pt;
+    height: 17pt;
+    float: left;
+    margin-left: 0px;
+    /* border: 1px solid #000000; */
+}
+
+.menu__text {
+    /* float: right; */
+    font-family: Roboto-Bold_1;
+    color: #4b73b5;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    /* margin-top: 40px; */
+    margin-left: 35px;
+    /* border:1px solid #4b73b5; */
+}
+
+a:hover>.menu__text {
+    color: #000000;
+}
+
+.icon-main {
+    background-image: url('../img/sidebar-icons/main_icon.png');
+}
+
+a:hover>.icon-main {
+    background-image: url('../img/sidebar-icons/main_icon-black.png');
+}
+
+.icon-comments {
+    background-image: url('../img/sidebar-icons/feed_icon.png');
+}
+
+a:hover>.icon-comments {
+    background-image: url('../img/sidebar-icons/feed_icon-black.png');
+}
+
+.icon-crew {
+    background-image: url('../img/sidebar-icons/team_icon.png');
+}
+
+a:hover>.icon-crew {
+    background-image: url('../img/sidebar-icons/team_icon-black.png');
+}
+
+/* end aside */
