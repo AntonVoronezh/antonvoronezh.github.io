@@ -17,9 +17,6 @@ body {
 
 .wrapper {
     width: 100%;
-    /* margin: auto;
-    padding: auto; */
-    /* border: 1px solid #000000; */
 }
 
 .container {
@@ -35,12 +32,11 @@ body {
 
 .maincontent {
     height: 100%;
-    margin-top: 5px;
+    margin-top: 12px;
 }
 
 .maincontent__aside {
     width: 200px;
-    margin-left: 0px;
     float: left;
 }
 
@@ -53,7 +49,6 @@ body {
 
 .maincontent__sidebar {
     text-align: left;
-    margin-left: 0px;
 }
 
 .footer {
@@ -109,16 +104,26 @@ a {
 .container>.headerinfo {
     float: right;
     margin-right: 20px;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 .phone {
-    font-family: Roboto-Light_1;
+    font-family: Roboto-Bold_1;
     color: #ffffff;
-    font-size: 21px;
-    font-weight: 700;
-    /* line-height: 54px; */
-    text-align: left;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.schedule__button {
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    font-family: Roboto-Light_1;
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 50px;
+    padding-right: 0;
 }
 
 /* end header */
@@ -132,13 +137,13 @@ a {
 .menu__list {
     list-style: none;
     padding-left: 20px;
-    margin-top: 30px;
+    margin-top: 35px;
 }
 
 .menu__item {
     vertical-align: top;
     overflow: auto;
-    margin-top: 25px;
+    margin-top: 26px;
     margin-left: 0px;
 }
 
@@ -199,7 +204,7 @@ a:hover>.icon-crew {
 
 .tariffs {
     margin: 0px;
-    padding: 0px;
+    padding-right: 0px;
     text-align: top;
 }
 
@@ -213,18 +218,30 @@ a:hover>.icon-crew {
 
 .tariffs__elements {
     list-style: none;
+    display: inline-block;
+    margin-top: 25px;
+    padding: 0px;
+    /* width: 100%; */
+}
+
+.tariffs__element-icon {
+    width: 250px;
+    margin-right: 6px;
+    margin-left: 6px;
 }
 
 .tariffs__element {
     display: inline-block;
-    width: 248px;
+    /* width: 200px; */
     text-align: center;
+    /* margin-right: 25px;
+    margin-left: 25px; */
 }
 
 .tariffs__element .icon-standart,
 .tariffs__element .icon-premium,
 .tariffs__element .icon-laksheri {
-    margin-top: 50px;
+    margin-top: 40px;
     background-repeat: no-repeat;
     background-position: center center;
     border-radius: 50%;
@@ -254,10 +271,11 @@ a:hover>.icon-crew {
 .tariffs__element-name {
     color: #212121;
     font-family: Roboto-Bold_1;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     font-weight: 700;
     text-align: center;
     font-size: 12px;
+    padding-top: 20px;
 }
 
 .tariffs__element-description,
@@ -266,6 +284,11 @@ a:hover>.icon-crew {
     font-size: 18px;
     font-weight: 300;
     line-height: 33px;
+    padding-top: 5px;
+}
+
+.tariffs__element-item {
+    padding-top: 5px;
 }
 
 .tariffs__element-price {
@@ -275,6 +298,13 @@ a:hover>.icon-crew {
     line-height: 57px;
     text-align: center;
     margin-top: 20px;
+}
+
+.dollar {
+    color: #212121;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 57px;
 }
 
 .news {
