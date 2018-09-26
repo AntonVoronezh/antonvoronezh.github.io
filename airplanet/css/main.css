@@ -5,169 +5,49 @@
 **
 ****************************/
 
-/* start page */
+/* start big blocks */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
 
 .page {
-    align-content: center;
+    width: 1100px;
+    margin: auto;
+    padding: auto;
+    /* border: 1px solid #000000; */
 }
-
-@font-face {
-    font-family: 'Roboto-Light_1';
-    src: url('../css/fonts/Roboto-Light_1.ttf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Roboto-Bold_1';
-    src: url('../css/fonts/Roboto-Bold_1.ttf');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Roboto-LightItalic_1';
-    src: url('../css/fonts/Roboto-LightItalic_1.ttf');
-    font-weight: normal;
-    font-style: italic;
-}
-
-/* end page */
-
-/* start header*/
 
 .header {
-    height: 76px;
-    width: 1100px;
-    background: #4b73b5;
-    font-family: Roboto;
-}
-
-.phone {
-    font-family: Roboto-Light_1;
-    color: #ffffff;
-    font-size: 21px;
-    font-weight: 700;
-    line-height: 54px;
-    text-align: left;
-}
-
-/* end header */
-
-/* start sidebar icons */
-
-.icon-main {
-    background-image: url('../img/sidebar-icons/main_icon.png');
-}
-
-a:hover>.icon-main {
-    background-image: url('../img/sidebar-icons/main_icon-black.png');
-}
-
-.icon-comments {
-    background-image: url('../img/sidebar-icons/feed_icon.png');
-}
-
-a:hover>.icon-comments {
-    background-image: url('../img/sidebar-icons/feed_icon-black.png');
-}
-
-.icon-crew {
-    background-image: url('../img/sidebar-icons/team_icon.png');
-}
-
-a:hover>.icon-crew {
-    background-image: url('../img/sidebar-icons/team_icon-black.png');
-}
-
-.menu__icon {
-    background-repeat: no-repeat;
-    width: 17pt;
-    height: 17pt;
-}
-
-.menu__text {
-    font-family: Roboto-Bold_1;
-    color: #4b73b5;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 54px;
-    text-align: left;
-}
-
-.menu__link {
-    text-decoration: none;
-}
-
-a:hover>.menu__text {
-    color: #000000;
-}
-
-/* end sidebar icons */
-
-/* start tariffs icons */
-
-.icon-standart {
-    background: #4b73b5;
-    background-image: url('../img/tariffs-icon/flower.png');
-}
-
-.icon-premium {
-    background: #4b73b5;
-    background-image: url('../img/tariffs-icon/star.png');
-}
-
-.icon-laksheri {
-    background: #4b73b5;
-    background-image: url('../img/tariffs-icon/palette.png');
-}
-
-.tariffs__element {
-    background-repeat: no-repeat;
-    background-position: center center;
-    border-radius: 50%;
-    width: 50pt;
-    height: 50pt;
-}
-
-/* end tariffs icons */
-
-/* start news */
-
-/* end news */
-
-/* start footer*/
-
-.footer {
     height: 75px;
     width: 1100px;
     background: #4b73b5;
 }
 
-.footer__signature {
-    width: 236px;
-    height: 50px;
-    font-family: Roboto-Light_1;
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 18px;
-    text-align: left;
+.maincontent {
+    height: 100%;
 }
 
-/* start social */
-
-.social-pictures-item {
-    border-radius: 50%;
-    background-color: #ffffff;
-    width: 20px;
-    height: 20px;
+.maincontent__aside {
+    width: 200px;
+     float: left;
 }
 
-.social-pictures-item>a:hover {
-    background-color: #d2def3;
+.maincontent__container {
+    width: 900px;
+    float: right;
+    vertical-align: top;
 }
 
-/* end social */
+.footer {
+    clear: both;
+    height: 75px;
+    width: 1100px;
+    background: #4b73b5;
+}
 
-/* end footer */
+/* end big blocks */
