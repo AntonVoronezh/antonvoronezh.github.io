@@ -15,16 +15,21 @@ body {
     height: 100%;
 }
 
-.page {
-    width: 1100px;
-    margin: auto;
-    padding: auto;
+.wrapper {
+    width: 100%;
+    /* margin: auto;
+    padding: auto; */
     /* border: 1px solid #000000; */
 }
 
-.header {
-    height: 75px;
+.container {
     width: 1100px;
+    margin: 0 auto;
+}
+
+.header {
+    min-height: 75px;
+    width: 100%;
     background: #4b73b5;
 }
 
@@ -53,8 +58,8 @@ body {
 
 .footer {
     clear: both;
-    height: 75px;
-    width: 1100px;
+    min-height: 75px;
+    width: 100%;
     background: #4b73b5;
 }
 
@@ -95,13 +100,13 @@ a {
 
 /* start header */
 
-.header>.logotype {
+.container>.logotype {
     float: left;
     margin-left: 20px;
     padding-top: 20px;
 }
 
-.header>.headerinfo {
+.container>.headerinfo {
     float: right;
     margin-right: 20px;
     padding-top: 20px;
@@ -275,4 +280,5 @@ a:hover>.icon-crew {
 .news {
     margin-top: 90px;
 }
+
 /* end tarifs */
