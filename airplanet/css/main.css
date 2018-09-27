@@ -356,3 +356,32 @@ a:hover>.icon-crew {
 }
 
 /* end news */
+
+/* start pagination */
+
+.pagination {
+    display: inline;
+}
+
+.pagination__display {
+    display: inline;
+    margin-left: 270px;
+    font-size: 14px;
+}
+
+.pagination__elements {
+    list-style: none;
+    display: inline;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 10px;
+    /* width: 400px; */
+}
+
+.pagination__element {
+    display: inline;
+    padding-left: 10px;
+}
+
+/* end pagination */
