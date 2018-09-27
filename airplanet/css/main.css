@@ -324,7 +324,7 @@ a:hover>.icon-crew {
 
 .news__element {
     clear: both;
-    padding-top: 50px;
+    padding-top: 45px;
 }
 
 .news__element-picture {
@@ -333,7 +333,6 @@ a:hover>.icon-crew {
 
 .news__element-description {
     margin-left: 175px;
-    border: 1px solid #000000;
 }
 
 .news__element-date {
@@ -344,6 +343,16 @@ a:hover>.icon-crew {
 
 .news__element-header {
     padding-top: 0px;
-    margin-top: 0px;   
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
+
+.news__element-text {
+    font-size: 18px;
+    line-height: 1.7;
+    padding-top: 0px;
+    margin-top: 0px;
+    width: 650px;
+}
+
 /* end news */
