@@ -336,6 +336,14 @@ a:hover>.icon-crew {
     border: 1px solid #000000;
 }
 
-.news__element-date {}
+.news__element-date {
+    font-size: 14px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
 
+.news__element-header {
+    padding-top: 0px;
+    margin-top: 0px;   
+}
 /* end news */
