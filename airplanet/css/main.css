@@ -45,6 +45,7 @@ body {
     float: right;
     vertical-align: top;
     text-align: top;
+    margin-bottom: 65px;
 }
 
 .maincontent__sidebar {
@@ -367,21 +368,116 @@ a:hover>.icon-crew {
     display: inline;
     margin-left: 270px;
     font-size: 14px;
+    margin-right: 0px;
 }
 
 .pagination__elements {
     list-style: none;
     display: inline;
-    text-align: center;
+    /* text-align: left; */
     font-weight: bold;
     font-size: 14px;
-    padding-left: 10px;
-    /* width: 400px; */
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    margin-left: 5px;
+    padding-left: 0px;
 }
 
 .pagination__element {
     display: inline;
-    padding-left: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 1px solid #000000
+}
+
+.pagination__element-link {
+    /* font: Roboto-Bold_1;
+    font-size: 14px;
+    color: #000000;   */
+}
+
+a:hover>.pagination__element {
+    background: #4b73b5;
+    color: #ffffff;
 }
 
 /* end pagination */
+
+/* start footer */
+
+.footer__signature {
+    float: left;
+    width: 234x;
+    height: 50px;
+    margin-top: 5px;
+    font-family: Roboto-Light_1;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    text-align: left;
+}
+
+.footer>.container>.logotype {
+    /* display: inline-block; */
+    margin-left: 260px;
+}
+
+.footer__social {
+    float: right;
+    /* display: inline-block; */
+}
+
+.footer__social-text {
+    font-family: Roboto-Light_1;
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+.social-pictures-list {
+    list-style: none;
+}
+
+.social-pictures-item {
+    display: inline;
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    border-radius: 50%;
+    border: 1px solid #000000;
+}
+
+/* end footer */
+
+/* .tariffs__element .icon-standart,
+.tariffs__element .icon-premium,
+.tariffs__element .icon-laksheri {
+    margin-top: 40px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+
+}
+
+.icon-standart {
+    background: #4b73b5;
+    background-image: url('../img/tariffs-icon/flower.png');
+} */
+
+.social-pictures-item2 {
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+    border-radius: 50%;
+    background-image: url('../img/social-icon/vk.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+a:hover>.social-pictures-item2 {
+    background: #d10505; 
+}
