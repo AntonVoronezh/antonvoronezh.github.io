@@ -382,16 +382,18 @@ a:hover>.icon-crew {
 
 .pagination__element {
     display: inline-block;
-    width: 20px;
-    height: 20px;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    border: 1px solid #000000
+    padding-left: 4px;
 }
 
-a:hover>.pagination__element {
+.pagination__element-wrap {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    padding: 3px;
+    text-align: center;
+}
+
+a:hover>.pagination__element-wrap {
     background: #4b73b5;
     color: #ffffff;
 }
