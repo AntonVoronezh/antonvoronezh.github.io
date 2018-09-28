@@ -376,11 +376,8 @@ a:hover>.icon-crew {
 .pagination__elements {
     list-style: none;
     display: inline;
-    /* text-align: left; */
     font-weight: bold;
     font-size: 14px;
-    /* padding-left: 20px;
-    padding-right: 20px; */
     margin-left: 5px;
     padding-left: 0px;
 }
@@ -396,6 +393,8 @@ a:hover>.icon-crew {
     height: 16px;
     padding: 3px;
     text-align: center;
+    border-radius: 10%;
+    color: #000000;
 }
 
 a:hover>.pagination__element-wrap {
