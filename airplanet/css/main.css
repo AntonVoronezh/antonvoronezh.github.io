@@ -233,10 +233,7 @@ a:hover>.icon-crew {
 
 .tariffs__element {
     display: inline-block;
-    /* width: 200px; */
     text-align: center;
-    /* margin-right: 25px;
-    margin-left: 25px; */
 }
 
 .tariffs__element .icon-standart,
@@ -384,18 +381,14 @@ a:hover>.icon-crew {
 }
 
 .pagination__element {
-    display: inline;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
     padding-left: 8px;
     padding-right: 8px;
     padding-top: 4px;
     padding-bottom: 4px;
     border: 1px solid #000000
-}
-
-.pagination__element-link {
-    /* font: Roboto-Bold_1;
-    font-size: 14px;
-    color: #000000;   */
 }
 
 a:hover>.pagination__element {
@@ -438,46 +431,28 @@ a:hover>.pagination__element {
     margin-right: 25px;
 }
 
+.footer__social-pictures {
+    margin-top: 10px;
+}
+
 .social-pictures-list {
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 .social-pictures-item {
-    display: inline;
+    display: inline-block;
     width: 20px;
     height: 20px;
-    background: #ffffff;
+    background: #d2def3;
     border-radius: 50%;
-    border: 1px solid #000000;
+    text-align: center;
+    margin-right: 5px;
+}
+
+a:hover>.social-pictures-item {
+    background: #fff;
 }
 
 /* end footer */
-
-/* .tariffs__element .icon-standart,
-.tariffs__element .icon-premium,
-.tariffs__element .icon-laksheri {
-    margin-top: 40px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    
-
-}
-
-.icon-standart {
-    background: #4b73b5;
-    background-image: url('../img/tariffs-icon/flower.png');
-} */
-
-.social-pictures-item2 {
-    width: 20px;
-    height: 20px;
-    background: #ffffff;
-    border-radius: 50%;
-    background-image: url('../img/social-icon/vk.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
-a:hover>.social-pictures-item2 {
-    background: #d10505; 
-}
