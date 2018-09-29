@@ -237,30 +237,33 @@ a:hover>.icon-crew {
     text-align: center;
 }
 
-.tariffs__element .icon-standart,
-.tariffs__element .icon-premium,
-.tariffs__element .icon-laksheri {
+.tariffs__element-icon-all {
     margin-top: 40px;
-    background-repeat: no-repeat;
-    background-position: center center;
     border-radius: 50%;
     width: 50pt;
     height: 50pt;
+    display: inline-block;
 }
 
 .icon-standart {
     background: #4b73b5;
     background-image: url('../img/tariffs-icon/flower.png');
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .icon-premium {
     background: #4b73b5;
     background-image: url('../img/tariffs-icon/star.png');
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .icon-laksheri {
     background: #4b73b5;
     background-image: url('../img/tariffs-icon/palette.png');
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .tariffs__element-items {
