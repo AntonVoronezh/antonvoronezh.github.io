@@ -1,0 +1,93 @@
+/****************************
+**
+** LoftSchool project #1
+** AntonVoronezh
+**
+****************************/
+
+.navigation {
+    margin: 0px;
+    padding: 0;
+}
+
+.menu__list {
+    list-style: none;
+    padding-left: 20px;
+    margin-top: 30px;
+    padding: 0;
+}
+
+.menu__item {
+    margin-left: 0px;
+    padding: 0;
+    margin-bottom: 25px;
+}
+
+.menu__link {
+    text-decoration: none;
+    display: flex;
+    align-items: flex-start;
+}
+
+.menu__icon {
+    background-repeat: no-repeat;
+    width: 25px;
+    height: 25px;
+}
+
+.menu__text {
+    height: 25px;
+    letter-spacing: 3px;
+    color: #4b73b5;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+a:hover>.menu__text {
+    color: #000000;
+}
+
+.menu__icon--main {
+    background-image: url('../../img/sidebar-icons/main_icon.png');
+}
+
+a:hover>.menu__icon--main {
+    background-image: url('../../img/sidebar-icons/main_icon-black.png');
+}
+
+.menu__icon--comments {
+    background-image: url('../../img/sidebar-icons/feed_icon.png');
+}
+
+a:hover>.menu__icon--comments {
+    background-image: url('../../img/sidebar-icons/feed_icon-black.png');
+}
+
+.menu__icon--crew {
+    background-image: url('../../img/sidebar-icons/team_icon.png');
+}
+
+a:hover>.menu__icon--crew {
+    background-image: url('../../img/sidebar-icons/team_icon-black.png');
+}
+
+/* active */
+
+.menu__item--active>.menu__link>.menu__text {
+    color: #000000;
+}
+
+.menu__item--active>.menu__link>.menu__icon--main {
+    background-image: url('../../img/sidebar-icons/main_icon-black.png');
+}
+
+.menu__item--active>.menu__link>.menu__icon--comments {
+    background-image: url('../../img/sidebar-icons/feed_icon-black.png');
+}
+
+.menu__item--active>.menu__link>.u__icon--crew {
+    background-image: url('../../img/sidebar-icons/team_icon-black.png');
+}
