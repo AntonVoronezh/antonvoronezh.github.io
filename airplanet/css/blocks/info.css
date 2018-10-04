@@ -1,0 +1,24 @@
+/****************************
+**
+** LoftSchool project #1
+** AntonVoronezh
+**
+****************************/
+
+.info {
+    background-color: #4bb56b;
+    height: 170px;
+    color: #fff;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.container--info {
+    width: 650px;
+    padding-top: 45px;
+}
+
+.info__link {
+    font-size: 18px;
+    color: #fff;
+}
