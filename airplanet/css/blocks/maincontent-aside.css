@@ -88,6 +88,6 @@ a:hover>.navigation__icon--crew {
     background-image: url('../../img/sidebar-icons/feed_icon-black.png');
 }
 
-.navigation__item--active>.navigation__link>.u__icon--crew {
+.navigation__item--active>.navigation__link>.navigation__icon--crew {
     background-image: url('../../img/sidebar-icons/team_icon-black.png');
 }
