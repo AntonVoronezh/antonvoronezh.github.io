@@ -277,19 +277,19 @@
                         <div class="new-comment__form-column-top">
                             <div class="new-comment__form-column-top new-comment__form-column-top--left">
                                 <label for="new-comment__text">Ваше имя
-                                <input type="text" class="new-comment__text" placeholder="Андрей">
+                                <input type="text" id="new-comment__text" class="new-comment__text" placeholder="Андрей">
                             </label>
                             </div>
                             <div class="new-comment__form-column-top new-comment__form-column-top--right">
                                 <label for="new-comment__link">Ссылка на профиль VK
-                                <input type="text" class="new-comment__link" placeholder="vk.com">
+                                <input type="text" id="new-comment__link" class="new-comment__link" placeholder="vk.com">
                             </label>
                             </div>
                         </div>
                         <div class="new-comment__form-column-center">
-                            <label for="new-comment__link">Текст отзыва
+                            <label for="new-comment__textarea">Текст отзыва
                             <br>
-                            <textarea name="form" class="new-comment__textarea" placeholder="Введите сообщение"></textarea>
+                            <textarea name="form" id="new-comment__textarea" class="new-comment__textarea" placeholder="Введите сообщение"></textarea>
                        </label>
                         </div>
                         <div class="new-comment__form-column-bottom">
@@ -301,11 +301,11 @@
                             </div>
                             <div class="new-comment__form-column-bottom-right">
                                 <button type="button" class="new-comment__form-button">
-                                    <div class="new-comment__form-button-text">
+                                    <span class="new-comment__form-button-text">
                                         отправить
-                                    </div>
-                                    <div class="new-comment__form-button-icon">
-                                    </div>
+                                    </span>
+                                    <span class="new-comment__form-button-icon">
+                                    </span>
                                 </button>
                             </div>
                         </div>
