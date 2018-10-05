@@ -1,0 +1,35 @@
+/****************************
+**
+** LoftSchool project #1
+** AntonVoronezh
+**
+****************************/
+
+.partners {
+   margin-top: 5px;
+   margin-bottom: 90px;
+}
+
+.partners__list {
+     margin-top: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.partners__list--bottom {
+    margin-top: 65px;
+}
+
+.partners__item {
+    width: 130px;
+}
+
+.partners__img {
+    filter: grayscale(100%); 
+}
+
+.partners__img:hover {
+    filter: grayscale(0%); 
+}
