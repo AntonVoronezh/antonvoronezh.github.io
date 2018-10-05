@@ -117,7 +117,7 @@
     background: #ffffff;
     color: #4b73b5;
 }
-.new-comment__form-button-icon:hover {
+.new-comment__form-button:hover>.new-comment__form-button-icon {
     height: 20px;
     width: 20px;
     margin-left: 10px;
