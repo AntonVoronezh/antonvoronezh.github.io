@@ -25,7 +25,7 @@
             <!-- start header -->
             <header class="header">
                 <!-- start container -->
-                <div class="container header--container">
+                <div class="container container--header">
                     <!-- start header left -->
                     <div class="header__left">
                         <div class="logo header__logo">
@@ -60,7 +60,7 @@
             <!-- start maincontent -->
             <div class="maincontent">
                 <!-- start container -->
-                <div class="container maincontent__container">
+                <div class="container container--maincontent">
                     <!-- start sidebar -->
                     <aside class="aside">
                         <nav class="navigation">
@@ -277,30 +277,30 @@
                         <div class="new-comment__form-column-top">
                             <div class="new-comment__form-column-top new-comment__form-column-top--left">
                                 <label for="new-comment__text">Ваше имя
-                                <input type="text" id="new-comment__text" class="new-comment__text" placeholder="Андрей">
-                            </label>
+                                    <input type="text" id="new-comment__text" class="new-comment__text" placeholder="Андрей">
+                                </label>
                             </div>
                             <div class="new-comment__form-column-top new-comment__form-column-top--right">
                                 <label for="new-comment__link">Ссылка на профиль VK
-                                <input type="text" id="new-comment__link" class="new-comment__link" placeholder="vk.com">
-                            </label>
+                                    <input type="text" id="new-comment__link" class="new-comment__link" placeholder="vk.com">
+                                </label>
                             </div>
                         </div>
                         <div class="new-comment__form-column-center">
                             <label for="new-comment__textarea">Текст отзыва
-                            <br>
-                            <textarea name="form" id="new-comment__textarea" class="new-comment__textarea" placeholder="Введите сообщение"></textarea>
-                       </label>
+                                <textarea name="form" id="new-comment__textarea" class="new-comment__textarea"
+                                    placeholder="Введите сообщение"></textarea>
+                            </label>
                         </div>
                         <div class="new-comment__form-column-bottom">
                             <div class="new-comment__form-column-bottom-left">
                                 Отображать фото в отзыве?
                                 <br>
-                                <label><input type="radio" name="1"> Да</label>
-                                <label><input type="radio" name="1"> Нет</label>
+                                <label><input type="radio" name="1" class="new-comment__button-label"> Да</label>
+                                <label><input type="radio" name="1" class="new-comment__button-label"> Нет</label>
                             </div>
                             <div class="new-comment__form-column-bottom-right">
-                                <button type="button" class="new-comment__form-button">
+                                <button type="submit" class="new-comment__form-button">
                                     <span class="new-comment__form-button-text">
                                         отправить
                                     </span>
@@ -318,12 +318,12 @@
         <!-- start footer -->
         <footer class="footer">
             <!-- start container -->
-            <div class="container footer--container">
+            <div class="container container--footer">
                 <!-- start signature -->
                 <div class="footer__left">
                     Сделано с любовью и старанием
-                    на курсе "HTML + CSS" в <span class="bold">LoftSchool</span>.
-                    Автор работы: <span class="bold">Глушенков Антон</span>
+                    на курсе "HTML + CSS" в <a href="https://loftschool.com" class="footer__left-link"><span class="bold">LoftSchool</span></a>.
+                    Автор работы: <a href="#" class="footer__left-link"><span class="bold">Глушенков Антон</span></a>
                 </div>
                 <!-- end signature -->
                 <!-- start logo -->

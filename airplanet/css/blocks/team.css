@@ -15,38 +15,38 @@
     margin-top: 0px; 
 }
 
-.team__list-top {
+.team__list {
     list-style: none;
     display: flex;
     justify-content: space-between;
 }
 
-.person {
+.team__person {
     display: flex;
     flex-direction: column;
     width: 265px;
     text-align: center;
 }
 
-.person__header {
+.team__person-header {
     margin-top: 20px;
     font-size: 18px;
 }
 
-.person__profession {
+.team__person-profession {
     margin-top: 5px;
     font-size: 14px;
     font-weight: 700;
     color: #4b73b5;
 }
 
-.person__description {
+.team__person-description {
     margin-top: 10px;
     font-size: 15px;
     line-height: 1.4;
 }
 
-.person__img {
+.team__person-img {
     width: 160px;
     height: 160px;
     position: relative;
@@ -57,7 +57,7 @@
     margin-left: 50px;
 }
 
-.person__img-title {
+.team__person-img-title {
     position: absolute;
     top: 75px;
     left: 50px;
@@ -67,14 +67,18 @@
     font-weight: 700;
 }
 
-.person__img-content {
+.team__person-img-content {
     opacity: 0.45;
+    display: block;
+    height: 100%;
 }
 
-.person__img-content:hover {
+.team__person-img-content:hover {
     opacity: 1;
+    display: block;
+    height: 100%;
 }
 
-.person__img:hover>.person__img-title {
+.team__person-img:hover>.team__person-img-title {
     opacity: 0;
 }

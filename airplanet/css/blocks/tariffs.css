@@ -55,15 +55,15 @@
     margin-bottom: 15px;
 }
 
-.icon-standart {
+.tariffs__item-icon--standart {
     background-image: url('../../img/tariffs-icon/flower.png');
 }
 
-.icon-premium {
+.tariffs__item-icon--premium {
     background-image: url('../../img/tariffs-icon/star.png');
 }
 
-.icon-laksheri {
+.tariffs__item-icon--laksheri {
     background-image: url('../../img/tariffs-icon/palette.png');
 }
 

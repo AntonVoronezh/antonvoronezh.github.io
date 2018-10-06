@@ -5,7 +5,7 @@
 **
 ****************************/
 
-.maincontent__container {
+.container--maincontent {
     display: flex;
     min-height: 200px;
 }
