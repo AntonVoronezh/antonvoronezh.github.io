@@ -14,13 +14,14 @@
 
 .comments__item {
     display: flex;
-    align-items: flex-start;
+    align-items: stretch;
     height: 222px;
     padding-top: 5px;
 }
 
 .comments__item-description {
     margin-left: 18px;
+    flex: 4;
 }
 
 .comments__item-date {
@@ -38,6 +39,9 @@
 }
 
 .comments__item-img {
-    display: block;
-    height: 100%;
+    height: 160px;
+    flex: 1;
+    background-image: url('../../img/comments-avatars/vectorsmartobject.png');
+    background-repeat: no-repeat;
+    background-position: center center;
 }

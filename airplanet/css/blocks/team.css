@@ -12,13 +12,14 @@
 }
 
 .team--bottom {
-    margin-top: 0px; 
+    margin-top: 0px;
 }
 
 .team__list {
     list-style: none;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .team__person {
