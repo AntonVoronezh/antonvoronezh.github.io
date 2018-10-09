@@ -8,14 +8,15 @@
 .container--maincontent {
     display: flex;
     min-height: 200px;
+    margin-top: 30px;
 }
 
 .aside {
-    width: 200px;
-    padding-left: 20px;
+    margin: 0;
+    padding: 0;
 }
 
 .main {
     width: 900px;
-    padding-right: 20px;
+    padding-left: 10px;
 }
