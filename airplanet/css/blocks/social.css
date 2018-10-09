@@ -6,18 +6,29 @@
 ****************************/
 
 .social {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.social__text {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
     margin-top: 10px;
+    margin-right: 25px;
 }
 
 .social__list {
     list-style: none;
     margin: 0px;
     padding: 0px;
+    margin-top: 10px;
 }
 
 .social__item {
     display: inline-block;
     margin-right: 5px;
+    padding-right: 10px;
 }
 
 .social__icon {
@@ -73,4 +84,40 @@ a:hover>.social__icon--twitter {
 
 a:hover>.social__icon--mail {
     background-image: url('../../img/social-icon/mail.png');
+}
+
+.sprite {
+    background-image: url('../../img/social-icon/spritesheet.png');
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-fb {
+    width: 6px;
+    height: 13px;
+    background-position: -10px -10px;
+}
+
+.sprite-google {
+    width: 15px;
+    height: 9px;
+    background-position: -36px -10px;
+}
+
+.sprite-mail {
+    width: 12px;
+    height: 9px;
+    background-position: -71px -10px;
+}
+
+.sprite-twitter {
+    width: 11px;
+    height: 9px;
+    background-position: -103px -10px;
+}
+
+.sprite-vk {
+    width: 12px;
+    height: 7px;
+    background-position: -134px -10px;
 }
