@@ -8,7 +8,7 @@
 .header {
     width: 100%;
     background: #4b73b5;
-    margin-bottom: 13px; 
+    margin-bottom: 13px;
 }
 
 .container--header {
@@ -53,4 +53,34 @@
     font-size: 14px;
     text-decoration: underline;
     padding-top: 5px;
+}
+
+.headerinfo__schedule-info {
+    display: none;
+    position: absolute;
+    top: 80px;
+    right: 100px;
+    width: 150px;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.headerinfo__schedule:hover>.headerinfo__schedule-info {
+    display: block;
+}
+
+.headerinfo__schedule-working {
+    color: #4b73b5;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.headerinfo__schedule-lunch {
+    color: #000000;
+    font-size: 14px;
+    font-style: normal;
 }
