@@ -1,0 +1,85 @@
+/****************************
+**
+** LoftSchool project #1
+** AntonVoronezh
+**
+****************************/
+
+.team {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.team--bottom {
+    margin-top: 0px;
+}
+
+.team__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.team__person {
+    display: flex;
+    flex-direction: column;
+    width: 265px;
+    text-align: center;
+}
+
+.team__person-header {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.team__person-profession {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #4b73b5;
+}
+
+.team__person-description {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.team__person-img {
+    width: 160px;
+    height: 160px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 50%;
+    background: #000000;
+    margin-left: 50px;
+}
+
+.team__person-img-title {
+    position: absolute;
+    top: 75px;
+    left: 50px;
+    /* top: auto; */
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.team__person-img-content {
+    opacity: 0.45;
+    display: block;
+    height: 100%;
+}
+
+.team__person-img-content:hover {
+    opacity: 1;
+    display: block;
+    height: 100%;
+}
+
+.team__person-img:hover>.team__person-img-title {
+    opacity: 0;
+}
