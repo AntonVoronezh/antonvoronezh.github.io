@@ -8,6 +8,7 @@
 @import url('../css/layout/fonts.css');
 @import url('../css/layout/normalize.css');
 @import url('../css/layout/base.css');
+@import url('../css/blocks/index.css');
 @import url('../css/blocks/header.css');
 @import url('../css/blocks/maincontent.css');
 @import url('../css/blocks/maincontent-aside.css');

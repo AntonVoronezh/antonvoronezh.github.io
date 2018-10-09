@@ -1,0 +1,106 @@
+/****************************
+**
+** LoftSchool project #1
+** AntonVoronezh
+**
+****************************/
+
+.wrapper-index {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.container-index {
+    background-image: url('../../img/index/kzhhnb6xsqi-margo-brodowicz.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 1100px;
+    height: 650px;
+}
+
+.in-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    text-align: center;
+    padding-top: 160px;
+    margin: 0 auto;
+    animation-name: inAnimation;
+    animation-iteration-count: 1;
+    animation-delay: 0.5s;
+    animation-duration: 2s;
+}
+
+@keyframes inAnimation {
+    0% {
+        opacity: 0.1;
+    }
+    20% {
+        opacity: 0.5;
+        transform: translateY(100px);
+    }
+    40% {
+        opacity: 0.8;
+        transform: translateY(-40px);
+    }
+    60% {
+        opacity: 1;
+        transform: translateY(60px);
+    }
+    80% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.logo-intro {
+    display: block;
+    width: 150px;;
+    height: 100%;
+}
+
+.form-button {
+    margin-top: 50px;
+    height: 50px;
+    width: 200px;
+    color: #4b73b5;
+    /* background: #4b73b5; */
+    border-radius: 5px;
+    border: 1px solid #4b73b5;
+    display: flex;
+    justify-content: center;
+}
+
+.form-button-text {
+    letter-spacing: 3px;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.form-button-icon {
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    background-image: url('../../img/sidebar-icons/main_icon.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.form-button:hover {
+    background: #4b73b5;
+    color: #ffffff;
+}
+
+.form-button:hover>.form-button-icon {
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    background-image: url('../../img/sidebar-icons/main_icon-wait.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
