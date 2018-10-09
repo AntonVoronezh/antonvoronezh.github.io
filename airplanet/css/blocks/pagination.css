@@ -7,17 +7,19 @@
 
 .pagination {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    padding-left: 200px;
 }
 
 .pagination__display {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .pagination__list {
-    margin-left: 5px;
+    margin-left: 25px;
     display: flex;
 }
 
@@ -36,7 +38,7 @@
 .pagination__item-wrap {
     text-align: center;
     padding-top: 5px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     font-style: normal;
     border-radius: 10%;
