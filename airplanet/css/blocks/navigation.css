@@ -48,28 +48,31 @@ a:hover>.navigation__text {
     color: #000000;
 }
 
-.navigation__icon--main {
-    background-image: url('../../img/sidebar-icons/main_icon.png');
+a:hover>.sprite-main_icon {
+    background-image: url('../../img/social-icon/spritesheet.png');
+    background-repeat: no-repeat;
+    display: block;
+    width: 17px;
+    height: 18px;
+    background-position: -220px -10px;
 }
 
-a:hover>.navigation__icon--main {
-    background-image: url('../../img/sidebar-icons/main_icon-black.png');
+a:hover>.sprite-feed_icon {
+    background-image: url('../../img/social-icon/spritesheet.png');
+    background-repeat: no-repeat;
+    display: block;
+    width: 20px;
+    height: 18px;
+    background-position: -76px -10px;
 }
 
-.navigation__icon--comments {
-    background-image: url('../../img/sidebar-icons/feed_icon.png');
-}
-
-a:hover>.navigation__icon--comments {
-    background-image: url('../../img/sidebar-icons/feed_icon-black.png');
-}
-
-.navigation__icon--crew {
-    background-image: url('../../img/sidebar-icons/team_icon.png');
-}
-
-a:hover>.navigation__icon--crew {
-    background-image: url('../../img/sidebar-icons/team_icon-black.png');
+a:hover>.sprite-team_icon {
+    background-image: url('../../img/social-icon/spritesheet.png');
+    background-repeat: no-repeat;
+    display: block;
+    width: 23px;
+    height: 18px;
+    background-position: -335px -10px;
 }
 
 /* active */
@@ -78,14 +81,29 @@ a:hover>.navigation__icon--crew {
     color: #000000;
 }
 
-.navigation__item--active>.navigation__link>.navigation__icon--main {
-    background-image: url('../../img/sidebar-icons/main_icon-black.png');
+.navigation__item--active>.navigation__link>.sprite-main_icon {
+    background-image: url('../../img/social-icon/spritesheet.png');
+    background-repeat: no-repeat;
+    display: block;
+    width: 17px;
+    height: 18px;
+    background-position: -220px -10px;
 }
 
-.navigation__item--active>.navigation__link>.navigation__icon--comments {
-    background-image: url('../../img/sidebar-icons/feed_icon-black.png');
+.navigation__item--active>.navigation__link>.sprite-feed_icon {
+    background-image: url('../../img/social-icon/spritesheet.png');
+    background-repeat: no-repeat;
+    display: block;
+    width: 20px;
+    height: 18px;
+    background-position: -76px -10px;
 }
 
-.navigation__item--active>.navigation__link>.navigation__icon--crew {
-    background-image: url('../../img/sidebar-icons/team_icon-black.png');
+.navigation__item--active>.navigation__link>.sprite-team_icon {
+    background-image: url('../../img/social-icon/spritesheet.png');
+    background-repeat: no-repeat;
+    display: block;
+    width: 23px;
+    height: 18px;
+    background-position: -335px -10px;
 }
