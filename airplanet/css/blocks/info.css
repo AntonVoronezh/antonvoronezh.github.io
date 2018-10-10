@@ -6,7 +6,7 @@
 ****************************/
 
 .info {
-    padding-right: 25px;
+    padding-right: 15px;
     text-align: top;
     display: flex;
     flex-direction: column;
@@ -19,7 +19,7 @@
     padding-left: 18px;
     padding-right: 18px;
     margin: 0px;
-    width: 270px;
+    width: 280px;
     height: 290px;
     text-align: center;
     background-color: #4b73b5;
