@@ -98,26 +98,68 @@ a:hover>.social__icon--mail {
     background-position: -10px -10px;
 }
 
+.sprite-feed_icon {
+    width: 20px;
+    height: 18px;
+    background-position: -36px -10px;
+}
+
+.sprite-feed_icon-black {
+    width: 20px;
+    height: 18px;
+    background-position: -76px -10px;
+}
+
 .sprite-google {
     width: 15px;
     height: 9px;
-    background-position: -36px -10px;
+    background-position: -116px -10px;
 }
 
 .sprite-mail {
     width: 12px;
     height: 9px;
-    background-position: -71px -10px;
+    background-position: -151px -10px;
+}
+
+.sprite-main_icon {
+    width: 17px;
+    height: 18px;
+    background-position: -183px -10px;
+}
+
+.sprite-main_icon-black {
+    width: 17px;
+    height: 18px;
+    background-position: -220px -10px;
+}
+
+.sprite-main_icon-wait {
+    width: 15px;
+    height: 14px;
+    background-position: -257px -10px;
+}
+
+.sprite-team_icon {
+    width: 23px;
+    height: 18px;
+    background-position: -292px -10px;
+}
+
+.sprite-team_icon-black {
+    width: 23px;
+    height: 18px;
+    background-position: -335px -10px;
 }
 
 .sprite-twitter {
     width: 11px;
     height: 9px;
-    background-position: -103px -10px;
+    background-position: -378px -10px;
 }
 
 .sprite-vk {
     width: 12px;
     height: 7px;
-    background-position: -134px -10px;
+    background-position: -409px -10px;
 }
