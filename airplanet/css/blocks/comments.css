@@ -4,6 +4,9 @@
 ** AntonVoronezh
 **
 ****************************/
+.title-h--comments {
+    margin-top: 10px;
+}
 
 .comments__list {
     display: flex;

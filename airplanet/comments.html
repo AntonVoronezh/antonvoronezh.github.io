@@ -52,7 +52,6 @@
                                     <span class="headerinfo__schedule-lunch">обед 14:00-14:30</span>
                                 </div>
                             </div>
-                            <!-- end
                             <!-- end work schedule -->
                         </address>
                         <!-- end header info -->
@@ -68,51 +67,84 @@
                 <div class="container container--maincontent">
                     <!-- start sidebar -->
                     <aside class="aside">
+                        <!-- start info -->
+                        <section class="info">
+                            <div class="info__block">
+                                Вопросы по бронированию белетов в нашей авиакомпании принимаются. Для этого можно
+                                оставить <a href="#" title="заявка" class="info__link">заявку на сайте</a> или же
+                                позвонить по
+                                номеру
+                                круглосуточной поддержки <span class="bold">8(800) 00-392-10</span>.
+                            </div>
+                        </section>
+                        <!-- end info -->
+
+                        <!-- start social  -->
+                        <div class="social">
+                            <!-- start social text -->
+                            <div class="social__text">
+                                Наши социальные сети
+                            </div>
+                            <!-- end social text -->
+                            <ul class="social__list">
+                                <li class="social__item">
+                                    <a href="#" class="social__link">
+                                        <div class="sprite sprite-vk"></div>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link">
+                                        <div class="sprite sprite-fb"></div>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link">
+                                        <div class="sprite sprite-google"></div>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="#" class="social__link">
+                                        <div class="sprite sprite-twitter"></div>
+                                    </a>
+                                </li>
+                                <li class="social__item">
+                                    <a href="mailto:example@mail.ru" class="social__link">
+                                        <div class="sprite sprite-mail"></div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- end social  -->
+                    </aside>
+                    <!-- end sidebar -->
+                    <!-- start main -->
+                    <main class="main">
                         <nav class="navigation">
                             <!-- start navigation -->
                             <ul class="navigation__list">
-                                <li class="navigation__item">
+                                <li class="navigation__item navigation__item--active">
                                     <a href="about.html" class="navigation__link">
-                                        <div class="navigation__icon navigation__icon--main"></div>
+                                        <div class="sprite sprite-main_icon"></div>
                                         <div class="navigation__text">главная</div>
                                     </a>
                                 </li>
-                                <li class="navigation__item navigation__item--active">
+                                <li class="navigation__item">
                                     <a href="comments.html" class="navigation__link">
-                                        <div class="navigation__icon navigation__icon--comments"></div>
+                                        <div class="sprite sprite-feed_icon"></div>
                                         <div class="navigation__text">отзывы</div>
                                     </a>
                                 </li>
                                 <li class="navigation__item">
                                     <a href="team.html" class="navigation__link">
-                                        <div class="navigation__icon navigation__icon--crew"></div>
+                                        <div class="sprite sprite-team_icon"></div>
                                         <div class="navigation__text">экипаж</div>
                                     </a>
                                 </li>
                             </ul>
                             <!-- end navigation -->
                         </nav>
-                    </aside>
-                    <!-- end sidebar -->
-                    <!-- start main -->
-                    <main class="main">
-                        <!-- start breadcrumbs -->
-                        <nav class="breadcrumbs">
-                            <ul class="breadcrumbs__list">
-                                <li class="breadcrumbs__item">
-                                    <a href="about.html" title="Главная" class="breadcrumbs__link">Главная</a>
-                                </li>
-                                <li class="breadcrumbs__item breadcrumbs__item--black breadcrumbs--slash">
-                                    /
-                                </li>
-                                <li class="breadcrumbs__item breadcrumbs__item--black">
-                                    Отзывы
-                                </li>
-                            </ul>
-                        </nav>
-                        <!-- end breadcrumbs -->
                         <!-- start comments -->
-                        <h2 class="title-h">
+                        <h2 class="title-h title-h--comments">
                             Отзывы
                         </h2>
                         <!-- start comments elements -->
@@ -261,15 +293,6 @@
                     <!-- end maincontent__main -->
                 </div>
                 <!-- end container -->
-                <!-- start info -->
-                <div class="info">
-                    <div class="container container--info">
-                        Вопросы по бронированию белетов в нашей авиакомпании принимаются. Для этого можно оставить
-                        <a href="#" title="заявка" class="info__link">заявку на сайте</a> или же позвонить по номеру
-                        круглосуточной поддержки <span class="bold">8 (800) 00-392-10</span>.
-                    </div>
-                </div>
-                <!-- end info -->
             </div>
             <!-- end maincontent -->
             <!-- start new comment -->
@@ -301,8 +324,16 @@
                             <div class="new-comment__form-column-bottom-left">
                                 Отображать фото в отзыве?
                                 <br>
-                                <label><input type="radio" name="1" class="new-comment__button-label"> Да</label>
-                                <label><input type="radio" name="1" class="new-comment__button-label"> Нет</label>
+                                <label>
+                                    <input class="radio" type="radio" name="radio-test" checked>
+                                    <span class="radio-custom"></span>
+                                    <span class="label">Да</span>
+                                </label>
+                                <label>
+                                    <input class="radio" type="radio" name="radio-test">
+                                    <span class="radio-custom"></span>
+                                    <span class="label">Нет</span>
+                                </label>
                             </div>
                             <div class="new-comment__form-column-bottom-right">
                                 <button type="submit" class="new-comment__form-button">
@@ -331,51 +362,12 @@
                     Автор работы: <a href="#" class="footer__left-link"><span class="bold">Глушенков Антон</span></a>
                 </div>
                 <!-- end signature -->
-                <!-- start logo -->
-                <div class="logo footer__logo">
-                    <a href="about.html" title="тарифы компании" class="logo__link">
-                        <img src="img/logotypes/logo.png" alt="логотип компании" class="logo__img">
-                    </a>
-                </div>
-                <!-- end logo -->
-                <!-- start social network -->
                 <div class="footer__right">
-                    <!-- start social text -->
-                    <div class="footer__right-text">
-                        Наши социальные сети
+                    <!-- start logo -->
+                    <div class="logo footer__logo">
+                        <img src="img/logotypes/logo.png" alt="логотип компании" class="logo__img">
                     </div>
-                    <!-- end social text -->
-                    <!-- start social  -->
-                    <div class="social">
-                        <ul class="social__list">
-                            <li class="social__item">
-                                <a href="#" class="social__link">
-                                    <div class="social__icon social__icon--vk"></div>
-                                </a>
-                            </li>
-                            <li class="social__item">
-                                <a href="#" class="social__link">
-                                    <div class="social__icon social__icon--fb"></div>
-                                </a>
-                            </li>
-                            <li class="social__item">
-                                <a href="#" class="social__link">
-                                    <div class="social__icon social__icon--google"></div>
-                                </a>
-                            </li>
-                            <li class="social__item">
-                                <a href="#" class="social__link">
-                                    <div class="social__icon social__icon--twitter"></div>
-                                </a>
-                            </li>
-                            <li class="social__item">
-                                <a href="mailto:example@mail.ru" class="social__link">
-                                    <div class="social__icon social__icon--mail"></div>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- end social  -->
+                    <!-- end logo -->
                 </div>
                 <!-- end container -->
             </div>

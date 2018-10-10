@@ -12,11 +12,9 @@
 .tariffs {
     margin: 0px;
     padding: 0px;
-    /* padding-bottom: 90px; */
     text-align: top;
     display: flex;
     flex-direction: column;
-    /* border: 1px solid #000000; */
 }
 
 .title-h {

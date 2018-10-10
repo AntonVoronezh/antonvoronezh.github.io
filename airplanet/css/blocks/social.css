@@ -10,6 +10,10 @@
     text-align: center;
 }
 
+.social--team {
+    margin-top: 0;
+}
+
 .social__text {
     color: #000000;
     font-size: 14px;
