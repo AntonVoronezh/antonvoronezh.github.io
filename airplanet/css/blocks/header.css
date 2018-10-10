@@ -46,6 +46,7 @@
 .headerinfo__schedule {
     text-align: right;
     padding: 0px;
+    position: relative;
 }
 
 .headerinfo__schedule-button {
@@ -58,8 +59,8 @@
 .headerinfo__schedule-info {
     display: none;
     position: absolute;
-    top: 80px;
-    right: 100px;
+    top: 40px;
+    right: 10px;
     width: 150px;
     height: 60px;
     background-color: #fff;
