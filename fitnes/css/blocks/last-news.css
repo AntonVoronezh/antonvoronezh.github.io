@@ -1,0 +1,24 @@
+/****************************
+**
+** LoftSchool project #1
+** AntonVoronezh
+**
+****************************/
+
+.last-news {
+    border: 1px solid #111111;
+    width: 280px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.last-news__img {
+    display: block;
+    margin: 10px;
+}
+.last-news__title {
+    font-size: 22px;
+    padding-bottom: 30px;
+}
