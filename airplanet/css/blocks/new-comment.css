@@ -7,7 +7,6 @@
 
 .container--new-comment {
     align-content: right;
-    /* margin: 0 auto; */
     border: 1px solid #f5f5f5;
     background: #f5f5f5;
     width: 700px;
@@ -44,7 +43,7 @@
 
 .new-comment__link {
     height: 50px;
-    width: 270px;
+    width: 275px;
     padding: 5px;
     border: none;
 }
@@ -69,7 +68,6 @@
 }
 
 .new-comment__form-column-bottom {
-    /* margin-top: 5px; */
     display: flex;
     align-items: center;
 }
@@ -88,7 +86,7 @@
 
 .new-comment__textarea {
     height: 90px;
-    width: 560px;
+    width: 570px;
     padding: 5px;
     border: 1px solid #4b73b5;
 }
@@ -113,12 +111,14 @@
 }
 
 .new-comment__form-button-icon {
-    height: 20px;
-    width: 20px;
     margin-left: 10px;
-    background-image: url('../../img/sidebar-icons/main_icon-wait.png');
+    margin-top: 3px;
+    background-image: url('../../img/social-icon/spritesheet.png');
     background-repeat: no-repeat;
-    background-position: center center;
+    display: block;
+    width: 17px;
+    height: 18px;
+    background-position: -257px -10px;
 }
 
 .new-comment__form-button:hover {
@@ -127,12 +127,13 @@
 }
 
 .new-comment__form-button:hover>.new-comment__form-button-icon {
-    height: 20px;
-    width: 20px;
     margin-left: 10px;
-    background-image: url('../../img/sidebar-icons/main_icon-black.png');
+    background-image: url('../../img/social-icon/spritesheet.png');
     background-repeat: no-repeat;
-    background-position: center center;
+    display: block;
+    width: 17px;
+    height: 18px;
+    background-position: -183px -10px;
 }
 
 .radio {
