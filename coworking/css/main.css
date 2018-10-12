@@ -1,0 +1,27 @@
+/****************************
+**
+** LoftSchool project #1
+** AntonVoronezh
+**
+****************************/
+
+@import url('../css/layout/fonts.css');
+@import url('../css/layout/normalize.css');
+@import url('../css/layout/base.css');
+@import url('../css/blocks/index.css');
+@import url('../css/blocks/header.css');
+@import url('../css/blocks/maincontent.css');
+@import url('../css/blocks/aside.css');
+@import url('../css/blocks/navigation.css');
+@import url('../css/blocks/tariffs.css');
+@import url('../css/blocks/news.css');
+@import url('../css/blocks/pagination.css');
+@import url('../css/blocks/breadcrumbs.css');
+@import url('../css/blocks/comments.css');
+@import url('../css/blocks/info.css');
+@import url('../css/blocks/new-comment.css');
+@import url('../css/blocks/team.css');
+@import url('../css/blocks/partners.css');
+@import url('../css/blocks/footer.css');
+@import url('../css/blocks/social.css');
+@import url('../css/blocks/last-news.css');

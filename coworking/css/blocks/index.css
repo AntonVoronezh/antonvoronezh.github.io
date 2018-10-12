@@ -1,0 +1,92 @@
+/****************************
+**
+** LoftSchool project #1
+** AntonVoronezh
+**
+****************************/
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper-index {
+    margin: 0; 
+    height: 100%; 
+    background-image: url('../../img/index/aso6syjzgps-hannah-wei.png');
+    background-size: cover;
+
+
+}
+
+.in-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    text-align: center;
+    padding-top: 160px;
+    margin: 0 auto;
+    animation-name: inAnimation;
+    animation-iteration-count: 1;
+    animation-delay: 0.5s;
+    animation-duration: 2s;
+}
+
+@keyframes inAnimation {
+    0% {
+        opacity: 0.1;
+    }
+    20% {
+        opacity: 0.5;
+        transform: translateY(100px);
+    }
+    40% {
+        opacity: 0.8;
+        transform: translateY(-40px);
+    }
+    60% {
+        opacity: 1;
+        transform: translateY(60px);
+    }
+    80% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.logo-intro {
+    display: block;
+    width: 150px;;
+    height: 100%;
+}
+
+.form-button {
+    margin-top: 50px;
+    height: 50px;
+    width: 200px;
+    color: #ec1e79;
+    border-radius: 5px;
+    border: 1px solid #ec1e79;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.form-button-text {
+    letter-spacing: 3px;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-top: 14px;
+}
+
+.form-button:hover {
+    background:#ec1e79;
+    color: #ffffff;
+}
+
