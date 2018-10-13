@@ -67,9 +67,24 @@
     box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
     border-radius: 5px;
     padding: 10px;
+    animation-name: inAnimation;
+    animation-iteration-count: 1;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes inAnimation {
+    0% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .headerinfo__schedule:hover>.headerinfo__schedule-info {
+    opacity: 0;
     display: block;
 }
 
