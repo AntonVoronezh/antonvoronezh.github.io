@@ -122,6 +122,8 @@
 }
 
 .new-comment__form-button:hover {
+    transition: color 1s;
+    transition: background 1s;
     background: #ffffff;
     color: #4b73b5;
 }
