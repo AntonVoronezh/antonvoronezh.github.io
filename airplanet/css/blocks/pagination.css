@@ -47,6 +47,8 @@
 }
 
 a:hover>.pagination__item-wrap {
+    transition: color 1s;
+    transition: background 1s;
     background: #4b73b5;
     color: #ffffff;
 }
