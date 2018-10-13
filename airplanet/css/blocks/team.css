@@ -58,7 +58,7 @@
     background-repeat: no-repeat;
     background-position: center center;
     border-radius: 50%;
-    background: #000000;
+    filter: grayscale(100%);
     margin-left: 50px;
 }
 
@@ -66,24 +66,24 @@
     position: absolute;
     top: 70px;
     left: 50px;
-    /* top: auto; */
     color: #ffffff;
     font-size: 22px;
     font-weight: 700;
 }
 
 .team__person-img-content {
-    opacity: 0.45;
     display: block;
     height: 100%;
 }
 
-.team__person-img-content:hover {
-    opacity: 1;
+.team__person-img:hover {
+    transition: filter 1s;
+    filter: grayscale(0%);
     display: block;
     height: 100%;
 }
 
 .team__person-img:hover>.team__person-img-title {
+    transition: opacity 1s;
     opacity: 0;
 }
