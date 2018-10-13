@@ -33,6 +33,7 @@
 }
 
 .partners__img:hover {
+    transition: filter 1s;
     filter: grayscale(0%);
 }
 
