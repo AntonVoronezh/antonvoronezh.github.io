@@ -44,11 +44,11 @@
     border-radius: 10%;
     width: 25px;
     height: 25px;
+    transition: color 2s;
+    transition: background 2s;
 }
 
-a:hover>.pagination__item-wrap {
-    transition: color 1s;
-    transition: background 1s;
+.pagination__item-wrap:hover {
     background: #4b73b5;
     color: #ffffff;
 }

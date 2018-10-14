@@ -100,6 +100,8 @@
     border-radius: 5px;
     display: flex;
     justify-content: center;
+    transition: color 2.5s;
+    transition: background 2.5s;
 }
 
 .new-comment__form-button-text {
@@ -122,8 +124,6 @@
 }
 
 .new-comment__form-button:hover {
-    transition: color 1s;
-    transition: background 1s;
     background: #ffffff;
     color: #4b73b5;
 }

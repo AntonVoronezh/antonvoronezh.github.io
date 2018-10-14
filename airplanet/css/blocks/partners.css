@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .title-h--partners {
@@ -29,11 +30,11 @@
 }
 
 .partners__img {
+    transition: filter 1.5s;
     filter: grayscale(100%);
 }
 
 .partners__img:hover {
-    transition: filter 1s;
     filter: grayscale(0%);
 }
 

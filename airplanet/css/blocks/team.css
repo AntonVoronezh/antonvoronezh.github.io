@@ -60,6 +60,7 @@
     border-radius: 50%;
     filter: grayscale(100%);
     margin-left: 50px;
+    transition: filter 1.5s;
 }
 
 .team__person-img-title {
@@ -77,13 +78,17 @@
 }
 
 .team__person-img:hover {
-    transition: filter 1s;
+    
     filter: grayscale(0%);
     display: block;
     height: 100%;
 }
 
+
+.team__person-img-title {
+    transition: opacity 1.5s; }
+
 .team__person-img:hover>.team__person-img-title {
-    transition: opacity 1s;
+    
     opacity: 0;
 }

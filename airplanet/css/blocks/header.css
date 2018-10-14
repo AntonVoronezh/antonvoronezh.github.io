@@ -54,10 +54,12 @@
     font-size: 14px;
     text-decoration: underline;
     padding-top: 5px;
+    
 }
 
 .headerinfo__schedule-info {
-    display: none;
+    transition: opacity 1.5s;
+    opacity: 0;
     position: absolute;
     top: 40px;
     right: 10px;
@@ -67,25 +69,12 @@
     box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
     border-radius: 5px;
     padding: 10px;
-    animation-name: inAnimation;
-    animation-iteration-count: 1;
-    animation-delay: 0.5s;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
 }
 
-@keyframes inAnimation {
-    0% {
-        opacity: 0.1;
-    }
-    100% {
-        opacity: 1;
-    }
-}
 
-.headerinfo__schedule:hover>.headerinfo__schedule-info {
-    opacity: 0;
-    display: block;
+
+.headerinfo__schedule:hover .headerinfo__schedule-info {
+    opacity: 1;
 }
 
 .headerinfo__schedule-working {

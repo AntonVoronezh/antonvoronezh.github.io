@@ -19,18 +19,13 @@
     margin-left: 0px;
     padding: 0;
     margin-right: 90px;
+    transition: color 1.5s, filter 1.5s;
 }
 
 .navigation__link {
     text-decoration: none;
     display: flex;
     align-items: flex-start;
-}
-
-.navigation__icon {
-    background-repeat: no-repeat;
-    width: 25px;
-    height: 25px;
 }
 
 .navigation__text {
@@ -42,52 +37,52 @@
     line-height: 20px;
     margin-left: 10px;
     text-transform: uppercase;
+    transition: color 1.5s;
 }
 
-.navigation__text:hover {
-    transition: color 1.5s;
+.navigation__item:hover .navigation__text {
     color: #000000;
-    
+}
+
+.sprite{
+    transition: filter 1.5s;
+}
+
+.navigation__item:hover .sprite {
+    filter: grayscale(100%);
 }
 
 a:hover>.sprite-main_icon {
-    transition: filter 10s;
-    filter: grayscale(100%);
-    /* background-image: url('../../img/social-icon/spritesheet.png'); */
-    background-repeat: no-repeat;
-    display: block;
-    width: 17px;
-    height: 18px;
-    background-position: -220px -10px;
+    /* background: url('../../img/social-icon/spritesheet.png');  */
+    /* background-position: -220px -10px; */
 }
 
-a:hover>.sprite-feed_icon{
-    background-image: url('../../img/social-icon/spritesheet.png');
+.sprite-feed_icon:hover {
+    /* background: url('../../img/social-icon/spritesheet.png');
     background-repeat: no-repeat;
     display: block;
     width: 20px;
     height: 18px;
-    background-position: -76px -10px;
+    background-position: -76px -10px; */
 }
 
 a:hover>.sprite-team_icon {
-    background-image: url('../../img/social-icon/spritesheet.png');
+    /* background-image: url('../../img/social-icon/spritesheet.png');
     background-repeat: no-repeat;
     display: block;
     width: 23px;
-    height: 18px;
-    background-position: -335px -10px;
+    height: 18px; */
+    /* background-position: -335px -10px; */
 }
 
 /* active */
 
 .navigation__item--active {
-display: flex;
-align-items: flex-start;
+    display: flex;
+    align-items: flex-start;
 }
 
 .navigation__item--active>.navigation__text {
-    
     color: #000000;
 }
 
