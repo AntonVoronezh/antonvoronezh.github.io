@@ -6,7 +6,7 @@
 
 @font-face {
     font-family: 'TitilliumWeb';
-    src: url('/css/layout/fonts/TitilliumWeb-Regular.ttf');
+    src: url('css/layout/fonts/TitilliumWeb-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
