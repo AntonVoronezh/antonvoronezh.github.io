@@ -1,0 +1,117 @@
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    border: 1px solid #cccccc;
+}
+
+.container {
+    margin: 10px;
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+
+
+/* выпадающее меню */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown:hover .dropdown__menu {
+    /* display: block; без анимации*/
+    /* для анимации*/
+    left: 0;
+    opacity: 1;
+}
+
+.dropdown__menu {
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    top: 100%;
+    border: 1px solid #000000;
+    width: 300px;
+    /* display: none; без анимации */
+    margin-top: 20px;
+    /* для анимации*/
+    left: -9999px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.dropdown__menu:before {
+    content: "";
+    display: block;
+    height: 30px;
+    left: 0;
+    right: 0;
+    top: -29px;
+    position: absolute;
+}
+/* конец выпадающее меню */
+
+/* спрайт */
+.icon {
+    width: 20px;
+    height: 18px;
+    background-color: #ccc;
+    position: relative;
+    border-radius: 50%;
+    padding: 10px;
+}
+.icon:hover:before {
+    opacity: 1;
+}
+.icon:hover:after {
+    opacity: 0;
+}
+
+.icon:after {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 20px;
+    height: 18px;
+    background: url('../airplanet/img/social-icon/spritesheet.png') -183px -10px;
+    transition: opacity 2s;
+}
+
+.icon:before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 20px;
+    height: 18px;
+    background: url('../airplanet/img/social-icon/spritesheet.png') -220px -10px;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.icon:hover:after { 
+    background-position: -220px -10px;
+}
+/* конец спрайт */
+
+/*  элементы форм */
+.input:checked ~.input__visible {
+    background: red;
+}
+
+.input {
+    display: none;
+}
+
+.input__visible {
+    width: 50px;
+    height: 50px;
+background: blue;
+
+}
+/* конец  элементы форм */

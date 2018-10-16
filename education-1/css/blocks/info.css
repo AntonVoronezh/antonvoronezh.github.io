@@ -1,0 +1,19 @@
+/****************************
+**
+**      AntonVoronezh
+**
+****************************/
+
+.info {
+    padding-left: 20px;
+    width: 280px;
+}
+
+.info--title {
+    font-size: 30px;
+}
+
+.info__text {
+    font-size: 16px;
+    font-weight: 700;
+}
