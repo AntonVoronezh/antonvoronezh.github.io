@@ -1,0 +1,17 @@
+/****************************
+**
+**      AntonVoronezh
+**
+****************************/
+
+.about {
+    padding-right: 20px;
+    padding-left: 10px;
+    border-right: 1px solid #f3f3f3;
+}
+
+.about--title {
+    font-size: 26px;
+}
+
+.about__text {}
