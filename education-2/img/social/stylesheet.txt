@@ -1,0 +1,23 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Dribbble {
+    width: 25px;
+    height: 25px;
+    background-position: -10px -10px;
+}
+
+.sprite-Facebook {
+    width: 13px;
+    height: 24px;
+    background-position: -55px -10px;
+}
+
+.sprite-Twitter {
+    width: 23px;
+    height: 19px;
+    background-position: -55px -54px;
+}

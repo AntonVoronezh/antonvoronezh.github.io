@@ -1,0 +1,109 @@
+/****************************
+**
+**       AntonVoronezh
+**
+****************************/
+
+.footer {
+    display: flex;
+    /* justify-content: flex-start; */
+}
+
+.footer__left {
+    background: url('../../img/rectangle/Rectangle5.png') top no-repeat;
+    /* background-size: 760px 400px; */
+    background-position: 0% 0%;
+    width: 450px;
+    height: 715px;
+}
+
+.footer__right {
+    background: url('../../img/rectangle/Rectangle6.png') top no-repeat;
+    background-position: 0% 0%;
+    width: 910px;
+    filter: grayscale(100%);
+}
+
+.img--decor-footer {
+    margin-top: 300px;
+    width: 100px;
+    height: 100px;
+}
+
+.title--footer {
+    color: #ffffff;
+    margin: 20px;
+}
+
+.comment-form__top {
+    color: #ffffff;
+}
+
+.comment-form__text {
+    padding: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    width: 290px;
+    height: 50px;
+    background-color: transparent;
+}
+
+.comment-form__textarea {
+    margin-top: 30px;
+    padding: 10px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    width: 600px;
+    height: 200px;
+    background-color: transparent;
+}
+
+::placeholder {
+    color: #ffffff;
+}
+
+.footer__right-sosial {
+    color: #ffffff;
+    margin-top: 100px;
+}
+
+.footer__right-sosial-block {
+    /* margin-top: 50px; */
+}
+
+.sosial__list {
+    list-style: none;
+    display: flex;
+}
+
+.sosial__item {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border: 1px solid #ffffff;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.sosial__item--facebook {
+    background-color: rgb(8, 88, 238);
+    background-image: url('../../img/social/Facebook.png');
+}
+
+.sosial__item--an {
+    background-color: rgb(8, 88, 238);
+    background-image: url('../../img/social/Dribbble.png');
+}
+
+.sosial__item--tw {
+    background-color: rgb(8, 88, 238);
+    background-image: url('../../img/social/Twitter.png');
+}
+
+.footer__right-text {
+    margin-top: 50px;
+    color:#ffffff;
+}

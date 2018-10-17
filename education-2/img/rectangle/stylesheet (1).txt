@@ -1,0 +1,41 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-Rectangle-1 {
+    width: 908px;
+    height: 715px;
+    background-position: -10px -10px;
+}
+
+.sprite-Rectangle-1-_1_ {
+    width: 752px;
+    height: 427px;
+    background-position: -938px -10px;
+}
+
+.sprite-Rectangle-1-copy {
+    width: 752px;
+    height: 427px;
+    background-position: -938px -457px;
+}
+
+.sprite-Rectangle-1-copy-2 {
+    width: 614px;
+    height: 853px;
+    background-position: -1710px -10px;
+}
+
+.sprite-Rectangle-2 {
+    width: 908px;
+    height: 715px;
+    background-position: -10px -883px;
+}
+
+.sprite-Rectangle-2-copy {
+    width: 458px;
+    height: 715px;
+    background-position: -1710px -883px;
+}

@@ -1,0 +1,53 @@
+/****************************
+**
+**       AntonVoronezh
+**
+****************************/
+
+.header {
+    display: flex;
+}
+
+.header__left {
+    /* background: url('img/rectangle/Rectangle1.png') ; */
+    /* width: 600px; */
+    /* border: 1px solid #000000; */
+    flex: 2;
+}
+
+.img {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.img--decor {
+    width: 40px;
+}
+
+.header__right {
+    background-color: #f3f3f3;
+    flex: 1;
+}
+
+.header__right-wrap {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img--decor {}
+
+.title {
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.bold {
+    font-family: 'Raleway-ExtraBold', sans-serif;
+}
+
+.header__text-p {
+    margin-top: 30px;
+}
