@@ -1,0 +1,67 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.item--container {}
+
+.item-top {
+    /* border: 1px solid #000000; */
+    padding: 10px 10px 20px;
+}
+
+.item-bottom {
+    /* border: 1px solid #000000; */
+    padding: 20px;
+    /* margin-left: 30%; */
+    display: flex;
+}
+
+.item-photos {
+    /* border: 1px solid #000000; */
+    width: 50%;
+    padding: 0;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+}
+
+.item-desc {
+    /* border: 1px solid #000000; */
+    width: 50%;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    /* justify-content: flex-end; */
+}
+
+.item-photos__big {
+    /* border: 1px solid #000000;   */
+    width: 100%;
+}
+
+.item-photos__list {
+    /* border: 1px solid #000000;   */
+    width: 100%;
+}
+
+.item-desc__articul {
+    /* border: 1px solid #000000;  */
+    /* width: 100%; */
+}
+
+.item-desc__text {
+    /* border: 1px solid #000000;  */
+    /* width: 100%; */
+}
+
+.item-desc__price-buy {
+    /* border: 1px solid #000000;  */
+    /* width: 100%; */
+}
+
+.item-card__composition {
+    /* border: 1px solid #000000;  */
+    /* width: 100%; */
+}

@@ -1,0 +1,18 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.item-desc__articul {
+    text-transform: uppercase;
+    margin-top: 5px;
+    display: flex;
+}
+
+.item-desc__articul-left {
+
+}
+
+.item-desc__articul-right {
+margin-left: auto;
+color: #cccccc;
+}

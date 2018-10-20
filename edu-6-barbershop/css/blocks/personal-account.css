@@ -1,0 +1,44 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    /* width: 50px;
+    height: 30px;
+    border: 1 px solid #ffffff; */
+}
+
+.dropdown:hover .personal-account {
+    /* display: block; без анимации */
+    /* для анимации*/
+    left: 0;
+    opacity: 1;
+}
+
+.personal-account {
+    position: absolute;
+    background-color: #fff;
+    padding: 10px;
+    top: 100%;
+    border: 1px solid #000000;
+    width: 300px;
+    /* display: none; без анимации */
+    margin-top: 20px;
+    /* для анимации*/
+    left: -9999px;
+    opacity: 0;
+    transition: opacity 1s;
+    border: 1px solid #ffffff;
+}
+
+.personal-account:before {
+    content: "";
+    display: block;
+    height: 30px;
+    left: 0;
+    right: 0;
+    top: -29px;
+    position: absolute;
+}

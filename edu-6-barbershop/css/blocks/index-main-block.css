@@ -1,0 +1,38 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.main {}
+
+.main--container {}
+
+.logo {}
+
+.logo__link {}
+
+.logo__img {
+    margin-top: 20px;
+}
+
+.gorizontal-block {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-arround;
+}
+
+.gorizontal-block--black {
+    margin-bottom: 40px;
+}
+
+.gorizontal-block--white {
+    background-color: #ffffff;
+    color: #000;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+.gorizontal-block--three {}
+
+.gorizontal-block--two {
+    
+}

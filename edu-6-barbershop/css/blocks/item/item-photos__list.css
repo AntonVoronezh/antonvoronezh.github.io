@@ -1,0 +1,18 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.item-photos__list {
+display: flex;
+justify-content: center; 
+/* border: 1px solid #000000; */
+}
+
+.item-photos__item {
+    width: 33.3%;
+    /* border: 1px solid #000000; */
+}
+.item-photos__small-photo {
+    display: block;
+    width: 97%;
+}

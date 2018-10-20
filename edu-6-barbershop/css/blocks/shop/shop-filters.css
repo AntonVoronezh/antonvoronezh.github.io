@@ -1,0 +1,107 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+/* Скрываем реальный чекбокс */
+.checkbox {
+	display: none;
+}
+/* Задаем внешний вид для нашего кастомного чекбокса. Все обязательные свойства прокомментированы, остальные же свойства меняйте по вашему усмотрению */
+.checkbox-custom {
+	position: relative;      /* Обязательно задаем, чтобы мы могли абсолютным образом позиционировать псевдоэлемент внютри нашего кастомного чекбокса */
+	width: 20px;             /* Обязательно задаем ширину */
+	height: 20px;            /* Обязательно задаем высоту */
+	border: 2px solid #ccc;
+	border-radius: 3px;
+}
+/* Кастомный чекбокс и лейбл центрируем по вертикали. Если вам это не требуется, то вы можете убрать свойство vertical-align: middle из данного правила, но свойство display: inline-block обязательно должно быть */
+.checkbox-custom,
+.label {
+	display: inline-block;
+	vertical-align: middle;
+}
+/* Если реальный чекбокс у нас отмечен, то тогда добавляем данный признак и к нашему кастомному чекбоксу  */
+.checkbox:checked + .checkbox-custom::before {
+	content: "";             /* Добавляем наш псевдоэлемент */
+	display: block;			 /* Делаем его блочным элементом */
+	position: absolute;      /* Позиционируем его абсолютным образом */
+	/* Задаем расстояние от верхней, правой, нижней и левой границы */
+	top: 2px;
+	right: 2px;
+	bottom: 2px;
+    left: 2px;
+    /* background: #413548;     Добавляем фон. Если требуется, можете поставить сюда картинку в виде "галочки", которая будет символизировать, что чекбокс отмечен */
+    background: url('../../../img/icons/css_sprites.png');
+    background-repeat: no-repeat;
+    display: block;
+    width: 12px;
+    height: 12px;
+    background-position: -60px -10px;
+    /* border-radius: 2px; */
+}
+/* конеу чекбокс */
+
+/* начало радокнопки */
+.checkbox,
+.radio {
+	display: none;
+}
+.checkbox-custom,
+.radio-custom {
+	width: 20px;
+	height: 20px;
+	border: 2px solid #000000;
+	border-radius: 3px;
+	position: relative;
+}
+.checkbox-custom,
+.radio-custom,
+.label {
+	display: inline-block;
+	vertical-align: middle;
+}
+/* .checkbox:checked + .checkbox-custom::before, */
+.radio:checked + .radio-custom::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	bottom: 2px;
+	left: 2px;
+	background: #000000;
+	border-radius: 2px;
+}
+.radio-custom,
+.radio:checked + .radio-custom::before {
+	border-radius: 50%;
+}
+
+.filter__fieldset {
+border: none;
+}
+
+.filter__item {
+    margin-bottom: 20px;
+}
+
+.filters {
+    text-transform: uppercase;
+}
+
+.label {
+    padding-left: 10px;
+}
+
+.filters__legend {
+    font-size: 20px;
+    font-family: 'ptsansnarrowbold';
+}
+
+.filters__btn {
+    background-color: #000000;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-left: 10px;
+}

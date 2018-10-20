@@ -1,0 +1,68 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.price--container {}
+
+.price-top {
+    /* border: 1px solid #000000; */
+    padding: 10px 10px 20px;
+}
+
+.price-center {
+    /* border: 1px solid #000000;   */
+    padding-bottom: 30px;
+}
+.price-bottom {
+    /* border: 1px solid #000000; */
+    padding: 20px;
+    display: flex;
+
+
+}
+
+.advantages {
+    /* border: 1px solid #000000;   */
+    width: 50%; 
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start;
+    align-items: flex-start; */
+}
+
+.our-prices {
+    /* border: 1px solid #000000;  */
+    width: 50%;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title--price {
+    /* border: 1px solid #000000;     */
+    margin: 0;
+    text-align: left;
+    font-size: 16px;
+}
+
+.advantages__list {
+    /* border: 1px solid #000000;  */
+}
+
+
+.advantages__text {
+    /* border: 1px solid #000000;    */
+    margin: 0;
+}
+
+.our-prices__table {
+    /* border: 1px solid #000000;    */
+    margin: 0;
+
+}
+
+.our-prices__text {
+    /* border: 1px solid #000000;    */
+    margin: 0;
+}

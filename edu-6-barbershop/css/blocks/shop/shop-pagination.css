@@ -1,0 +1,53 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+
+.pagination {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+
+.pagination__list {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.pagination__item {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+.pagination__item-link {
+    color: #000000;
+    text-decoration: none;
+    width: 50px;
+    height: 50px;
+}
+
+.pagination__item-wrap {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    width: 50px;
+    height: 50px;
+    transition: color 2s;
+    transition: background 2s;
+}
+
+.pagination__item-wrap:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+.pagination__item-wrap--active {
+    width: 50px;
+    height: 50px;
+    background: #000000;
+    color: #ffffff;
+}

@@ -1,0 +1,19 @@
+/****************************
+**
+**      AntonVoronezh
+**
+****************************/
+
+@font-face {
+    font-family: 'ptsansnarrow';
+    src: url('fonts/ptsansnarrow.woff2') format('woff2'), url('fonts/ptsansnarrow.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ptsansnarrowbold';
+    src: url('fonts/ptsansnarrowbold.woff2') format('woff2'), url('fonts/ptsansnarrowbold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}

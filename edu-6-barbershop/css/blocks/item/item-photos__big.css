@@ -1,0 +1,12 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.item-photos__big {}
+
+.item-photos__big-photo {
+    display: block;
+    width: 100%;
+    /* height: 300px; */
+    /* border: 1px solid #000000; */
+}

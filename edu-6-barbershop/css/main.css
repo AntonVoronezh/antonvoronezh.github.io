@@ -1,0 +1,35 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+@import url('../css/layout/fonts.css');
+@import url('../css/layout/normalize.css');
+@import url('../css/layout/base.css');
+@import url('../css/blocks/navigation.css');
+@import url('../css/blocks/personal-account.css');
+@import url('../css/blocks/user-navigation.css');
+@import url('../css/blocks/index-main-block.css');
+@import url('../css/blocks/index-info.css');
+@import url('../css/blocks/footer.css');
+@import url('../css/blocks/personal-account.css');
+@import url('../css/blocks/shop/shop-structure.css');
+@import url('../css/blocks/shop/shop-title.css');
+@import url('../css/blocks/shop/shop-breadcrumbs.css');
+@import url('../css/blocks/shop/shop-filters.css');
+@import url('../css/blocks/shop/shop-catalog.css');
+@import url('../css/blocks/shop/shop-pagination.css');
+@import url('../css/blocks/item/item-structure.css');
+@import url('../css/blocks/item/item-title.css');
+@import url('../css/blocks/item/item-photos__big.css');
+@import url('../css/blocks/item/item-photos__list.css');
+@import url('../css/blocks/item/item-desc__articul.css');
+@import url('../css/blocks/item/item-desc__text.css');
+@import url('../css/blocks/item/item-desc__price-buy.css');
+@import url('../css/blocks/item/item-card__composition.css');
+@import url('../css/blocks/item/item-desc__composition.css');
+@import url('../css/blocks/price/price-structure.css');
+@import url('../css/blocks/price/price-center.css');
+@import url('../css/blocks/price/advantages__list.css');
+@import url('../css/blocks/price/advantages__text.css');
+@import url('../css/blocks/price/our-prices__table.css');
+@import url('../css/blocks/price/advantages__text--our-prices.css');

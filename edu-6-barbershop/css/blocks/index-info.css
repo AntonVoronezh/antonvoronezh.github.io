@@ -1,0 +1,141 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    /* border: 1px solid #222222; */
+}
+
+.info--quickly,
+.info--cool,
+.info--dearly {
+    align-items: center;
+    margin-top: 40px;
+}
+
+.info__title {
+    margin-top: 20px;
+    font-family: 'ptsansnarrowbold', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+}
+
+.title--shape::after {
+    content: "";
+    margin: 0 auto;
+    margin-top: 10px;
+    background-image: url('../../img/icons/css_sprites.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: block;
+    width: 30px;
+    height: 29px;
+    background-position: -10px -10px;
+}
+
+.info__text {
+    text-transform: uppercase;
+}
+
+.gorizontal-block--three {
+    text-align: center;
+}
+
+.gorizontal-block--two {
+    text-align: left;
+}
+
+.info__streak {
+    background-image: url('../../img/decor/streak.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 8px;
+    height: 278px;
+}
+
+.info--photogallery,
+.info--join {
+    padding-left: 30px;
+}
+
+.info__img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info__date {
+    border-bottom: 1px solid #cccccc;
+}
+
+.info__link-block {
+    padding: 10px 20px 15px 20px;
+    background-color: #000000;
+    /* justify-content: space-between; */
+}
+
+.info__link {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    /* margin-right: 20px; */
+}
+
+.info__link:hover {
+    color: #cccccc;
+}
+
+.info__pseudobuttons {
+    display: flex;
+    /* justify-content: flex-start; */
+    width: 100%;
+}
+
+.info__link--right {
+    margin-left: auto;
+    /* margin-left: 150px; */
+}
+
+.info__form {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+}
+
+.info__form-label {
+    text-transform: uppercase;
+    /* border: 1px solid #000000; */
+    width: 45%;
+    /* padding-left: 10px; */
+    margin-right: 10px;
+}
+
+.info__form-input {
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+}
+
+.info__link-block {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.info__form-text {
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.info__link-block--button {
+    width: 290px;
+}

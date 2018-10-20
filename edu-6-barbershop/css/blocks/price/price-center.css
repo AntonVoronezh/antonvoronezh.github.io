@@ -1,0 +1,13 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.price-center {
+text-align: center;
+}
+
+.slogan {
+    text-transform: uppercase;
+    font-family: 'ptsansnarrowbold';
+    font-size: 40px;
+}

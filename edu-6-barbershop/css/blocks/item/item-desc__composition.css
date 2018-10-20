@@ -1,0 +1,27 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.item-desc__list {
+margin-top: 10px;
+}
+
+.item-desc__item {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+.item-desc__item::before {
+    content: "";
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url('../../../img/icons/css_sprites.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    width: 11px;
+    height: 12px;
+    background-position: -269px -10px;
+}
