@@ -1,0 +1,112 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.search {
+    width: 100%;
+    /* border: 1px solid #000000; */
+}
+
+.search__title,
+.mail__title {
+    display: block;
+    width: 100%;
+    background-color: #e0dbdb;
+    padding: 15px;
+    /* border: 1px solid #000000; */
+    border-left: 3px solid #339933;
+}
+
+.search__form,
+.mail__form {
+    margin-top: 20px;
+    display: flex;
+}
+
+.search__input,
+.mail__input {
+    width: 100%;
+    height: 50px;
+    padding: 15px;
+    border: none;
+    border: 1px solid #cccccc;
+    border-right: none;
+}
+
+.search__button,
+.mail__button {
+    width: 50px;
+    background-image: url('../../img/icons/Right.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: 1px solid #cccccc;
+    border-left: none;
+}
+
+.categories,
+.mail {
+    margin-top: 80px;
+}
+
+.categories__list {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.categories__item {
+    padding: 5px;
+}
+
+.categories__link {
+    color: #339933;
+}
+
+.categories__img {
+    margin-top: 20px;
+}
+
+.container--bottom {
+    height: 100px;
+    border: 1px solid #cccccc;
+    display: flex;
+    align-items: center;
+}
+
+.bottom-left {
+    font-family: 'Open Sans Bold';
+}
+
+.bottom-left::before {
+    content: "";
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url('../../img/technical/left.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+
+.bottom-right {
+    font-family: 'Open Sans Bold';
+    margin-left: auto;
+}
+
+.bottom-right::after {
+    content: "";
+    margin: 0 auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url('../../img/technical/right.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+}
+
+.bottom__link {
+    text-decoration: none;
+}
