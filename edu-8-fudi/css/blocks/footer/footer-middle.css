@@ -1,0 +1,12 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.footer__middle {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer__middle-design {
+    margin-left: auto;
+}

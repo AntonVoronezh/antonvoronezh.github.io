@@ -1,0 +1,50 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.welcome-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-text__italic {
+font-style: italic;
+font-size: 30px;
+}
+
+.welcome-text__big {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.welcome-text__button {
+margin-top: 20px;
+padding: 10px;
+padding-left: 30px;
+padding-right: 30px;
+color: #ffffff;
+font-weight: bold;
+font-size: 30px;
+background-color: transparent;
+border: 2px solid #ffffff;
+}
+
+.welcome-text__button:focus,
+.welcome-text__button:hover
+ {
+    margin-top: 20px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #cccccc;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: transparent;
+    border: 2px solid #cccccc;
+    }
+    
+
+.welcome-text__middle {
+margin-top: 20px;
+}

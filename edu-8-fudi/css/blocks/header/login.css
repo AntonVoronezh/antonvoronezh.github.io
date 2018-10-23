@@ -1,0 +1,21 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.login__list {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid #ffffff; */
+}
+
+.login__item {
+    margin-left: 50px;
+}
+
+.login__link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+
+.login__img {}

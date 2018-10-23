@@ -1,0 +1,25 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.browse {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+
+.browse-title {
+width: 100%;
+text-align: center;
+/* border: 1px solid #000000; */
+}
+
+.photos {
+    width: 100%;
+    /* border: 1px solid #000000; */
+}
+
+.numbers {
+    width: 100%;
+    /* border: 1px solid #000000; */
+}

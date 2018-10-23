@@ -1,0 +1,19 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.introducing-img {
+    width: 548px;
+    height: 793px;
+    background-image: url('../../../../img/decor/iPhone5s.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.introducing__pic {
+    width: 440px;
+    height: 620px;
+    margin-left: 70px;
+    margin-top: 160px;
+
+}

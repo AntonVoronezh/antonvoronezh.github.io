@@ -1,0 +1,37 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.numbers {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid #000000; */
+}
+
+.num-table {
+    width: 90%;
+    /* margin: 0 auto; */
+    /* border: 1px solid #000000; */
+}
+
+.num-tr {
+    /* border: 1px solid #000000; */
+}
+
+.num-td {
+    padding: 20px;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #898989;
+    /* border: 1px solid #000000; */
+}
+
+.num-td--number {
+    padding: 20px;
+    padding-bottom: 10px;
+    font-size: 28px;
+    color: #000000;
+}

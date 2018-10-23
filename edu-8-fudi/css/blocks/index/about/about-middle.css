@@ -1,0 +1,18 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.about-middle {
+    color: #898989;
+}
+
+.about-middle__text {
+    width: 95%;
+    font-size: 22px;
+    text-align: center;
+}
+
+.about-middle__text--italic {
+    font-size: 18px;
+    font-style: italic;
+}

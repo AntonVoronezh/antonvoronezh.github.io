@@ -1,0 +1,57 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.offer {
+    padding-left: 10px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.offer__img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.offer__img--inspired {
+    background-image: url('../../../../img/icons/1.png');
+}
+
+.offer__img--reward {
+    background-image: url('../../../../img/icons/2.png');
+}
+
+.offer__img--social {
+    background-image: url('../../../../img/icons/3.png');
+}
+
+.offer__title {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.offer__title::after {
+    content: "";
+    margin: auto;
+    display: inline-block;
+    width: 88px;
+    height: 1px;
+    background-image: url('../../../../img/decor/1.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.offer_text {
+    color: #898989;
+}
