@@ -1,0 +1,24 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.header-search {
+    display: flex;
+    justify-content: center;
+}
+
+.header-search__input {
+    font-size: 14px;
+    padding: 3px;
+    border: 1px solid #506a85;
+}
+
+.header-search__button {
+    width: 23px;
+    height: 23px;
+    background-color: transparent;
+    border: 0;
+    background-image: url('../../../img/icons/icon-search.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}

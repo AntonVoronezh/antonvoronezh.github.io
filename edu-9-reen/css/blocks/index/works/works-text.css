@@ -1,0 +1,18 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.works-text {
+    text-align: center;
+}
+
+.works-text__title {
+    margin-top: 30px;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.works-text__text {
+    margin-bottom: 10px;
+    font-size: 20px;
+}

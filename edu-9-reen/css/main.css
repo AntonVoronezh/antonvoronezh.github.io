@@ -1,0 +1,30 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+@import url('../css/layout/fonts.css');
+@import url('../css/layout/normalize.css');
+@import url('../css/layout/base.css');
+@import url('../css/layout/structure/structure.css');
+@import url('../css/layout/structure/header.css');
+@import url('../css/layout/structure/footer.css');
+@import url('../css/layout/structure/maincontent.css');
+@import url('../css/blocks/header/header-contacts.css');
+@import url('../css/blocks/header/header-social.css');
+@import url('../css/blocks/header/navigation.css');
+@import url('../css/blocks/header/search.css');
+@import url('../css/blocks/footer/footer-links.css');
+@import url('../css/blocks/footer/more.css');
+@import url('../css/blocks/footer/latest.css');
+@import url('../css/blocks/footer/get.css');
+@import url('../css/blocks/footer/subscribe.css');
+@import url('../css/blocks/index/welcome/welcome.css');
+@import url('../css/blocks/index/welcome/made-get.css');
+@import url('../css/blocks/index/advantages/advantages.css');
+@import url('../css/blocks/index/advantages/solution.css');
+@import url('../css/blocks/index/advantages/stars.css');
+@import url('../css/blocks/index/works/works.css');
+@import url('../css/blocks/index/works/works-text.css');
+@import url('../css/blocks/index/works/works-pic-big.css');
+@import url('../css/blocks/index/works/works-pic-small.css');
+@import url('../css/blocks/index/works/with-us.css');

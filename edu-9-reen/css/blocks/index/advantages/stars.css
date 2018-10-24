@@ -1,0 +1,36 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.stars {
+    display: flex;
+    /* border: 1px solid #000000; */
+}
+
+.stars__title {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.passion {
+    /* border: 1px solid #000000; */
+}
+
+.stars__img {
+    display: block;
+    width: 20%;
+    padding-left: 20px;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    /* border: 1px solid #000000; */
+}
+.stars__img--heart {
+    background-image: url('../../../../img/icons/icon-heart-empty-1.png');
+}
+
+.stars__img--lamp {
+    background-image: url('../../../../img/icons/icon-lamp.png');
+}
+.stars__img--star {
+    background-image: url('../../../../img/icons/icon-star-empty-1.png');
+}

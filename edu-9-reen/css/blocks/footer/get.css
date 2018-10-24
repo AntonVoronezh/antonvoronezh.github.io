@@ -1,0 +1,58 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.get {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.get__title {
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.get__text {
+    margin-bottom: 20px;
+}
+
+.get__list {}
+
+.get__item--location::before {
+    content: "";
+    margin: auto;
+    display: inline-block;
+    margin-right: 10px;
+    width: 7px;
+    height: 12px;
+    background-image: url('../../../img/icons/icon-location.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.get__item--mail::before {
+    content: "";
+    margin: auto;
+    display: inline-block;
+    margin-right: 10px;
+    width: 11px;
+    height: 9px;
+    background-image: url('../../../img/icons/icon-mail-1.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.get__item--phone::before {
+    content: "";
+    margin: auto;
+    display: inline-block;
+    margin-right: 10px;
+    width: 7px;
+    height: 13px;
+    background-image: url('../../../img/icons/icon-mobile.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}

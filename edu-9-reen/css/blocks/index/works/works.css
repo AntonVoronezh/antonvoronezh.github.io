@@ -1,0 +1,22 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.works {
+display: flex;
+flex-direction: column;
+background-color: #f5f7fa;
+
+}
+
+.works-text {
+/* border: 1px solid #000000; */
+}
+
+.works-pic-big {
+/* border: 1px solid #000000; */
+}
+
+.works-pic-small {
+/* border: 1px solid #000000; */
+}

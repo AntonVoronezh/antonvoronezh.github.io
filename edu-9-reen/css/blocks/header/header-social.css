@@ -1,0 +1,49 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.header-social {}
+
+.header-social__list {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header-social__pic {
+    width: 30px;
+    height: 30px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* border: 1px solid #000000; */
+}
+
+.header-social__pic:hover {
+    width: 28px;
+    height: 28px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
+
+.header-social__pic--google {
+    background-image: url('../../../img/icons/icon-s-gplus.png')
+}
+
+.header-social__pic--twitter {
+    background-image: url('../../../img/icons/icon-s-twitter.png')
+}
+
+.header-social__pic--facebook {
+    background-image: url('../../../img/icons/icon-s-facebook.png')
+}
+
+.header-social__pic--pinterest {
+    background-image: url('../../../img/icons/icon-s-pinterest.png')
+}
+
+.header-social__pic--be {
+    background-image: url('../../../img/icons/icon-s-behance.png')
+}
+
+.header-social__pic--row {
+    background-image: url('../../../img/icons/icon-s-dribbble.png')
+}

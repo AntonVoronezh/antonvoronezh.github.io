@@ -1,0 +1,16 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.footer-links {
+display: flex;
+}
+
+.footer-links__item {
+    margin-right: 20px;
+}
+
+
+.footer-links__link:hover {
+color: #ffffff;
+}

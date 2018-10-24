@@ -1,0 +1,32 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.more {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.more__title {
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.more__logo {
+    margin-bottom: 20px;
+}
+
+.more__text {
+    margin-bottom: 20px;
+}
+
+a.more__links  {
+    color: #ffffff;
+}
+
+a.more__links:hover  {
+    color: #000000;
+}

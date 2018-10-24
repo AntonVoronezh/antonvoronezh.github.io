@@ -1,0 +1,44 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.header-contacts {
+    /* border: 1px solid #000000; */
+}
+
+.header-contacts__list {
+    display: flex;
+    justify-content: center;
+}
+
+.header-contacts__link {
+    text-decoration: none;
+}
+
+.header-contacts__item {
+    margin-right: 30px;
+}
+
+.header-contacts__item--mail::before {
+    content: "";
+    margin: auto;
+    display: inline-block;
+    margin-right: 10px;
+    width: 11px;
+    height: 9px;
+    background-image: url('../../../img/icons/icon-mail-1.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.header-contacts__item--phone::before {
+    content: "";
+    margin: auto;
+    display: inline-block;
+    margin-right: 10px;
+    width: 7px;
+    height: 13px;
+    background-image: url('../../../img/icons/icon-mobile.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}

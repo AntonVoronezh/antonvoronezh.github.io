@@ -1,0 +1,23 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.advantages {
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.advantages__top {
+    min-height: 50%;
+    padding-top: 100px;
+    display: flex;
+    /* border: 1px solid #000000; */
+}
+
+.advantages__bottom {
+    height: 50%;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    /* border: 1px solid #000000; */
+}

@@ -1,0 +1,28 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.solution {
+    width: 65%;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.solution__title {
+    display: inline-block;
+    width: 80%;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: 'Lato Bold';
+    font-size: 40px;
+    /* border: 1px solid #000000; */
+}
+
+.solution__text {
+    font-family: 'Lato Bold';
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+    /* border: 1px solid #000000; */
+}

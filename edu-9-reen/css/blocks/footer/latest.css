@@ -1,0 +1,27 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.latest {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.latest__title {
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.latest__photo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.latest__img {
+    width: 115px;
+    height: 75px;
+    margin: 3px;
+}

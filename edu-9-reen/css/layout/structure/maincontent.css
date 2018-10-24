@@ -1,0 +1,13 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.maincontent .container {
+    display: flex;
+    /* border: 1px solid #e20b0b; */
+}
+
+.main {
+    width: 100%;
+    /* border: 1px solid #f441ca; */
+}
