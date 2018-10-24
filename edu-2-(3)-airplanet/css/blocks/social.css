@@ -1,0 +1,169 @@
+/****************************
+**
+** LoftSchool project #1
+** AntonVoronezh
+**
+****************************/
+
+.social {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.social--team {
+    margin-top: 0;
+}
+
+.social__text {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-right: 25px;
+}
+
+.social__list {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+.social__item {
+    display: inline-block;
+    margin-right: 5px;
+    padding-right: 10px;
+}
+
+.social__icon {
+    background: #d2def3;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+a:hover>.social__icon {
+    background: #fff;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.social__icon--vk {
+    background-image: url('../../img/social-icon/vk.png');
+}
+
+a:hover>.social__icon--vk {
+    background-image: url('../../img/social-icon/vk.png');
+}
+
+.social__icon--fb {
+    background-image: url('../../img/social-icon/fb.png');
+}
+
+a:hover>.social__icon--fb {
+    background-image: url('../../img/social-icon/fb.png');
+}
+
+.social__icon--google {
+    background-image: url('../../img/social-icon/google.png');
+}
+
+a:hover>.social__icon--google {
+    background-image: url('../../img/social-icon/google.png');
+}
+
+.social__icon--twitter {
+    background-image: url('../../img/social-icon/twitter.png');
+}
+
+a:hover>.social__icon--twitter {
+    background-image: url('../../img/social-icon/twitter.png');
+}
+
+.social__icon--mail {
+    background-image: url('../../img/social-icon/mail.png');
+}
+
+a:hover>.social__icon--mail {
+    background-image: url('../../img/social-icon/mail.png');
+}
+
+.sprite {
+    background-image: url('../../img/social-icon/spritesheet.png');
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-fb {
+    width: 6px;
+    height: 13px;
+    background-position: -10px -10px;
+}
+
+.sprite-feed_icon {
+    width: 20px;
+    height: 18px;
+    background-position: -36px -10px;
+}
+
+.sprite-feed_icon-black {
+    width: 20px;
+    height: 18px;
+    background-position: -76px -10px;
+}
+
+.sprite-google {
+    width: 15px;
+    height: 9px;
+    background-position: -116px -10px;
+}
+
+.sprite-mail {
+    width: 12px;
+    height: 9px;
+    background-position: -151px -10px;
+}
+
+.sprite-main_icon {
+    width: 17px;
+    height: 18px;
+    background-position: -183px -10px;
+}
+
+.sprite-main_icon-black {
+    width: 17px;
+    height: 18px;
+    background-position: -220px -10px;
+}
+
+.sprite-main_icon-wait {
+    width: 15px;
+    height: 14px;
+    background-position: -257px -10px;
+}
+
+.sprite-team_icon {
+    width: 23px;
+    height: 18px;
+    background-position: -292px -10px;
+}
+
+.sprite-team_icon-black {
+    width: 23px;
+    height: 18px;
+    background-position: -335px -10px;
+}
+
+.sprite-twitter {
+    width: 11px;
+    height: 9px;
+    background-position: -378px -10px;
+}
+
+.sprite-vk {
+    width: 12px;
+    height: 7px;
+    background-position: -409px -10px;
+}

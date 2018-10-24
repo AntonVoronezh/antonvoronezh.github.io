@@ -1,0 +1,117 @@
+/****************************
+**
+** LoftSchool project #1
+** AntonVoronezh
+**
+****************************/
+
+.big-photo__img {
+    margin-bottom: 6px;
+}
+
+.tariffs {
+    margin: 0px;
+    padding: 0px;
+    text-align: top;
+    display: flex;
+    flex-direction: column;
+}
+
+.title-h {
+    color: #221f1f;
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px;
+}
+.title-h--tariffs {
+    font-size: 18px; 
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.tariffs__list {
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+     
+    
+}
+
+.tariffs__item {
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 0px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #cccccc;
+
+}
+
+.tariffs__item-icon {
+    background: #4b73b5;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 15px;
+}
+
+.tariffs__item-icon--standart {
+    background-image: url('../../img/tariffs-icon/flower.png');
+}
+
+.tariffs__item-icon--premium {
+    background-image: url('../../img/tariffs-icon/star.png');
+}
+
+.tariffs__item-icon--laksheri {
+    background-image: url('../../img/tariffs-icon/palette.png');
+}
+
+.tariffs__item-name {
+    color: #212121;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 18px;
+    margin-bottom: 5px;
+}
+
+.tariffs__item-description {
+    color: #221f1f;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 33px;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.tariffs__item-list {
+    color: #221f1f;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 33px;
+}
+
+.tariffs__item-list-elem {
+    list-style-type: disc;
+}
+
+.tariffs__item-price {
+    color: #212121;
+    font-size: 54px;
+    font-weight: 300;
+    line-height: 57px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dollar {
+    color: #212121;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 57px;
+}

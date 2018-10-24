@@ -1,0 +1,50 @@
+/****************************
+**
+** LoftSchool project #1
+** AntonVoronezh
+**
+****************************/
+.title-h--comments {
+    margin-top: 10px;
+}
+
+.comments__list {
+    display: flex;
+    flex-direction: column;
+    width: 860px;
+    margin-top: 35px;
+}
+
+.comments__item {
+    display: flex;
+    align-items: stretch;
+    height: 222px;
+    padding-top: 5px;
+}
+
+.comments__item-description {
+    margin-left: 18px;
+    flex: 4;
+}
+
+.comments__item-date {
+    font-size: 13px;
+}
+
+.comments__item-header {
+    font-size: 17px;
+}
+
+.comments__item-text {
+    font-size: 18px;
+    font-style: normal;
+    line-height: 1.5;
+}
+
+.comments__item-img {
+    height: 160px;
+    flex: 1;
+    background-image: url('../../img/comments-avatars/vectorsmartobject.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
