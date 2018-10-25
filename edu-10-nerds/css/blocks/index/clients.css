@@ -1,0 +1,17 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.clients__list {
+    display: flex;
+  justify-content: space-between;
+}
+
+
+.clients__img {
+   opacity: 0.2; 
+}
+
+.clients__img:hover {
+    opacity: 1; 
+ }

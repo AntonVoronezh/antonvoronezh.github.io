@@ -1,0 +1,25 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.numbers {
+    text-align: center;
+}
+
+.numbers__img {
+    width: 80%;
+    margin-left: 20px;
+}
+.numbers__title {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.numbers__td--procent {
+    font-family: 'Roboto Bold';
+    font-size: 40px;
+}
+
+.numbers__td {
+    padding: 5px;
+}

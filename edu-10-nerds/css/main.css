@@ -1,0 +1,25 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+@import url('../css/layout/fonts.css');
+@import url('../css/layout/normalize.css');
+@import url('../css/layout/base.css');
+@import url('../css/layout/structure/structure.css');
+@import url('../css/layout/structure/header.css');
+@import url('../css/layout/structure/footer.css');
+@import url('../css/layout/structure/maincontent.css');
+@import url('../css/blocks/header/navigation.css');
+@import url('../css/blocks/header/basket.css');
+@import url('../css/blocks/header/slide.css');
+@import url('../css/blocks/header/slogan.css');
+@import url('../css/blocks/footer/map.css');
+@import url('../css/blocks/footer/address.css');
+@import url('../css/blocks/footer/map-marker.css');
+@import url('../css/blocks/footer/social.css');
+@import url('../css/blocks/footer/friend-request.css');
+@import url('../css/blocks/index/structure.css');
+@import url('../css/blocks/index/offer.css');
+@import url('../css/blocks/index/creative.css');
+@import url('../css/blocks/index/numbers.css');
+@import url('../css/blocks/index/clients.css');

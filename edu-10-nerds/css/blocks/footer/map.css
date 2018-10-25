@@ -1,0 +1,11 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.footer-map {
+    width: 1440px;
+    height: 416px;
+    background-image: url('../../../img/technical/map.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}

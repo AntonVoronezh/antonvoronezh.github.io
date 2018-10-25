@@ -1,0 +1,43 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.creative {
+    padding-top: 20px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.creative__title {
+    font-size: 35px;
+}
+
+.creative__text {
+    margin-top: 20px;
+}
+
+.creative__list-title {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.creative__list {
+    margin-top: 20px;
+}
+
+.creative__item {
+    margin-top: 20px;
+}
+
+.creative__item::before {
+    content: "";
+    display: inline-block;
+    width: 34px;
+    height: 2px;
+    margin-right: 5px;
+    padding-bottom: 4px;
+    background-image: url('../../../img/decor/p.png');
+    background-position: top top;
+    background-repeat: no-repeat;
+}

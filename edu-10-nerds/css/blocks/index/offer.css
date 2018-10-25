@@ -1,0 +1,66 @@
+/****************************
+**      AntonVoronezh
+****************************/
+.sites__title,
+.applications__title,
+.presentations__title {
+    margin-top: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.sites__text,
+.applications__text,
+.presentations__text {
+    width: 90%;
+    margin-top: 20px;
+}
+
+.sites__button,
+.applications__button,
+.presentations__button {
+    margin-top: 20px;
+    width: 160px;
+}
+
+.sites__button {
+    background-color: #fb565a;
+}
+
+.sites__button:hover,
+.sites__button:focus {
+    background-color: #e74246;
+}
+
+.sites__button:active {
+    box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+    background-color: #d7373b;
+}
+
+.applications__button {
+    background-color: #00ca74;
+}
+
+.applications__button:hover,
+.applications__button:focus {
+    background-color: #00bc6c;
+}
+
+.applications__button:active {
+    box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+    background-color: #00aa62;
+}
+
+.presentations__button {
+    background-color: #efc84a;
+}
+
+.presentations__button:hover,
+.presentations__button:focus {
+    background-color: #eab534;
+}
+
+.presentations__button:active {
+    box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+    background-color: #e5a722;
+}

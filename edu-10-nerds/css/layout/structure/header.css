@@ -1,0 +1,42 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.header {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #eeeeee;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo {
+    margin-right: auto;
+}
+
+.basket {
+    margin-left: auto;
+}
+
+.header-container-bottom {
+    padding-top: 30px;
+    display: flex;
+    /* border: 1px solid #000000; */
+}
+
+.slogan {
+    width: 40%;
+    /* border: 1px solid #000000; */
+}
+
+.slide {
+    flex: 1;
+    /* border: 1px solid #000000; */
+}

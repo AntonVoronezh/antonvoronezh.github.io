@@ -1,0 +1,16 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.friend-request {
+    padding-left: 100px;
+}
+
+.friend-request__title {
+    font-family: 'Roboto Bold';
+    font-size: 30px;
+}
+
+.friend-request__text {
+    margin-top: 10px;
+}

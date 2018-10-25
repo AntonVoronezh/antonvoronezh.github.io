@@ -1,0 +1,36 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.slogan {
+    /* border: 1px solid #000000; */
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.slogan__title {
+    margin-top: 30px;
+    font-family: 'Roboto Bold';
+    font-size: 50px;
+}
+
+.slogan__text {
+    margin-top: 30px;
+}
+
+.slogan__button {
+    margin-top: 50px;
+    width: 240px;
+    background-color: #fb565a;
+}
+
+.slogan__button:hover,
+.slogan__button:focus {
+    background-color: #e74246;
+}
+
+.slogan__button:active {
+    box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+    background-color: #d7373b;
+}

@@ -1,0 +1,18 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.basket {
+    font-family: 'Roboto Bold';
+}
+
+.basket__item::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    background-image: url('../../../img/icons/cart-icon.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}

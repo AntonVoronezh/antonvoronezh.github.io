@@ -1,0 +1,48 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.social {
+    padding-left: 60px;
+    m
+}
+
+.social__list {
+    display: flex;
+}
+
+.social__item {
+    margin-left: 5px;
+}
+
+.social__wrap {
+    width: 80px;
+    height: 80px;
+    background-color: #e1e1e1;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* border: 1px solid #000000; */
+}
+
+.social__wrap:hover,
+.social__wrap:focus {
+    background-color: #e74246;
+}
+
+.social__wrap:active {
+    box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+    background-color: #d7373b;
+}
+
+.social__wrap--vk {
+    background-image: url('../../../img/icons/vk-icon.png')
+}
+
+.social__wrap--fb {
+    background-image: url('../../../img/icons/fb-icon.png')
+}
+
+.social__wrap--ins {
+    background-image: url('../../../img/icons/insta-icon.png')
+}

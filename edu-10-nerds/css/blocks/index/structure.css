@@ -1,0 +1,45 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.offer,
+.about,
+.clients {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #cccccc;
+}
+
+.offer {
+    padding-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid #000000; */
+}
+
+.sites,
+.applications,
+.presentations {
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid #000000; */
+}
+
+.about {
+    display: flex;
+}
+
+.creative {
+    width: 60%;
+    /* border: 1px solid #000000; */
+}
+
+.numbers {
+    width: 40%;
+}
+
+.clients {
+    
+}

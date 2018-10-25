@@ -1,0 +1,14 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.navigation__list {
+    display: flex;
+    /* border: 1px solid #000000; */
+}
+
+.navigation__item {
+    margin-right: 30px;
+    font-family: 'Roboto Bold';
+    /* border: 1px solid #000000; */
+}
