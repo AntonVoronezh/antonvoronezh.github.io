@@ -1,0 +1,38 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.maincontent .container {
+    display: flex;
+    /* border: 1px solid #e20b0b; */
+}
+
+.main {
+    width: 100%;
+    /* border: 1px solid #f441ca; */
+}
+
+.let-go-two {
+    min-height: 575px;
+/* border: 1px solid #000000; */
+}
+
+.gratis {
+    min-height: 250px;
+/* border: 1px solid #000000; */
+}
+
+.hits {
+    min-height: 250px;
+/* border: 1px solid #000000; */
+}
+
+.about {
+    min-height: 250px;
+/* border: 1px solid #000000; */
+}
+
+.news-mail {
+    min-height: 250px;
+/* border: 1px solid #000000; */
+}

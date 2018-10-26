@@ -1,0 +1,16 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.navigation {
+    margin-left: 15px;
+}
+
+.navigation__list {
+    display: flex;
+}
+
+.navigation__item {
+    margin-left: 15px;
+    margin-right: 15px;
+}

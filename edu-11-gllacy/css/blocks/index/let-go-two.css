@@ -1,0 +1,63 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.let-go-two {
+    padding-top: 20px;
+    background-image: url('../../../img/product-photo/1.png'), url('../../../img/product-photo/2.png'), url('../../../img/technical/2.png');
+    background-position: 30% 100%, 70% 100%, center center;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: 320px auto, 320px auto, cover;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.working-time {
+    text-align: right;
+    flex: 1;
+    /* border: 1px solid #000000; */
+}
+
+.working-time__time,
+.working-time__phone {
+    display: block;
+    color: #ffffff;
+}
+
+.working-time__time {
+    font-size: 90%;
+}
+
+.working-time__phone {
+    font-family: 'roboto bold';
+    font-size: 150%;
+}
+
+.let-go-two__text {
+    font-family: 'roboto bold';
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #ffffff;
+    text-align: center;
+    /* margin-right: auto; */
+}
+
+.let-go-two__button {
+    margin-top: 30px;
+    width: 280px;
+    height: 65px;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.let-go-two__button:hover,
+.let-go-two__button:focus,
+.let-go-two__button:active {
+    height: 65px;
+}

@@ -1,0 +1,65 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.search-inter {}
+
+.search-inter__list {
+    display: flex;
+}
+
+.search-inter__item {
+    margin-left: 15px;
+
+}
+
+.search-inter__link {
+    background-color:rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+}
+
+.search-inter__link:hover {
+    /* background-color: #ffffff; */
+    background-color:rgba(255, 255, 255, 1);
+    /* opacity: 0.5; */
+    border-radius: 15px;
+}
+
+.search-inter__link--search:hover {
+    background-image: url('../../../img/icons/header/3.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.search-inter__link--search {
+    background-image: url('../../../img/icons/header/3.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 1;
+    width: 17px;
+    height: 17px;
+}
+
+.search-inter__link--inter::before {
+    content: "";
+    vertical-align: text-bottom;
+    display: inline-block;
+    width: 21px;
+    height: 19px;
+    margin-right: 15px;
+    background-image: url('../../../img/icons/header/1.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.search-inter__link--basket::before {
+    content: "";
+    vertical-align: text-bottom;
+    display: inline-block;
+    width: 21px;
+    height: 20px;
+    margin-right: 15px;
+    background-image: url('../../../img/icons/header/2.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}

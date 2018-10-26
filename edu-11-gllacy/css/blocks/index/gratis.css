@@ -1,0 +1,52 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.gratis {
+    padding: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #ffffff;
+}
+
+.gratis__raspberry {
+    width: 415px;
+    height: 220px;
+    border-radius: 15px;
+    /* border: 1px solid #000000; */
+    background-image: url('../../../img/technical/3.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.gratis__chocolate {
+    width: 415px;
+    height: 220px;
+    border-radius: 15px;
+    /* border: 1px solid #000000; */
+    background-image: url('../../../img/technical/4.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.gratis__title {
+    font-family: 'roboto bold';
+    font-size: 35px;
+    line-height: 41px;
+}
+
+.gratis__text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.gratis__button {
+    margin-left: 185px;
+    width: 189px;
+}

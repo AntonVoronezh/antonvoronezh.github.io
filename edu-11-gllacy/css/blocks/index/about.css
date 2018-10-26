@@ -1,0 +1,66 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.about {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 370px;
+    /* width: 31px;
+    height: 36px; */
+    background-image: url('../../../img/technical/5.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about__text {
+    width: 92%;
+    margin-bottom: 30px;
+    font-family: 'roboto bold';
+    color: #323232;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    /* border: 1px solid #000000; */
+}
+
+.about__list {
+    width: 92%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* border: 1px solid #000000; */
+}
+
+.about__item {
+    width: 340px;
+    font-size: 16px;
+    line-height: 22px;
+    /* border: 1px solid #000000; */
+}
+
+.about__item--icon {
+    width: 49px;
+    height: 49px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.about__item--m {
+    background-image: url('../../../img/icons/about/4.png');
+}
+
+.about__item--l {
+    background-image: url('../../../img/icons/about/3.png');
+}
+
+.about__item--k {
+    background-image: url('../../../img/icons/about/2.png');
+}
+
+.about__item--a {
+    background-image: url('../../../img/icons/about/1.png');
+}

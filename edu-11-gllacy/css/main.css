@@ -1,0 +1,24 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+@import url('../css/layout/fonts.css');
+@import url('../css/layout/normalize.css');
+@import url('../css/layout/base.css');
+@import url('../css/layout/structure/structure.css');
+@import url('../css/layout/structure/header.css');
+@import url('../css/layout/structure/footer.css');
+@import url('../css/layout/structure/index-maincontent-srtucture.css');
+@import url('../css/blocks/header/navigation.css');
+@import url('../css/blocks/header/search-inter.css');
+@import url('../css/blocks/footer/social.css');
+@import url('../css/blocks/footer/footer-links__list.css');
+@import url('../css/blocks/footer/signature.css');
+@import url('../css/blocks/footer/map-marker.css');
+@import url('../css/blocks/footer/footer-map.css');
+@import url('../css/blocks/footer/address.css');
+@import url('../css/blocks/index/let-go-two.css');
+@import url('../css/blocks/index/gratis.css');
+@import url('../css/blocks/index/hits.css');
+@import url('../css/blocks/index/about.css');
+@import url('../css/blocks/index/news-mail.css');

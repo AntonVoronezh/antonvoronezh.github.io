@@ -1,0 +1,94 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.news-mail {
+    padding: 5px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #000000;
+}
+
+.news-mail__news {
+    width: 415px;
+    height: 220px;
+    border-radius: 15px;
+    /* border: 1px solid #000000; */
+    background-image: url('../../../img/technical/6.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+.news-mail__mail {
+    width: 415px;
+    height: 220px;
+    position: relative;
+    border-radius: 15px;
+    /* border: 1px solid #000000; */
+    background-image: url('../../../img/technical/7.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.subscribe {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 405px;
+    height: 210px;
+    border-radius: 15px;
+    background-color: #f8f7f4;
+    border: 3px solid transparent;
+    padding: 20px;
+}
+
+.news-mail__news-title {
+    color: #5a5a5a;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.news-mail__news-text {
+    font-family: 'roboto bold';
+    color: #353535;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.news-mail__link,
+.news-mail__link,
+.news-mail__link {
+    text-decoration: underline;
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+    color: #000;
+}
+
+.news-mail__link:hover,
+.news-mail__link:active,
+.news-mail__link:focus {
+    text-decoration: none;
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.subscribe__form {
+    margin-top: 30px;
+}
+
+.subscribe__input {
+    width: 229px;
+    height: 44px;
+    padding: 5px;
+    border: 1px solid rgba(178, 178, 178, 0.52);
+    background-color: #ffffff;
+}
+
+.subscribe__button {
+    width: 119px;
+}

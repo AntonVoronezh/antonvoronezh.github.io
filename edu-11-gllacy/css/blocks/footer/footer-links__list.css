@@ -1,0 +1,50 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.footer-links__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link-zero {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+.link-zero:hover {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links__link {
+    font-family: 'roboto';
+    text-decoration: underline;
+}
+
+.footer-links__link:hover {
+    font-family: 'roboto';
+    text-decoration: none;
+}
+
+.footer-links__link--heart::before {
+    content: "";
+    vertical-align: text-bottom;
+    display: inline-block;
+    width: 15px;
+    height: 13px;
+    margin-right: 10px;
+    background-image: url('../../../img/icons/footer/1.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.footer-links__link--zero {
+    margin-left: 25px;
+}
+
+.footer-links__link--zero:hover {
+    margin-left: 25px;
+}
