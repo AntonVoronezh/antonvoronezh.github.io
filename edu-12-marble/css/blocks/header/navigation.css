@@ -1,0 +1,24 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.navigation {}
+
+.navigation__list {
+    display: flex;
+}
+
+.navigation__item {
+    margin-left: 20px;
+}
+
+.navigation__link {
+    font-family: 'RobotoCondensed-Bold';
+    font-size: 16px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+
+.navigation__link--active {
+    color: #1abb9c;
+}

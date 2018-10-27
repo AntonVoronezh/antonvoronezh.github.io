@@ -1,0 +1,60 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.features {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features-item {
+    width: 23%;
+    text-align: center;
+}
+
+.features-item__decor {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+        background-position: center center;
+    background-repeat: no-repeat;
+    /* border: 1px solid #000000; */
+}
+
+.features-item__title {
+    color: #4e4e4e;
+    font-size: 18px;
+    line-height: 60px;
+}
+
+.features-item__text {
+    color: #616161;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.features-item__decor--pellentesque {
+    background-color: #9d9abf;
+    background-image: url('../../../img/decor/index/Layer_2.png');
+
+}
+
+.features-item__decor--consectetur {
+    background-color: #d2514b;
+    background-image: url('../../../img/decor/index/Layer_3.png');
+
+}
+
+.features-item__decor--tristiquet {
+    background-color: #66a3c6;
+    background-image: url('../../../img/decor/index/Layer_4.png');
+
+}
+
+.features-item__decor--fermentum {
+    background-color: #e8c04f;
+    background-image: url('../../../img/decor/index/Layer_5.png');
+
+}

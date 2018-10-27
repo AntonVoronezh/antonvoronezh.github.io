@@ -1,0 +1,19 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e5e5;
+}
+
+.container--header {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    margin-left: auto;
+}

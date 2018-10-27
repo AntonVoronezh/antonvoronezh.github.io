@@ -1,0 +1,22 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container--footer {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.footer-text {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.container--footer-top {
+}
