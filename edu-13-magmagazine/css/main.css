@@ -1,0 +1,17 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+@import url('../css/layout/fonts.css');
+@import url('../css/layout/normalize.css');
+@import url('../css/layout/base.css');
+@import url('../css/layout/structure/structure.css');
+@import url('../css/layout/structure/header.css');
+@import url('../css/layout/structure/footer.css');
+@import url('../css/layout/structure/index-maincontent-srtucture.css');
+@import url('../css/blocks/header/header__links.css');
+@import url('../css/blocks/index/name.css');
+@import url('../css/blocks/index/navigation.css');
+@import url('../css/blocks/index/main-block.css');
+@import url('../css/blocks/index/second-block.css');
+

@@ -1,0 +1,65 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.main-block {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-first-news {
+    padding: 10px;
+}
+
+.main-second-news {
+    padding: 10px;
+}
+
+.main-first-news__title {
+    margin-top: 20px;
+    color: #444444;
+    font-family: Georgia;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.main-first-news__text {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #666666;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+}
+
+.hundend-news {
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+.main-second-news__img {
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+}
+
+.main-second-news__title {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #444444;
+    font-family: Georgia;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.main-second-news__text {
+    display: inline;
+    color: #666666;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+}

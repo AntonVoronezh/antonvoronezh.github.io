@@ -1,0 +1,24 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container--footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright {
+/* border: 1px solid #ffffff; */
+}
+
+.signature {
+    /* border: 1px solid #ffffff; */
+    margin-left: auto;
+}

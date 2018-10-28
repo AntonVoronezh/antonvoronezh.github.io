@@ -1,0 +1,27 @@
+/****************************
+**      AntonVoronezh
+****************************/
+
+.name {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.name__title {
+    color: #282828;
+    font-family: Georgia;
+    font-size: 100px;
+    font-weight: bold;
+    line-height: 120px;
+    text-transform: uppercase;
+}
+
+.name__text {
+    color: #4a4a4a;
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
