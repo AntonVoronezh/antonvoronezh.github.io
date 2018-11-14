@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        body {
+            font: 16px Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        a,
+        a:visited,
+        a:active,
+        a:focus {
+            color: #0091d9;
+            text-decoration: none;
+        }
+
+        a:hover,
+        a:active,
+        a:focus {
+            color: #ff6163;
+        }
+
+        .slider-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .arrow {
+            font-size: 30px;
+        }
+
+        .slider {
+            display: flex;
+            width: 300px;
+            overflow: hidden;
+            margin: 0 10px;
+        }
+
+        .items {
+            display: flex;
+            position: relative;
+            color: #444;
+            font-size: 30px;
+        }
+
+        .item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: papayawhip;
+            box-sizing: border-box;
+            width: 100px;
+            height: 100px;
+            border: 1px solid #444;
+        }
+
+        .item~.item {
+            border-left: none;
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="slider-container">
+        <a class="arrow" id="left" href="#">←</a>
+        <div class="slider">
+            <div class="items" id="items">
+                <div class="item">1</div>
+                <div class="item">2</div>
+                <div class="item">3</div>
+                <div class="item">4</div>
+                <div class="item">5</div>
+                <div class="item">6</div>
+                <div class="item">7</div>
+                <div class="item">8</div>
+            </div>
+        </div>
+        <a class="arrow" id="right" href="#">→</a>
+    </div>
+
+    <script>
+        const left = document.querySelector("#left");
+        const right = document.querySelector("#right");
+        const items = document.querySelector("#items");
+
+        // ширина изображения
+        var width = 100;
+        // текущий сдвиг влево
+        var count = 0;
+        // всего слайдов
+        const item = document.querySelectorAll(".item");
+
+
+
+        right.addEventListener("click", function () {
+            // напишите здесь код, который сдвигает items на 100px вправо
+            // если items уже сдвинут на 5 элементов впарво, то больше элементы сдвигать не надо, т.к. вы достигли конца списка
+
+            console.log(item.length);
+
+            if (count <= 4) {
+                count += 1;
+                console.log(count + '=>');
+                position = width * count;
+                items.style.marginLeft = '-' + position + 'px';
+            }
+
+
+
+        });
+
+        left.addEventListener("click", function () {
+            // напишите здесь код, который сдвигает items на 100px влево
+            // если item находится в самом начале, то больше элементы сдвигать влево не надо, т.к. вы достигли начала списка
+            if (count !== 0) {
+                count -= 1;
+                console.log(count + '<=');
+                position = width * count;
+                items.style.marginLeft = '-' + position + 'px';
+            }
+
+
+        });
+
+    </script>
+</body>
+
+</html>
