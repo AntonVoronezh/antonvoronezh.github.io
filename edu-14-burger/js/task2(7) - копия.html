@@ -39,10 +39,9 @@
 
         .slider {
             display: flex;
-            width: 30%;
+            width: 300px;
             overflow: hidden;
             margin: 0 10px;
-            border: 1px solid #000000;
         }
 
         .items {
@@ -50,7 +49,6 @@
             position: relative;
             color: #444;
             font-size: 30px;
-            min-width: 500%;
         }
 
         .item {
@@ -59,7 +57,7 @@
             justify-content: center;
             background-color: papayawhip;
             box-sizing: border-box;
-             width: 100%;
+            width: 100px;
             height: 100px;
             border: 1px solid #444;
         }
@@ -67,27 +65,26 @@
         .item~.item {
             border-left: none;
         }
-
     </style>
     <title>Document</title>
 </head>
 
 <body>
-    
-  
-
     <div class="slider-container">
-      <a class="arrow" id="left" href="#">←</a>  
+        <a class="arrow" id="left" href="#">←</a>
         <div class="slider">
             <div class="items" id="items">
-                <div class="item ">1</div>
+                <div class="item">1</div>
                 <div class="item">2</div>
                 <div class="item">3</div>
                 <div class="item">4</div>
                 <div class="item">5</div>
+                <div class="item">6</div>
+                <div class="item">7</div>
+                <div class="item">8</div>
             </div>
         </div>
-          <a class="arrow" id="right" href="#">→</a>
+        <a class="arrow" id="right" href="#">→</a>
     </div>
 
     <script>
@@ -108,15 +105,13 @@
             // напишите здесь код, который сдвигает items на 100px вправо
             // если items уже сдвинут на 5 элементов впарво, то больше элементы сдвигать не надо, т.к. вы достигли конца списка
 
-            console.log(item.length, item.length - 2);
+            console.log(item.length);
 
-            if (count <= item.length - 2) {
+            if (count <= 4) {
                 count += 1;
                 console.log(count + '=>');
                 position = width * count;
-                items.style.marginLeft = '-' + position + '%';
-                console.log(items.style.marginLeft);
-                
+                items.style.marginLeft = '-' + position + 'px';
             }
 
 
@@ -130,10 +125,8 @@
                 count -= 1;
                 console.log(count + '<=');
                 position = width * count;
-                items.style.marginLeft = '-' + position + '%';
-
+                items.style.marginLeft = '-' + position + 'px';
             }
-
 
 
         });
