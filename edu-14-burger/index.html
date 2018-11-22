@@ -886,6 +886,7 @@
                                     </section>
                                 </div>
                             </div>
+
                             <!-- end slider item 1 -->
 
                         </div>
@@ -1312,15 +1313,16 @@
     </section>
     <!-- end form section -->
     <!-- start section contacts -->
-    <section class="section  contacts" data-anchor="section-contacts">
+    <section class="section  contacts" data-anchor="section-contacts" id="map">
         <h2 class="visually-hidden">Отзывы о наших бургерах</h2>
+        <!-- <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script> -->
         <div class="container  container--contacts">
             <!-- start footer -->
             <footer class="footer">
                 <div class="footer-container">
                     <address class="address">
-                        <span class="address__text">Санкт-Петербург,
-                            ул.Бабушкина, д.12/1, 15</span>
+                        <span class="address__text">Воронеж,
+                            ул.Проспект Труда, д.12/1, 15</span>
                         <div class="address__block">
                             <svg class="img  address__img">
                                 <use xlink:href="img/icons/sprite.svg#phone" width="12px" height="12px"></use>
@@ -1481,6 +1483,13 @@
     <svg class="img">
         <use xlink:href="img/icons/sprite.svg#play" width="25px" height="25px"></use>
     </svg> -->
+
+    <script type="template" id="overlayTemplate">
+        <div class="container2">
+              <img src="./img/technical/modalClose.png" class="close">
+          <div class="content"></div>
+        </div>
+    </script>
     <script src="js/bundle.js"></script>
 </body>
 

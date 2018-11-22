@@ -11,6 +11,40 @@ for (let i = 0; i < getMunuSelectors.length; i += 1) {
     });
 }
 // конец кода аккордеон (горизонтальный)
+// начало кода модальное окно отзывов
+const getCommentsSelectors = document.querySelectorAll(".comment__link");
+const successOverlay = createOverlay(" <h3 class=\"comment__title--overlay\">Стивен Спилберг</h3>" + 
+"С другой стороны дальнейшее развитие различных форм" + 
+"деятельности напрямую зависит от системы масштабного изменения ряда параметров. Таким образом," +  
+"курс на социально-ориентированный национальный проект способствует повышению актуальности" + 
+"направлений прогрессивного развития!");
+
+for (let i = 0; i < getCommentsSelectors.length; i += 1) {
+    getCommentsSelectors[i].addEventListener("click", function (event) {
+        event.preventDefault();
+        document.body.appendChild(successOverlay);
+    });
+}
+
+function createOverlay(content) {
+    const overlayElement = document.createElement("div");
+    overlayElement.classList.add("overlay");
+  
+    const template = document.querySelector("#overlayTemplate");
+    overlayElement.innerHTML = template.innerHTML;
+  
+    const closeElement = overlayElement.querySelector(".close");
+    closeElement.addEventListener("click", function(event) {
+        event.preventDefault();
+      document.body.removeChild(overlayElement);
+    });
+  
+    const contentElement = overlayElement.querySelector(".content");
+    contentElement.innerHTML = content;
+  
+    return overlayElement;
+  }
+// конец кода модальное окно отзывов
 // начало кода меню (скрытое)
 var closeLink = document.querySelector(".close__link");
 console.log(closeLink);
