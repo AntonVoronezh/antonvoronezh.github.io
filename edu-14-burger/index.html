@@ -1247,15 +1247,34 @@
                     </h3>
                     <div class="video">
                         <div class="player">
-                            <video controls width="400" height="300">
+                            <video width="100%" height="100%" class="player__video" poster="img/technical/how/Slice_1.png">
                                 <source src="./img/video/1.mp4" type="video/mp4">
                             </video>
                         </div>
+                        <div class="video__play-pause">
+                            <svg class="img  video__img">
+                                <use xlink:href="img/icons/sprite.svg#play" width="200px" height="190px"></use>
+                            </svg>
+                        </div>
                         <div class="control">
-
+                            <div class="control__video-icon">
+                                <svg class="img  control__img">
+                                    <use xlink:href="img/icons/sprite.svg#play" width="50px" height="50px"></use>
+                                </svg>
+                            </div>
+                            <div class="control__time">
+                                <input type="range" class="control__time-range" min="0" max="100" value="0">
+                            </div>
+                            <div class="control__sound-icon">
+                                <svg class="img  control__img">
+                                    <use xlink:href="img/icons/sprite.svg#volume" width="50px" height="50px"></use>
+                                </svg>
+                            </div>
+                            <div class="control__sound">
+                                <input type="range" class="control__sound-range" min="0" max="100" value="0">
+                            </div>
                         </div>
                     </div>
-
                 </div>
             </section>
             <!-- end how section -->
@@ -1272,13 +1291,13 @@
                             <div class="form-order__row">
                                 <label for="form-order__label" class="form-order__label">Ваше
                                     имя <br>
-                                    <input type="text" id="form-order__input" class="form-order__input" name="name"
+                                    <input type="text" class="form-order__input" name="name"
                                         required>
                                     <p class="error"></p>
                                 </label>
                                 <label for="form-order__label" class="form-order__label">Телефон
                                     <br>
-                                    <input type="tel" id="form-order__input" class="form-order__input" name="phone"
+                                    <input type="tel" class="form-order__input" name="phone"
                                         placeholder="89212264923" required>
                                     <p class="error"></p>
                                 </label>
@@ -1286,30 +1305,30 @@
                             <div class="form-order__row">
                                 <label for="form-order__label" class="form-order__label">Улица
                                     <br>
-                                    <input type="text" id="form-order__input" class="form-order__input" name="street">
+                                    <input type="text" class="form-order__input" name="street">
                                     <p class="error"></p>
                                 </label>
                             </div>
                             <div class="form-order__row">
                                 <label for="form-order__input" class="form-order__label">Дом
                                     <br>
-                                    <input type="text" id="form-order__input" class="form-order__input" name="house">
+                                    <input type="text" class="form-order__input" name="house">
                                     <p class="error"></p>
                                 </label>
                                 <label for="form-order__input" class="form-order__label">Корпус
                                     <br>
-                                    <input type="text" id="form-order__input" class="form-order__input" name="housing">
+                                    <input type="text" class="form-order__input" name="housing">
                                     <p class="error"></p>
                                 </label>
                                 <label for="form-order__input" class="form-order__label">Квартира
                                     <br>
-                                    <input type="text" id="form-order__input" class="form-order__input" name="apartment"
+                                    <input type="text" class="form-order__input" name="apartment"
                                         required>
                                     <p class="error"></p>
                                 </label>
                                 <label for="form-order__input" class="form-order__label">Этаж
                                     <br>
-                                    <input type="text" id="form-order__input" class="form-order__input" name="float">
+                                    <input type="text" class="form-order__input" name="float">
                                     <p class="error"></p>
                                 </label>
                             </div>
@@ -1416,10 +1435,6 @@
                             </div>
                         </div>
                     </footer>
-                    <!-- <svg class="img">
-                                            <use xlink:href="img/icons/sprite.svg#map-marker" width="46px" height="57.727px"></use>
-                                        </svg>  -->
-                    <!-- end footer -->
                 </div>
             </section>
             <!-- end section contacts  -->
@@ -1514,24 +1529,6 @@
         <!-- end mobile menu -->
     </div>
     <!-- end wrapper -->
-    <!-- <svg class="img">
-        <use xlink:href="img/icons/sprite.svg#drops" width="450.527px" height="241.369px"></use>
-    </svg>
-    <svg class="img">
-        <use xlink:href="img/icons/sprite.svg#phone" width="11px" height="11px"></use>
-    </svg>
-    <svg class="img">
-        <use xlink:href="img/icons/sprite.svg#volume" width="25px" height="25px"></use>
-    </svg>
-    <style type="text/css">
-        .st0 {
-            fill: #626262;
-        }
-    </style>
-    <svg class="img">
-        <use xlink:href="img/icons/sprite.svg#play" width="25px" height="25px"></use>
-    </svg> -->
-
     <script type="template" id="overlayTemplate">
         <div class="container2">
               <img src="./img/technical/modalClose.png" class="close">
