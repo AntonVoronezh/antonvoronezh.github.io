@@ -32,6 +32,7 @@ function createOffer(event) {
     `;
     // console.log(text);
 
+    
     const successOverlay2 = createOverlay(text);
     document.body.appendChild(successOverlay2);
 
