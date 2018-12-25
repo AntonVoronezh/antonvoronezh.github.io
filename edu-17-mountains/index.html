@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio | welcome page</title>
+    <link rel="stylesheet" href="main.min.css">
+  </head>
+  <body>
+    <div class="welcome-wrap">
+      <div class="welcome">
+        <div class="welcome__top"> 
+          <button class="btn btn--welcome">Авторизоваться</button>
+        </div>
+        <div class="welcome__center"> 
+          <h1 class="visually-hidden">Личный сайт разработчика</h1>
+          <div class="welcome__center-wrap">
+            <div class="card card--welcome"><img class="card__img" src="/assets/images/photo/photo.png" alt="фото разработчика"/>
+              <div class="card__name">Владимир Астахов</div>
+              <div class="card__desc">Личный сайт веб разработчика</div>
+            </div>
+            <div class="socials socials--welcome"><a class="socials__link" href="#">
+                <svg class="socials__img socials__img--welcome svg">
+                  <title>ссылка на vk</title>
+                  <use xlink:href="/assets/images/icons/sprite.svg#vk"></use>
+                </svg><span class="visually-hidden">ссылка на vk</span></a><a class="socials__link" href="#">
+                <svg class="socials__img socials__img--welcome svg">
+                  <title>ссылка на github</title>
+                  <use xlink:href="/assets/images/icons/sprite.svg#github"></use>
+                </svg><span class="visually-hidden">ссылка на github</span></a><a class="socials__link" href="#">
+                <svg class="socials__img socials__img--welcome svg">
+                  <title>ссылка на in</title>
+                  <use xlink:href="/assets/images/icons/sprite.svg#in"></use>
+                </svg><span class="visually-hidden">ссылка на in</span></a>
+            </div>
+            <nav class="nav nav-welcome">
+              <ul class="nav-welcome__list">
+                <li class="nav-welcome__item"><a class="nav-welcome__link" href="works.html" title="Мои работы">Мои работы</a></li>
+                <li class="nav-welcome__item"><a class="nav-welcome__link" href="about.html" title="Обо мне">Обо мне</a></li>
+                <li class="nav-welcome__item"><a class="nav-welcome__link" href="blog.html" title="Блог">Блог</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="welcome__bottom">
+          <signature class="signature signature--welcome"> © Владимир Астахов | создано с любовью в LoftSchool | 2018 </signature>
+        </div>
+      </div>
+    </div>
+    <script src="auth.bundle.js"></script>
+  </body>
+</html>
