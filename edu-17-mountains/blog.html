@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta content="ie=edge" http-equiv="x-ua-compatible">
     <meta content="width=device-width, initial-scale=1" name="viewport">
+    <link rel="shortcut icon" href="./assets/images/welcome/fav_mount.png" type="image/png">
     <title>Portfolio | Мой блог</title>
     <link rel="stylesheet" href="main.min.css">
   </head>
@@ -17,30 +18,30 @@
                 <div class="socials socials--header"><a class="socials__link" href="http://vk.com" target="_blank">
                     <svg class="socials__img socials__img--header svg">
                       <title>ссылка на vk</title>
-                      <use xlink:href="/assets/images/icons/sprite.svg#vk"></use>
+                      <use xlink:href="./assets/images/icons/sprite.svg#vk"></use>
                     </svg><span class="visually-hidden">ссылка на vk</span></a><a class="socials__link" href="http://github.com" target="_blank">
                     <svg class="socials__img socials__img--header svg">
                       <title>ссылка на github</title>
-                      <use xlink:href="/assets/images/icons/sprite.svg#github"></use>
+                      <use xlink:href="./assets/images/icons/sprite.svg#github"></use>
                     </svg><span class="visually-hidden">ссылка на github</span></a><a class="socials__link" href="http://linkedin.com" target="_blank">
                     <svg class="socials__img socials__img--header svg">
                       <title>ссылка на in</title>
-                      <use xlink:href="/assets/images/icons/sprite.svg#in"></use>
+                      <use xlink:href="./assets/images/icons/sprite.svg#in"></use>
                     </svg><span class="visually-hidden">ссылка на in</span></a>
                 </div>
               </div>
               <div class="header__top-right">
-                <button class="btn-hamburger">
-                  <svg class="hamburger  svg">
-                    <title>меню</title>
-                    <use xlink:href="/assets/images/icons/sprite.svg#hamburger"></use>
-                  </svg><span class="visually-hidden">меню</span>
-                </button>
+                <div id="nav-icon3"><span></span><span></span><span></span><span></span><span class="visually-hidden">меню</span></div>
               </div>
             </div>
             <div class="header__middle"> 
               <div class="header__middle-wrap-blog"></div>
-              <div class="card card--header"><img class="card__img" src="/assets/images/photo/photo.png" alt="фото разработчика"/>
+              <div class="card card--header">
+                <picture>
+                  <source media="(min-width:1200px)" srcset="./assets/images/photo/photo-default@1.png 1x,                  ./assets/images/photo/photo-default@2.png 2x, ./assets/images/photo/photo-default@3.png 3x">
+                  <source media="(min-width:768px)" srcset="./assets/images/photo/photo-desktop@1.png 1x,                  ./assets/images/photo/photo-desktop@2.png 2x, ./assets/images/photo/photo-desktop@3.png 3x">
+                  <source media="(min-width:480px)" srcset="./assets/images/photo/photo-tablets@1.png 1x,                  ./assets/images/photo/photo-tablets@2.png 2x, ./assets/images/photo/photo-tablets@3.png 3x"><img class="card__img" alt="фото разработчика" src="./assets/images/photo/photo-phones@1.png" srcset="./assets/images/photo/photo-phones@1.png 1x,                   ./assets/images/photo/photo-phones@2.png 2x,                   ./assets/images/photo/photo-phones@3.png 3x">
+                </picture>
                 <div class="header__blog-back">
                   <h1 class="title main-title title--works">Блог</h1>
                 </div>
@@ -50,10 +51,18 @@
             <div class="header__bottom"> <a class="header__bottom-link" href="#">
                 <svg class="header__img  svg">
                   <title>вниз</title>
-                  <use xlink:href="/assets/images/icons/sprite.svg#arrow_down"></use>
+                  <use xlink:href="./assets/images/icons/sprite.svg#arrow_down"></use>
                 </svg><span class="visually-hidden">дальше</span></a></div>
           </div>
         </header>
+        <div class="overlay overlay-plus"> 
+          <ul class="overlay__list">
+            <li class="overlay__item"><a class="overlay__link" href="works.html" title="Мои работы">Мои работы</a></li>
+            <li class="overlay__item"><a class="overlay__link" href="about.html" title="Обо мне">Обо мне</a></li>
+            <li class="overlay__item"><a class="overlay__link" href="blog.html" title="Блог">Блог</a></li>
+            <li class="overlay__item"><a class="overlay__link" href="index.html" title="Авторизация">Авторизация</a></li>
+          </ul>
+        </div>
         <div class="container">
           <div class="main__top blog">
             <div class="works__triangles-wrap">
@@ -88,6 +97,7 @@
                   </header>
                   <time class="blog__time" datetime="2019-01-29 19:00">29 января 2019</time>
                   <section class="blog__section">
+                    <h3 class="visually-hidden">position: absolute</h3>
                     <p class="blog__paragraph">Вы все еще не понимаете как работает абсолютное позиционирование в CSS и теряете элементы на экране? Давайте разбираться в этой магии.</p>
                     <p class="blog__paragraph">Когда вы устанавливаете position: absolute, на первый план выходит не сам элемент, а его родительский контейнер, ведь относительно него и осуществляется позиционирование в CSS. Сложность в том, что это не всегда непосредственный родитель элемента.</p>
                   </section>
@@ -98,6 +108,7 @@
                   </header>
                   <time class="blog__time" datetime="2019-01-23 19:00">23 января 2019</time>
                   <section class="blog__section">
+                    <h3 class="visually-hidden">JavaScript-инструменты</h3>
                     <p class="blog__paragraph">JavaScript-инструменты,технологии и тенденции уходящего года: об этом и многом другом из последней версии авторитетного опроса!</p>
                     <p class="blog__paragraph">Создатели опроса The State of JavaScript опросили 20 000 JavaScript-разработчиков с целью узнать, чем они пользуются, что им нравится, и чему хотелось бы научиться. В результате получилась целая коллекция статистических и аналитических данных, которая поможет вам органично вписаться в экосистему JavaScript.</p>
                     <p class="blog__paragraph">Теперь библиотеки и другие JavaScript-инструменты не только объединяются в общие разделы (фронтенд, бэкенд и т. д.), но и каждой из них выделяется отдельная страница. Таким образом, можно убрать все лишнее и сконцентрироваться на изучении только нужных тем.</p>
@@ -109,6 +120,7 @@
                   </header>
                   <time class="blog__time" datetime="2019-01-19 19:00">19 января 2019</time>
                   <section class="blog__section">
+                    <h3 class="visually-hidden"> Создание HTML-формы</h3>
                     <p class="blog__paragraph">Создание HTML-формы – неотъемлемая часть сайта и важный навык веб-разработчиков. Используйте это руководство для изучения элементов HTML-форм.</p>
                     <p class="blog__paragraph">HTML-формы требуются для сбора данных от посетителей сайта. Например, при регистрации на Uber, Netflix или Facebook пользователь вводит свое имя, почту и пароль.</p>
                   </section>
@@ -119,6 +131,7 @@
                   </header>
                   <time class="blog__time" datetime="2019-01-10 19:00">10 января 2019</time>
                   <section class="blog__section">
+                    <h3 class="visually-hidden">Объяснение азов </h3>
                     <p class="blog__paragraph">Объяснение азов функционального программирования на простых примерах для создания лаконичного и легко поддерживаемого кода.</p>
                     <p class="blog__paragraph">В последние годы отмечается еще большее разграничение между традиционным и функциональным программированием в JavaScript. Суть его не в превосходстве одного над другим, а в личных предпочтениях.</p>
                     <p class="blog__paragraph">Конечно же, с функциональным программированием вам придется пересмотреть свое видение кода. Данная концепция активно используется разработчиками в проектах, для которых эффективность и надежность кода стоят на первом месте.</p>
@@ -148,17 +161,17 @@
                   <div class="socials__footer-wrap"><a class="socials__link socials__link--footer" href="http://vk.com" target="_blank">
                       <svg class="socials__img socials__img--footer svg">
                         <title>ссылка на vk</title>
-                        <use xlink:href="/assets/images/icons/sprite.svg#vk"></use>
+                        <use xlink:href="./assets/images/icons/sprite.svg#vk"></use>
                       </svg><span class="visually-hidden">ссылка на vk</span></a></div>
                   <div class="socials__footer-wrap"><a class="socials__link socials__link--footer" href="http://github.com" target="_blank">
                       <svg class="socials__img socials__img--footer svg">
                         <title>ссылка на github</title>
-                        <use xlink:href="/assets/images/icons/sprite.svg#github"></use>
+                        <use xlink:href="./assets/images/icons/sprite.svg#github"></use>
                       </svg><span class="visually-hidden">ссылка на github</span></a></div>
                   <div class="socials__footer-wrap"><a class="socials__link socials__link--footer" href="http://linkedin.com" target="_blank">
                       <svg class="socials__img socials__img--footer svg">
                         <title>ссылка на in</title>
-                        <use xlink:href="/assets/images/icons/sprite.svg#in"></use>
+                        <use xlink:href="./assets/images/icons/sprite.svg#in"></use>
                       </svg><span class="visually-hidden">ссылка на in</span></a></div>
                 </div>
               </div>

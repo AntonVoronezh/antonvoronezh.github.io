@@ -4,10 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./assets/images/welcome/fav_mount.png" type="image/png">
     <title>Portfolio | welcome page</title>
     <link rel="stylesheet" href="main.min.css">
   </head>
   <body>
+    <div class="parallax"> 
+      <div class="parallax__layer"><img class="parallax__img parallax__img--back" src="./assets/images/parallax/Layer_5.png" alt="">
+      </div>
+      <div class="parallax__layer"><img class="parallax__img" src="./assets/images/parallax/Layer_8.png" alt="">
+      </div>
+      <div class="parallax__layer"><img class="parallax__img" src="./assets/images/parallax/Layer_7.png" alt="">
+      </div>
+      <div class="parallax__layer"><img class="parallax__img parallax__img--cloud4" src="./assets/images/parallax/cloud_PNG4.png" alt="">
+      </div>
+      <div class="parallax__layer"><img class="parallax__img" src="./assets/images/parallax/Layer_6.png" alt="">
+      </div>
+      <div class="parallax__layer"><img class="parallax__img" src="./assets/images/parallax/Layer_4.png" alt="">
+      </div>
+      <div class="parallax__layer"><img class="parallax__img parallax__img--sky" src="./assets/images/parallax/sky.png" alt="">
+      </div>
+      <div class="parallax__layer"><img class="parallax__img" src="./assets/images/parallax/Layer_2.png" alt="">
+      </div>
+      <div class="parallax__layer"><img class="parallax__img" src="./assets/images/parallax/Layer_1.png" alt="">
+      </div>
+      <div class="parallax__layer"><img class="parallax__img parallax__img--cloud5" src="./assets/images/parallax/cloud_PNG5.png" alt="">
+      </div>
+    </div>
     <div class="welcome-wrap"> 
       <div class="container">
         <div class="welcome">
@@ -16,36 +39,101 @@
           </div>
           <div class="welcome__center"> 
             <h1 class="visually-hidden">Личный сайт разработчика</h1>
-            <div class="welcome__center-wrap">
-              <div class="card card--welcome"><img class="card__img" src="/assets/images/photo/photo.png" alt="фото разработчика"/>
-                <div class="card__name">Владимир Астахов</div>
-                <div class="card__desc">Личный сайт веб разработчика</div>
+            <div class="flip-container">
+              <div class="flipper">
+                <div class="front">
+                  <div class="welcome__center-wrap">
+                    <div class="card card--welcome">
+                      <picture>
+                        <source media="(min-width:1200px)" srcset="./assets/images/photo/photo-default@1.png 1x,        ./assets/images/photo/photo-default@2.png 2x, ./assets/images/photo/photo-default@3.png 3x">
+                        <source media="(min-width:768px)" srcset="./assets/images/photo/photo-desktop@1.png 1x,        ./assets/images/photo/photo-desktop@2.png 2x, ./assets/images/photo/photo-desktop@3.png 3x">
+                        <source media="(min-width:480px)" srcset="./assets/images/photo/photo-tablets@1.png 1x,        ./assets/images/photo/photo-tablets@2.png 2x, ./assets/images/photo/photo-tablets@3.png 3x"><img class="card__img" alt="фото разработчика" src="./assets/images/photo/photo-phones@1.png" srcset="./assets/images/photo/photo-phones@1.png 1x,         ./assets/images/photo/photo-phones@2.png 2x,         ./assets/images/photo/photo-phones@3.png 3x">
+                      </picture>
+                      <div class="card__name">Владимир Астахов</div>
+                      <div class="card__desc">Личный сайт веб разработчика</div>
+                    </div>
+                    <div class="socials socials--welcome"><a class="socials__link" href="http://vk.com" target="_blank">
+                                          <svg class="socials__img socials__img--welcome svg">
+                                            <title>ссылка на vk</title>
+                                            <use xlink:href="./assets/images/icons/sprite.svg#vk"></use>
+                                          </svg><span class="visually-hidden">ссылка на vk</span></a><a class="socials__link" href="http://github.com" target="_blank">
+                                          <svg class="socials__img socials__img--welcome svg">
+                                            <title>ссылка на github</title>
+                                            <use xlink:href="./assets/images/icons/sprite.svg#github"></use>
+                                          </svg><span class="visually-hidden">ссылка на github</span></a><a class="socials__link" href="http://linkedin.com" target="_blank">
+                                          <svg class="socials__img socials__img--welcome svg">
+                                            <title>ссылка на in</title>
+                                            <use xlink:href="./assets/images/icons/sprite.svg#in"></use>
+                                          </svg><span class="visually-hidden">ссылка на in</span></a>
+                    </div>
+                    <nav class="nav nav-welcome">
+                      <ul class="nav-welcome__list">
+                        <li class="nav-welcome__item"><a class="nav-welcome__link" href="works.html" title="Мои работы">Мои работы</a></li>
+                        <li class="nav-welcome__item"><a class="nav-welcome__link" href="about.html" title="Обо мне">Обо мне</a></li>
+                        <li class="nav-welcome__item"><a class="nav-welcome__link" href="blog.html" title="Блог">Блог</a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+                <div class="back">
+                  <div class="welcome__center-wrap welcome__center-wrap--back">
+                    <h2 class="title second-title second-title--back">Авторизуйтесь</h2>
+                    <form class="card-back">
+                      <div class="card-back__input">
+                        <div class="card-back__input-wrap">
+                          <div class="card-back__img-wrap">
+                                              <svg class="card-back__img svg">
+                                                <title>Логин</title>
+                                                <use xlink:href="./assets/images/icons/sprite.svg#login"></use>
+                                              </svg>
+                          </div>
+                        </div>
+                        <input class="card-back__login" type="text" name="login" placeholder="Логин" required>
+                      </div>
+                      <div class="card-back__input">
+                        <div class="card-back__input-wrap">
+                          <div class="card-back__img-wrap">
+                                              <svg class="card-back__img svg">
+                                                <title>Логин</title>
+                                                <use xlink:href="./assets/images/icons/sprite.svg#password"></use>
+                                              </svg>
+                          </div>
+                        </div>
+                        <input class="card-back__pass" type="password" name="pass" placeholder="Пароль" required>
+                      </div>
+                      <fieldset class="card-back__check">
+                        <legend class="card-back__check-legend">
+                          <div class="visually-hidden">Проверка №1</div>
+                        </legend>
+                        <label class="card-back__check-label">
+                          <input class="checkbox" type="checkbox" name="checkbox-test"><span class="checkbox-custom"></span><span class="label">Я человек</span>
+                        </label>
+                      </fieldset>
+                      <fieldset class="card-back__check">
+                        <legend class="card-back__check-legend">Вы точно не робот?
+                          <div class="visually-hidden">Проверка №2</div>
+                        </legend>
+                        <div class="card-back__check-bottom">   
+                          <label class="card-back__check-label">
+                            <input class="radio" type="radio" name="radio-test"><span class="radio-custom"></span><span class="label">Да   </span>
+                          </label>
+                          <label class="card-back__check-label">
+                            <input class="radio" type="radio" name="radio-test"><span class="radio-custom"></span><span class="label">Не уверен </span>
+                          </label>
+                        </div>
+                      </fieldset>
+                    </form>
+                    <div class="card-back__btn-wrap"> 
+                      <button class="btn btn-card btn-card--back">На главную</button>
+                      <button class="btn btn-card btn-card--login">Войти                    </button>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="socials socials--welcome"><a class="socials__link" href="http://vk.com" target="_blank">
-                  <svg class="socials__img socials__img--welcome svg">
-                    <title>ссылка на vk</title>
-                    <use xlink:href="/assets/images/icons/sprite.svg#vk"></use>
-                  </svg><span class="visually-hidden">ссылка на vk</span></a><a class="socials__link" href="http://github.com" target="_blank">
-                  <svg class="socials__img socials__img--welcome svg">
-                    <title>ссылка на github</title>
-                    <use xlink:href="/assets/images/icons/sprite.svg#github"></use>
-                  </svg><span class="visually-hidden">ссылка на github</span></a><a class="socials__link" href="http://linkedin.com" target="_blank">
-                  <svg class="socials__img socials__img--welcome svg">
-                    <title>ссылка на in</title>
-                    <use xlink:href="/assets/images/icons/sprite.svg#in"></use>
-                  </svg><span class="visually-hidden">ссылка на in</span></a>
-              </div>
-              <nav class="nav nav-welcome">
-                <ul class="nav-welcome__list">
-                  <li class="nav-welcome__item"><a class="nav-welcome__link" href="works.html" title="Мои работы">Мои работы</a></li>
-                  <li class="nav-welcome__item"><a class="nav-welcome__link" href="about.html" title="Обо мне">Обо мне</a></li>
-                  <li class="nav-welcome__item"><a class="nav-welcome__link" href="blog.html" title="Блог">Блог</a></li>
-                </ul>
-              </nav>
             </div>
           </div>
           <div class="welcome__bottom">
-            <signature class="signature signature--welcome"> © Владимир Астахов | создано с любовью в LoftSchool | 2018 </signature>
+            <signature class="signature signature--welcome"> <span>© Владимир Астахов |  </span><span>создано с любовью в LoftSchool | 2018 </span></signature>
           </div>
         </div>
       </div>
