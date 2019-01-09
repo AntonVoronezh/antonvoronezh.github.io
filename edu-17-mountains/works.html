@@ -31,7 +31,7 @@
                 </div>
               </div>
               <div class="header__top-right">
-                <div id="nav-icon3"><span></span><span></span><span></span><span></span><span class="visually-hidden">меню</span></div>
+                <button id="nav-icon3"><span></span><span></span><span></span><span></span><span class="visually-hidden">меню</span></button>
               </div>
             </div>
             <div class="header__middle"> 
@@ -205,12 +205,38 @@
                 <p class="text text--footer">Я веб-разработчик из Новосибирска, и этот сайт я сделал в рамках обучения в Школе онлайн образования LoftSchool. </p>
               </div>
               <div class="footer__bottom-right">
-                <signature class="signature signature--footer"> © Владимир Астахов | создано с любовью в LoftSchool | 2018 </signature>
+                <div class="signature signature--footer"> © Владимир Астахов | создано с любовью в LoftSchool | 2018 </div>
               </div>
             </div>
           </div>
         </div>
       </footer>
+      <script type="text/x-template" id="skills-list">
+        <ul class="skills-list"> 
+          <li class="skills-list__item" v-for="skillsGroupObj in skills">
+            <skills-row :skillsGroupObj="skillsGroupObj"></skills-row>
+          </li>
+        </ul>
+      </script>
+      <script type="text/x-template" id="skills-item">
+        <div class="skills__row"> 
+          <h3 class="third-title">{{skillsGroupObj.skillsGroup}}</h3>
+          <ul class="skills">
+            <li class="skills__item" v-for="(skillPercentage, skillTitle) in skillsGroupObj.skills">
+              <skill :skillPercentage="skillPercentage" :skillTitle="skillTitle"></skill>
+            </li>
+          </ul>
+        </div>
+      </script>
+      <script type="text/x-template" id="skill">
+        <div class="skill"> 
+          <svg class="skill__figure" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <circle class="skill__circle skill__circle_under" cx="50" cy="50" r="40"></circle>
+            <circle class="skill__circle skill__circle_above" cx="50" cy="50" r="40" ref="circle"></circle>
+          </svg>
+          <div class="skill__title">   {{skillTitle}}</div>
+        </div>
+      </script>
     </div>
     <script src="bootloader.bundle.js"></script>
     <script src="vendor.bundle.js"></script>

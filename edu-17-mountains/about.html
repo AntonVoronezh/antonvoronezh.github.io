@@ -31,7 +31,7 @@
                 </div>
               </div>
               <div class="header__top-right">
-                <div id="nav-icon3"><span></span><span></span><span></span><span></span><span class="visually-hidden">меню</span></div>
+                <button id="nav-icon3"><span></span><span></span><span></span><span></span><span class="visually-hidden">меню</span></button>
               </div>
             </div>
             <div class="header__middle"> 
@@ -104,91 +104,7 @@
                   <div class="about__wrap about__wrap--right"> 
                     <h2 class="title second-title">Чем я могу быть вам полезен</h2>
                     <p class="text about__content">Больше всего меня привлекет Frontend разработка, но я также знаком и могу решать не сложные задачи на Backend. Но давайте по порядку.</p>
-                    <section class="skills">
-                      <h3 class="third-title">Frontend</h3>
-                      <div class="skills-wrap">
-                        <div class="skill"> 
-                          <svg width="120" height="120">
-                            <circle r="50" cx="60" cy="60" fill="#dfdcd5" stroke="#00bfa5" stroke-width="15" stroke-dasharray="110%"></circle>
-                            <circle r="35" cx="60" cy="60" fill="#eeebdf" stroke="#00bfa5" stroke-width="0"></circle>
-                          </svg>
-                          <div class="skill__text">HTML5</div>
-                        </div>
-                        <div class="skill"> 
-                          <svg width="120" height="120">
-                            <circle r="50" cx="60" cy="60" fill="#dfdcd5" stroke="#00bfa5" stroke-width="15" stroke-dasharray="110%"></circle>
-                            <circle r="35" cx="60" cy="60" fill="#eeebdf" stroke="#00bfa5" stroke-width="0"></circle>
-                          </svg>
-                          <div class="skill__text">CSS3</div>
-                        </div>
-                        <div class="skill"> 
-                          <svg width="120" height="120">
-                            <circle r="50" cx="60" cy="60" fill="#dfdcd5" stroke="#00bfa5" stroke-width="15" stroke-dasharray="110%"></circle>
-                            <circle r="35" cx="60" cy="60" fill="#eeebdf" stroke="#00bfa5" stroke-width="0"></circle>
-                          </svg>
-                          <div class="skill__text">JavaScript &amp; jQuery</div>
-                        </div>
-                      </div>
-                    </section>
-                    <section class="skills">
-                      <h3 class="third-title">Backend</h3>
-                      <div class="skills-wrap">
-                        <div class="skill"> 
-                          <svg width="120" height="120">
-                            <circle r="50" cx="60" cy="60" fill="#dfdcd5" stroke="#00bfa5" stroke-width="15" stroke-dasharray="110%"></circle>
-                            <circle r="35" cx="60" cy="60" fill="#eeebdf" stroke="#00bfa5" stroke-width="0"></circle>
-                          </svg>
-                          <div class="skill__text">PHP</div>
-                        </div>
-                        <div class="skill"> 
-                          <svg width="120" height="120">
-                            <circle r="50" cx="60" cy="60" fill="#dfdcd5" stroke="#00bfa5" stroke-width="15" stroke-dasharray="110%"></circle>
-                            <circle r="35" cx="60" cy="60" fill="#eeebdf" stroke="#00bfa5" stroke-width="0"></circle>
-                          </svg>
-                          <div class="skill__text">mySQL</div>
-                        </div>
-                        <div class="skill"> 
-                          <svg width="120" height="120">
-                            <circle r="50" cx="60" cy="60" fill="#dfdcd5" stroke="#00bfa5" stroke-width="15" stroke-dasharray="110%"></circle>
-                            <circle r="35" cx="60" cy="60" fill="#eeebdf" stroke="#00bfa5" stroke-width="0"></circle>
-                          </svg>
-                          <div class="skill__text">Node.js &amp; npm</div>
-                        </div>
-                        <div class="skill"> 
-                          <svg width="120" height="120">
-                            <circle r="50" cx="60" cy="60" fill="#dfdcd5" stroke="#00bfa5" stroke-width="15" stroke-dasharray="110%"></circle>
-                            <circle r="35" cx="60" cy="60" fill="#eeebdf" stroke="#00bfa5" stroke-width="0"></circle>
-                          </svg>
-                          <div class="skill__text">Mongo.db</div>
-                        </div>
-                      </div>
-                    </section>
-                    <section class="skills">
-                      <h3 class="third-title">WorkFlow</h3>
-                      <div class="skills-wrap">
-                        <div class="skill"> 
-                          <svg width="120" height="120">
-                            <circle r="50" cx="60" cy="60" fill="#dfdcd5" stroke="#00bfa5" stroke-width="15" stroke-dasharray="110%"></circle>
-                            <circle r="35" cx="60" cy="60" fill="#eeebdf" stroke="#00bfa5" stroke-width="0"></circle>
-                          </svg>
-                          <div class="skill__text">Git</div>
-                        </div>
-                        <div class="skill"> 
-                          <svg width="120" height="120">
-                            <circle r="50" cx="60" cy="60" fill="#dfdcd5" stroke="#00bfa5" stroke-width="15" stroke-dasharray="110%"></circle>
-                            <circle r="35" cx="60" cy="60" fill="#eeebdf" stroke="#00bfa5" stroke-width="0"></circle>
-                          </svg>
-                          <div class="skill__text">Gulp</div>
-                        </div>
-                        <div class="skill"> 
-                          <svg width="120" height="120">
-                            <circle r="50" cx="60" cy="60" fill="#dfdcd5" stroke="#00bfa5" stroke-width="15" stroke-dasharray="110%"></circle>
-                            <circle r="35" cx="60" cy="60" fill="#eeebdf" stroke="#00bfa5" stroke-width="0"></circle>
-                          </svg>
-                          <div class="skill__text">Bower</div>
-                        </div>
-                      </div>
-                    </section>
+                    <div id="skills-component"></div>
                   </div>
                 </div>
               </div>
@@ -266,12 +182,38 @@
                 <p class="text text--footer">Я веб-разработчик из Новосибирска, и этот сайт я сделал в рамках обучения в Школе онлайн образования LoftSchool. </p>
               </div>
               <div class="footer__bottom-right">
-                <signature class="signature signature--footer"> © Владимир Астахов | создано с любовью в LoftSchool | 2018 </signature>
+                <div class="signature signature--footer"> © Владимир Астахов | создано с любовью в LoftSchool | 2018 </div>
               </div>
             </div>
           </div>
         </div>
       </footer>
+      <script type="text/x-template" id="skills-list">
+        <ul class="skills-list"> 
+          <li class="skills-list__item" v-for="skillsGroupObj in skills">
+            <skills-row :skillsGroupObj="skillsGroupObj"></skills-row>
+          </li>
+        </ul>
+      </script>
+      <script type="text/x-template" id="skills-item">
+        <div class="skills__row"> 
+          <h3 class="third-title">{{skillsGroupObj.skillsGroup}}</h3>
+          <ul class="skills">
+            <li class="skills__item" v-for="(skillPercentage, skillTitle) in skillsGroupObj.skills">
+              <skill :skillPercentage="skillPercentage" :skillTitle="skillTitle"></skill>
+            </li>
+          </ul>
+        </div>
+      </script>
+      <script type="text/x-template" id="skill">
+        <div class="skill"> 
+          <svg class="skill__figure" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <circle class="skill__circle skill__circle_under" cx="50" cy="50" r="40"></circle>
+            <circle class="skill__circle skill__circle_above" cx="50" cy="50" r="40" ref="circle"></circle>
+          </svg>
+          <div class="skill__title">   {{skillTitle}}</div>
+        </div>
+      </script>
     </div>
     <script src="bootloader.bundle.js"></script>
     <script src="vendor.bundle.js"></script>
