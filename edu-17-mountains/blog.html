@@ -11,6 +11,15 @@
   <body>
     <div class="wrapper">
       <div class="maincontent">
+        <div class="preloader"> 
+          <div class="preloader__container"><span class="preloader__progress"></span>
+            <svg class="preloader__img" x="0px" y="0px" width="144px" height="144px" viewBox="0 0 144 144" enable-background="new 0 0 144 144" xml:space="preserve">
+              <circle class="preloader__circle preloader__circle--one" opacity="0.4" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" enable-background="new" cx="72" cy="71.999" r="70"></circle>
+              <circle class="preloader__circle preloader__circle--two" opacity="0.7" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" enable-background="new" cx="72" cy="72" r="55"></circle>
+              <circle class="preloader__circle preloader__circle--three" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="72" cy="72" r="40"></circle>
+            </svg>
+          </div>
+        </div>
         <header class="header header-wrap">
           <div class="container">
             <div class="header__top"> 
@@ -63,37 +72,37 @@
             <li class="overlay__item"><a class="overlay__link" href="index.html" title="Авторизация">Авторизация</a></li>
           </ul>
         </div>
-        <div class="container">
-          <div class="main__top blog">
-            <div class="works__triangles-wrap">
-              <div class="works__left"> 
-                <div class="works__triangles">
-                  <svg class="triangle" fill="#ffffff" viewbox="0 0 900 150" preserveAspectRatio="none">
-                    <polygon points="0,0 0,150 900,150"></polygon>
-                  </svg>
-                </div>
-              </div>
-              <div class="works__right"> 
-                <div class="works__triangles">
-                  <svg class="triangle" fill="#ffffff" viewbox="0 0 900 150" preserveAspectRatio="none">
-                    <polygon points="0,150 900,150 900,0"></polygon>
-                  </svg>
-                </div>
+        <div class="main__top blog">
+          <div class="works__triangles-wrap">
+            <div class="works__left"> 
+              <div class="works__triangles">
+                <svg class="triangle" fill="#ffffff" viewbox="0 0 900 150" preserveAspectRatio="none">
+                  <polygon points="0,0 0,150 900,150"></polygon>
+                </svg>
               </div>
             </div>
+            <div class="works__right"> 
+              <div class="works__triangles">
+                <svg class="triangle" fill="#ffffff" viewbox="0 0 900 150" preserveAspectRatio="none">
+                  <polygon points="0,150 900,150 900,0"></polygon>
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="container">
             <div class="blog__wrap">
               <aside class="blog__aside">
                 <button class="blog__aside-circle"></button>
                 <ul class="blog__list">
-                  <li class="blog__item blog__item--active"> <a class="blog__link blog__link--active" href="blog.html#0">Абсолютное позиционирование в CSS: понять раз и навсегда</a></li>
-                  <li class="blog__item"><a class="blog__link" href="blog.html#1">Лучшие JavaScript-инструменты и тенденции за 2018 год</a></li>
-                  <li class="blog__item"><a class="blog__link" href="blog.html#2">Полное руководство по элементам HTML-формы</a></li>
-                  <li class="blog__item"><a class="blog__link" href="blog.html#3">Основы функционального программирования в JavaScript</a></li>
+                  <li class="blog__item blog__item--active"> <a class="blog__link blog__link--active" href="#id0">Абсолютное позиционирование в CSS: понять раз и навсегда</a></li>
+                  <li class="blog__item"><a class="blog__link" href="#id1">Лучшие JavaScript-инструменты и тенденции за 2018 год</a></li>
+                  <li class="blog__item"><a class="blog__link" href="#id2">Полное руководство по элементам HTML-формы</a></li>
+                  <li class="blog__item"><a class="blog__link" href="#id3">Основы функционального программирования в JavaScript</a></li>
                 </ul>
               </aside>
               <main class="blog__main">
                 <article class="blog__article"> 
-                  <header class="blog__header">
+                  <header class="blog__header" id="id0">
                     <h2 class="second-title second-title--blog">Абсолютное позиционирование в CSS: понять раз и навсегда</h2>
                   </header>
                   <time class="blog__time" datetime="2019-01-29 19:00">29 января 2019</time>
@@ -104,7 +113,7 @@
                   </section>
                 </article>
                 <article class="blog__article"> 
-                  <header class="blog__header">
+                  <header class="blog__header" id="id1">
                     <h2 class="second-title second-title--blog">Лучшие JavaScript-инструменты и тенденции за 2018 год</h2>
                   </header>
                   <time class="blog__time" datetime="2019-01-23 19:00">23 января 2019</time>
@@ -116,18 +125,18 @@
                   </section>
                 </article>
                 <article class="blog__article"> 
-                  <header class="blog__header">
+                  <header class="blog__header" id="id2">
                     <h2 class="second-title second-title--blog">Полное руководство по элементам HTML-формы</h2>
                   </header>
                   <time class="blog__time" datetime="2019-01-19 19:00">19 января 2019</time>
                   <section class="blog__section">
                     <h3 class="visually-hidden"> Создание HTML-формы</h3>
-                    <p class="blog__paragraph">Создание HTML-формы – неотъемлемая часть сайта и важный навык веб-разработчиков. Используйте это руководство для изучения элементов HTML-форм.</p>
+                    <p class="blog__paragraph">Создание HTML формы – неотъемлемая часть сайта и важный навык веб-разработчиков. Используйте это руководство для изучения элементов HTML-форм.</p>
                     <p class="blog__paragraph">HTML-формы требуются для сбора данных от посетителей сайта. Например, при регистрации на Uber, Netflix или Facebook пользователь вводит свое имя, почту и пароль.</p>
                   </section>
                 </article>
                 <article class="blog__article"> 
-                  <header class="blog__header">
+                  <header class="blog__header" id="id3">
                     <h2 class="second-title second-title--blog">Основы функционального программирования в JavaScript</h2>
                   </header>
                   <time class="blog__time" datetime="2019-01-10 19:00">10 января 2019</time>
@@ -136,6 +145,8 @@
                     <p class="blog__paragraph">Объяснение азов функционального программирования на простых примерах для создания лаконичного и легко поддерживаемого кода.</p>
                     <p class="blog__paragraph">В последние годы отмечается еще большее разграничение между традиционным и функциональным программированием в JavaScript. Суть его не в превосходстве одного над другим, а в личных предпочтениях.</p>
                     <p class="blog__paragraph">Конечно же, с функциональным программированием вам придется пересмотреть свое видение кода. Данная концепция активно используется разработчиками в проектах, для которых эффективность и надежность кода стоят на первом месте.</p>
+                    <p class="blog__paragraph">Конечно же, с функциональным программированием вам придется пересмотреть свое видение кода. Данная концепция активно используется разработчиками в проектах, для которых эффективность и надежность кода стоят на первом месте.</p>
+                    <p class="blog__paragraph">В последние годы отмечается еще большее разграничение между традиционным и функциональным программированием в JavaScript. Суть его не в превосходстве одного над другим, а в личных предпочтениях.</p>
                   </section>
                 </article>
               </main>
@@ -153,7 +164,7 @@
                     <li class="nav-footer__item"><a class="nav-footer__link" href="works.html" title="Мои работы">Мои работы</a></li>
                     <li class="nav-footer__item"><a class="nav-footer__link" href="about.html" title="Обо мне">Обо мне</a></li>
                     <li class="nav-footer__item"><a class="nav-footer__link" href="blog.html" title="Блог">Блог</a></li>
-                    <li class="nav-footer__item"><a class="nav-footer__link" href="login.html" title="Авторизация">Авторизация</a></li>
+                    <li class="nav-footer__item"><a class="nav-footer__link" href="index.html" title="Авторизация">Авторизация</a></li>
                   </ul>
                 </nav>
               </div>
@@ -212,6 +223,45 @@
             <circle class="skill__circle skill__circle_above" cx="50" cy="50" r="40" ref="circle"></circle>
           </svg>
           <div class="skill__title">   {{skillTitle}}</div>
+        </div>
+      </script>
+      <script type="text/x-template" id="slider-root">
+        <div class="slider">
+          <info :work="currentWork"></info>
+          <display :work="currentWork"></display>
+          <btns @slide="handleSlide" :works="works" :currentIndex="currentIndex"></btns>
+        </div>
+      </script>
+      <script type="text/x-template" id="slider-info">
+        <div class="slider__info-container">
+          <div class="slider__info">
+            <div class="slider__info-title">
+              <div class="title second-title">{{work.title}}</div>
+              <div class="works__item-text">{{work.skills}}</div>
+              <div class="btn-works-item"> <a class="works__item-link" :href="work.link" target="_blank">
+                  <svg class="works__button-icon svg">
+                    <title>ссылка на undefined</title>
+                    <use xlink:href="./assets/images/icons/sprite.svg#link"></use>
+                  </svg>Посмотреть сайт  </a></div>
+            </div>
+          </div>
+        </div>
+      </script>
+      <script type="text/x-template" id="slider-display">
+        <div class="slider__display"><img class="slider__big-pic" :src="work.photo" alt=""></div>
+      </script>
+      <script type="text/x-template" id="slider-btns">
+        <div class="slider__buttons">
+          <div class="slider__button" @click="slide('prev')">
+            <div class="slider__button-container">
+              <div class="slider__button-img-wrap"><img class="slider__button-pic" :src="prevButtonWorks[currentIndex].photo" alt=""></div>
+            </div>
+          </div>
+          <div class="slider__button slider__button_next" @click="slide('next')">
+            <div class="slider__button-container">
+              <div class="slider__button-img-wrap" :key=""><img class="slider__button-pic" :src="nextButtonWorks[currentIndex].photo" alt=""></div>
+            </div>
+          </div>
         </div>
       </script>
     </div>

@@ -9,6 +9,15 @@
     <link rel="stylesheet" href="main.min.css">
   </head>
   <body>
+    <div class="preloader"> 
+      <div class="preloader__container"><span class="preloader__progress"></span>
+        <svg class="preloader__img" x="0px" y="0px" width="144px" height="144px" viewBox="0 0 144 144" enable-background="new 0 0 144 144" xml:space="preserve">
+          <circle class="preloader__circle preloader__circle--one" opacity="0.4" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" enable-background="new" cx="72" cy="71.999" r="70"></circle>
+          <circle class="preloader__circle preloader__circle--two" opacity="0.7" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" enable-background="new" cx="72" cy="72" r="55"></circle>
+          <circle class="preloader__circle preloader__circle--three" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="72" cy="72" r="40"></circle>
+        </svg>
+      </div>
+    </div>
     <div class="parallax"> 
       <div class="parallax__layer"><img class="parallax__img parallax__img--back" src="./assets/images/parallax/Layer_5.png" alt="">
       </div>
@@ -78,55 +87,57 @@
                 <div class="back">
                   <div class="welcome__center-wrap welcome__center-wrap--back">
                     <h2 class="title second-title second-title--back">Авторизуйтесь</h2>
-                    <form class="card-back">
-                      <div class="card-back__input">
-                        <div class="card-back__input-wrap">
-                          <div class="card-back__img-wrap">
-                                              <svg class="card-back__img svg">
-                                                <title>Логин</title>
-                                                <use xlink:href="./assets/images/icons/sprite.svg#login"></use>
-                                              </svg>
+                    <form class="card-back" action="server.php" method="POST" autocomplete>
+                      <div class="card-back__top">
+                        <div class="card-back__input">
+                          <div class="card-back__input-wrap">
+                            <div class="card-back__img-wrap">
+                                                <svg class="card-back__img svg">
+                                                  <title>Логин</title>
+                                                  <use xlink:href="./assets/images/icons/sprite.svg#login"></use>
+                                                </svg>
+                            </div>
                           </div>
+                          <input class="card-back__login" type="text" name="login" placeholder="Логин" required="" minlength="3" maxlength="10"><span class="form__error">Это поле должно содержать никнейм пользователя от 3 до 10 символов</span>
                         </div>
-                        <input class="card-back__login" type="text" name="login" placeholder="Логин" required>
-                      </div>
-                      <div class="card-back__input">
-                        <div class="card-back__input-wrap">
-                          <div class="card-back__img-wrap">
-                                              <svg class="card-back__img svg">
-                                                <title>Логин</title>
-                                                <use xlink:href="./assets/images/icons/sprite.svg#password"></use>
-                                              </svg>
+                        <div class="card-back__input">
+                          <div class="card-back__input-wrap">
+                            <div class="card-back__img-wrap">
+                                                <svg class="card-back__img svg">
+                                                  <title>Логин</title>
+                                                  <use xlink:href="./assets/images/icons/sprite.svg#password"></use>
+                                                </svg>
+                            </div>
                           </div>
+                          <input class="card-back__pass" type="password" name="pass" placeholder="Пароль" required="" minlength="3" maxlength="10"><span class="form__error">Это поле должно содержать пароль пользователя от 3 до 10 символов</span>
                         </div>
-                        <input class="card-back__pass" type="password" name="pass" placeholder="Пароль" required>
+                        <fieldset class="card-back__check">
+                          <legend class="card-back__check-legend">
+                            <div class="visually-hidden">Проверка №1</div>
+                          </legend>
+                          <label class="card-back__check-label">
+                            <input class="checkbox" type="checkbox" name="checkbox-test"><span class="checkbox-custom"></span><span class="label">Я человек</span>
+                          </label>
+                        </fieldset>
+                        <fieldset class="card-back__check">
+                          <legend class="card-back__check-legend">Вы точно не робот?
+                            <div class="visually-hidden">Проверка №2</div>
+                          </legend>
+                          <div class="card-back__check-bottom">   
+                            <label class="card-back__check-label">
+                              <input class="radio" type="radio" name="radio-test"><span class="radio-custom"></span><span class="label">Да   </span>
+                            </label>
+                            <label class="card-back__check-label">
+                              <input class="radio" type="radio" name="radio-test"><span class="radio-custom"></span><span class="label">Не уверен </span>
+                            </label>
+                          </div>
+                        </fieldset>
                       </div>
-                      <fieldset class="card-back__check">
-                        <legend class="card-back__check-legend">
-                          <div class="visually-hidden">Проверка №1</div>
-                        </legend>
-                        <label class="card-back__check-label">
-                          <input class="checkbox" type="checkbox" name="checkbox-test"><span class="checkbox-custom"></span><span class="label">Я человек</span>
-                        </label>
-                      </fieldset>
-                      <fieldset class="card-back__check">
-                        <legend class="card-back__check-legend">Вы точно не робот?
-                          <div class="visually-hidden">Проверка №2</div>
-                        </legend>
-                        <div class="card-back__check-bottom">   
-                          <label class="card-back__check-label">
-                            <input class="radio" type="radio" name="radio-test"><span class="radio-custom"></span><span class="label">Да   </span>
-                          </label>
-                          <label class="card-back__check-label">
-                            <input class="radio" type="radio" name="radio-test"><span class="radio-custom"></span><span class="label">Не уверен </span>
-                          </label>
-                        </div>
-                      </fieldset>
+                      <div class="card-back__btn-wrap"> 
+                        <button class="btn btn-card btn-card--back">На главную</button>
+                        <button class="btn btn-card btn-card--login" type="submit">Войти                    </button>
+                      </div>
                     </form>
-                    <div class="card-back__btn-wrap"> 
-                      <button class="btn btn-card btn-card--back">На главную</button>
-                      <button class="btn btn-card btn-card--login">Войти                    </button>
-                    </div>
                   </div>
                 </div>
               </div>

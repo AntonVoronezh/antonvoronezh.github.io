@@ -11,6 +11,15 @@
   <body>
     <div class="wrapper">
       <div class="maincontent">
+        <div class="preloader"> 
+          <div class="preloader__container"><span class="preloader__progress"></span>
+            <svg class="preloader__img" x="0px" y="0px" width="144px" height="144px" viewBox="0 0 144 144" enable-background="new 0 0 144 144" xml:space="preserve">
+              <circle class="preloader__circle preloader__circle--one" opacity="0.4" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" enable-background="new" cx="72" cy="71.999" r="70"></circle>
+              <circle class="preloader__circle preloader__circle--two" opacity="0.7" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" enable-background="new" cx="72" cy="72" r="55"></circle>
+              <circle class="preloader__circle preloader__circle--three" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-miterlimit="10" cx="72" cy="72" r="40"></circle>
+            </svg>
+          </div>
+        </div>
         <header class="header header-wrap">
           <div class="container">
             <div class="header__top"> 
@@ -62,106 +71,81 @@
           </ul>
         </div>
         <main class="main">
+          <div class="main__top works">
+            <div class="works__triangles-wrap">
+              <div class="works__left"> 
+                <div class="works__triangles">
+                  <svg class="triangle" fill="#eeebdf" viewbox="0 0 900 150" preserveAspectRatio="none">
+                    <polygon points="0,0 0,150 900,150"></polygon>
+                  </svg>
+                </div>
+              </div>
+              <div class="works__right"> 
+                <div class="works__triangles">
+                  <svg class="triangle" fill="#eeebdf" viewbox="0 0 900 150" preserveAspectRatio="none">
+                    <polygon points="0,150 900,150 900,0"></polygon>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="works__header"> 
+              <div class="works__back">
+                <h1 class="title main-title title--works">Мои работы</h1>
+              </div>
+            </div>
+          </div>
           <div class="container">
-            <div class="main__top works">
-              <div class="works__triangles-wrap">
-                <div class="works__left"> 
-                  <div class="works__triangles">
-                    <svg class="triangle" fill="#eeebdf" viewbox="0 0 900 150" preserveAspectRatio="none">
-                      <polygon points="0,0 0,150 900,150"></polygon>
-                    </svg>
-                  </div>
-                </div>
-                <div class="works__right"> 
-                  <div class="works__triangles">
-                    <svg class="triangle" fill="#eeebdf" viewbox="0 0 900 150" preserveAspectRatio="none">
-                      <polygon points="0,150 900,150 900,0"></polygon>
-                    </svg>
-                  </div>
-                </div>
-              </div>
-              <div class="works__header"> 
-                <div class="works__back">
-                  <h1 class="title main-title title--works">Мои работы</h1>
-                </div>
-              </div>
-              <div class="works__wrap">
-                <div class="works__wrap-list"> 
-                  <ul class="works__list">
-                    <li class="works__item">
-                      <h2 class="title second-title">Сайт школы онлайн Образования</h2>
-                      <p class="works__item-text">HTML , CSS, JAVASCRIPT</p>
-                      <button class="btn-works-item"> 
-                        <svg class="works__button-icon svg">
-                          <title>ссылка на Сайт школы онлайн Образования</title>
-                          <use xlink:href="./assets/images/icons/sprite.svg#link"></use>
-                        </svg>Посмотреть сайт
-                      </button>
-                    </li>
-                  </ul>
-                </div>
-                <div class="works__wrap-img"> <img class="works__img" src="./assets/images/works/work-1.png" alt="фото"/>
-                </div>
-                <div class="works__wrap-zero"> </div>
-                <div class="works__wrap-control"> 
-                  <div class="works__right-block"><a class="works__right-link" href="#" title="предыдущая работа"><img class="works__img" src="./assets/images/works/work-2.png" alt="фото"/>
-                      <div class="works__right-phone"> 
-                        <svg class="works__img-svg  svg">
-                          <title>следующая работа</title>
-                          <use xlink:href="./assets/images/icons/sprite.svg#portf_arrow_down"></use>
-                        </svg><span class="visually-hidden">дальше</span>
-                      </div></a></div>
-                  <div class="works__right-block"><a class="works__right-link" href="#" title="следующая работа"><img class="works__img" src="./assets/images/works/work-3.png" alt="фото"/>
-                      <div class="works__right-phone"> 
-                        <svg class="works__img-svg  svg">
-                          <title>следующая работа</title>
-                          <use xlink:href="./assets/images/icons/sprite.svg#portf_arrow_up"></use>
-                        </svg><span class="visually-hidden">дальше</span>
-                      </div></a></div>
-                </div>
-              </div>
+            <div class="works__wrap">
+              <div id="slider-component"></div>
               <div class="works__header works__header--bottom">
                 <div class="works__back works__back--bottom">
                   <h2 class="title main-title title--works">Что обо мне говорят</h2>
                 </div>
               </div>
-            </div>
-            <div class="main__bottom comments">
-              <div class="comments__top">
-                <div class="comments__top-left"><img class="comments__commas" src="./assets/images/works/commas.png" alt="кавычки"/>
-                  <p class="comments__text">Этот парень проходил обучение веб-разработке не где-то, а в LoftSchool! 3 месяца только самых тяжелых испытаний и бессонных ночей!</p>
-                  <div class="comments__photo-sign">
-                    <div class="comments__photo"><img class="comments__img" src="./assets/images/works/review-photo-1.jpg" alt="Ковальчук Дмитрий"/>
-                    </div>
-                    <div class="comments__sign"> <span class="bold">Ковальчук Дмитрий </span><span class="normal">основатель Loftschool</span></div>
-                  </div>
-                </div>
-                <div class="comments__top-right"><img class="comments__commas" src="./assets/images/works/commas.png" alt="кавычки"/>
-                  <p class="comments__text">Этот код выдержит любые испытания. Только пожалуйста, не загружается сайт на слишком старых браузерах!
+              <div class="main__bottom comments">
+                <div class="comments__top">
+                  <div class="comments__top-left"><img class="comments__commas" src="./assets/images/works/commas.png" alt="кавычки"/>
+                    <p class="comments__text">Этот парень проходил обучение веб-разработке не где-то, а в LoftSchool! 3 месяца только самых тяжелых испытаний и бессонных ночей!</p>
                     <div class="comments__photo-sign">
-                      <div class="comments__photo"><img class="comments__img" src="./assets/images/works/review-photo-2.jpg" alt="Сабанцев Владимир"/>
+                      <div class="comments__photo"><img class="comments__img" src="./assets/images/works/review-photo-1.jpg" alt="Ковальчук Дмитрий"/>
                       </div>
-                      <div class="comments__sign"> <span class="bold">Сабанцев Владимир </span><span class="normal">преподаватель Loftschool</span></div>
+                      <div class="comments__sign"> <span class="bold">Ковальчук Дмитрий </span><span class="normal">основатель Loftschool</span></div>
                     </div>
-                  </p>
-                </div>
-              </div>
-              <div class="comments__bottom">
-                <h2 class="title second-title">Связаться со мной</h2>
-                <div class="comments__form form">
-                  <input class="form__input" type="text" name="name" placeholder="Имя">
-                  <input class="form__input" type="email" name="email" placeholder="Email">
-                  <textarea class="form__textarea" name="text" placeholder="Ваше сообщение"></textarea>
-                  <div class="form__wrap">
-                    <input class="btn-works-item form__submit" type="submit" value="Отправить">
-                    <input class="btn-works-item form__reset" type="reset" value="Очистить">
+                  </div>
+                  <div class="comments__top-right"><img class="comments__commas" src="./assets/images/works/commas.png" alt="кавычки"/>
+                    <p class="comments__text">Этот код выдержит любые испытания. Только пожалуйста, не загружается сайт на слишком старых браузерах!
+                      <div class="comments__photo-sign">
+                        <div class="comments__photo"><img class="comments__img" src="./assets/images/works/review-photo-2.jpg" alt="Сабанцев Владимир"/>
+                        </div>
+                        <div class="comments__sign"> <span class="bold">Сабанцев Владимир </span><span class="normal">преподаватель Loftschool</span></div>
+                      </div>
+                    </p>
                   </div>
                 </div>
-              </div><a class="comments__bottom-link" href="#">
-                <svg class="header__img  svg">
-                  <title>вверх</title>
-                  <use xlink:href="./assets/images/icons/sprite.svg#portf_arrow_up"></use>
-                </svg><span class="visually-hidden">дальше      </span></a>
+                <div class="comments__bottom"> 
+                  <div class="callback__bg" id="js_blur-container"><img class="callback__bg-img" src="./assets/images/works/bg.png" alt="изображение гор"/>
+                  </div>
+                  <div class="callback" id="js_blur-wrap">
+                    <div class="callback__blur" id="js_blur"></div>
+                    <div class="callback__form-wrapper">
+                      <h2 class="title second-title">Связаться со мной</h2>
+                      <form class="comments__form form" action="server.php" method="POST" autocomplete>
+                        <input class="form__input form__input-name" type="text" name="name" placeholder="Имя" required="" minlength="2" maxlength="100"><span class="form__error">Это поле должно содержать имя пользователя от 2 символов</span>
+                        <input class="form__input form__input-mail" type="email" name="email" placeholder="Email" required="" minlength="6"><span class="form__error">Это поле должно содержать Email пользователя от 6 символов</span>
+                        <textarea class="form__textarea" name="text" placeholder="Ваше сообщение" required="" minlength="5"></textarea><span class="form__error">Это поле должно содержать текст пользователя от 5 символов</span>
+                        <div class="form__wrap">
+                          <input class="btn-works-item form__submit" type="submit" value="Отправить">
+                          <input class="btn-works-item form__reset" type="reset" value="Очистить">
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div><a class="comments__bottom-link" href="#">
+                  <svg class="header__img  svg">
+                    <title>вверх</title>
+                    <use xlink:href="./assets/images/icons/sprite.svg#portf_arrow_up"></use>
+                  </svg><span class="visually-hidden">дальше </span></a>
+              </div>
             </div>
           </div>
         </main>
@@ -176,7 +160,7 @@
                     <li class="nav-footer__item"><a class="nav-footer__link" href="works.html" title="Мои работы">Мои работы</a></li>
                     <li class="nav-footer__item"><a class="nav-footer__link" href="about.html" title="Обо мне">Обо мне</a></li>
                     <li class="nav-footer__item"><a class="nav-footer__link" href="blog.html" title="Блог">Блог</a></li>
-                    <li class="nav-footer__item"><a class="nav-footer__link" href="login.html" title="Авторизация">Авторизация</a></li>
+                    <li class="nav-footer__item"><a class="nav-footer__link" href="index.html" title="Авторизация">Авторизация</a></li>
                   </ul>
                 </nav>
               </div>
@@ -235,6 +219,45 @@
             <circle class="skill__circle skill__circle_above" cx="50" cy="50" r="40" ref="circle"></circle>
           </svg>
           <div class="skill__title">   {{skillTitle}}</div>
+        </div>
+      </script>
+      <script type="text/x-template" id="slider-root">
+        <div class="slider">
+          <info :work="currentWork"></info>
+          <display :work="currentWork"></display>
+          <btns @slide="handleSlide" :works="works" :currentIndex="currentIndex"></btns>
+        </div>
+      </script>
+      <script type="text/x-template" id="slider-info">
+        <div class="slider__info-container">
+          <div class="slider__info">
+            <div class="slider__info-title">
+              <div class="title second-title">{{work.title}}</div>
+              <div class="works__item-text">{{work.skills}}</div>
+              <div class="btn-works-item"> <a class="works__item-link" :href="work.link" target="_blank">
+                  <svg class="works__button-icon svg">
+                    <title>ссылка на undefined</title>
+                    <use xlink:href="./assets/images/icons/sprite.svg#link"></use>
+                  </svg>Посмотреть сайт  </a></div>
+            </div>
+          </div>
+        </div>
+      </script>
+      <script type="text/x-template" id="slider-display">
+        <div class="slider__display"><img class="slider__big-pic" :src="work.photo" alt=""></div>
+      </script>
+      <script type="text/x-template" id="slider-btns">
+        <div class="slider__buttons">
+          <div class="slider__button" @click="slide('prev')">
+            <div class="slider__button-container">
+              <div class="slider__button-img-wrap"><img class="slider__button-pic" :src="prevButtonWorks[currentIndex].photo" alt=""></div>
+            </div>
+          </div>
+          <div class="slider__button slider__button_next" @click="slide('next')">
+            <div class="slider__button-container">
+              <div class="slider__button-img-wrap" :key=""><img class="slider__button-pic" :src="nextButtonWorks[currentIndex].photo" alt=""></div>
+            </div>
+          </div>
         </div>
       </script>
     </div>
