@@ -1,0 +1,61 @@
+.parallax {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.parallax__layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.parallax__img {
+    position: absolute;
+    bottom: -10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120%;
+}
+
+.parallax__img--back {
+    height: 130%;
+}
+
+.parallax__img--sky {
+    width: 20%;
+    bottom: 70%;
+    left: -5%;
+    animation: cloudSky 95s linear infinite;
+}
+
+.parallax__img--cloud4 {}
+
+.parallax__img--cloud5 {
+    bottom: -50%;
+    animation: cloudMove1 35s linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes cloudSky {
+    from {
+        left: -10%;
+    }
+    to {
+        left: 115%;
+    }
+}
+
+@keyframes cloudMove1 {
+    from {
+        bottom: -50%;
+    }
+    to {
+        bottom: -10%;
+    }
+}
