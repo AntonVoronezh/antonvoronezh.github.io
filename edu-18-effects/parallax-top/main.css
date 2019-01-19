@@ -1,0 +1,23 @@
+.top{
+    height: 1200px;
+    background: url('bg.jpg');
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.img {
+    width: 180px;
+    margin-left: 30px;
+}
+
+.wrap {
+    margin-top: 400px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
