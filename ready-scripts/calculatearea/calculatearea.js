@@ -13,7 +13,8 @@
             formula: (a) => a * a,
             elements: {
                 a: 'длина стороны'
-            }
+            },
+            draw: (a) => a.rect(35, 10, 80, 80)
         },
         {
             shape: 'ромб',
@@ -21,6 +22,13 @@
             elements: {
                 a: 'диагональ ромба a',
                 b: 'диагональ ромба b'
+            },
+            draw: (a) => {
+                a.moveTo(75, 90);
+                a.lineTo(130, 50);
+                a.lineTo(75, 10);
+                a.lineTo(20, 50);
+                a.closePath();
             }
         },
         {
@@ -28,7 +36,8 @@
             formula: (r) => 3.14 * (r * r),
             elements: {
                 r: 'радиус круга'
-            }
+            },
+            draw: (a) => a.arc(75, 50, 40, 0, getRadians(360))
         },
         {
             shape: 'кольцо',
@@ -36,6 +45,10 @@
             elements: {
                 R: 'внешний радиус R',
                 r: 'внутренний радиус r'
+            },
+            draw: (a) => {
+                a.arc(75, 50, 40, 0, getRadians(360));
+                a.arc(75, 50, 35, 0, getRadians(360));
             }
         },
         {
@@ -44,7 +57,8 @@
             elements: {
                 a: 'длина стороны a',
                 b: 'длина стороны b'
-            }
+            },
+            draw: (a) => a.rect(20, 10, 110, 80)
         },
         {
             shape: 'трапеция',
@@ -53,6 +67,13 @@
                 a: 'длина основания a',
                 b: 'длина основания b',
                 h: 'высота h'
+            },
+            draw: (a) => {
+                a.moveTo(20, 90);
+                a.lineTo(130, 90);
+                a.lineTo(110, 10);
+                a.lineTo(40, 10);
+                a.closePath();
             }
         },
         {
@@ -61,6 +82,13 @@
             elements: {
                 a: 'длина основания a',
                 h: 'высота h'
+            },
+            draw: (a) => {
+                a.moveTo(20, 90);
+                a.lineTo(100, 90);
+                a.lineTo(130, 10);
+                a.lineTo(50, 10);
+                a.closePath();
             }
         },
         {
@@ -69,6 +97,12 @@
             elements: {
                 a: 'длина стороны a',
                 h: 'высота h'
+            },
+            draw: (a) => {
+                a.moveTo(20, 90);
+                a.lineTo(130, 90);
+                a.lineTo(75, 10);
+                a.closePath();
             }
         },
         {
@@ -77,6 +111,12 @@
             elements: {
                 a: 'длина катета a',
                 b: 'длина катета b'
+            },
+            draw: (a) => {
+                a.moveTo(20, 90);
+                a.lineTo(130, 90);
+                a.lineTo(20, 10);
+                a.closePath();
             }
         },
         {
@@ -86,6 +126,12 @@
                 a: 'длина стороны a',
                 b: 'длина стороны b',
                 c: 'длина стороны c'
+            },
+            draw: (a) => {
+                a.moveTo(20, 90);
+                a.lineTo(130, 60);
+                a.lineTo(40, 10);
+                a.closePath();
             }
         },
 
@@ -120,15 +166,45 @@
 
     function makePage() {
 
-        const { shape, formula, elements } = geometricShapes[this.dataset.number];
+        const { shape, formula, elements, draw } = geometricShapes[this.dataset.number];
 
         clearPage();
+
+        addCanvasBlock();
+
+        makeCanvasDraw(draw);
 
         addTitle(shape);
 
         makeInputsForElements(elements);
 
         addButton(formula);
+
+        addWrap();
+
+        goIndex();
+
+    };
+
+
+    function makeCanvasDraw(argDraw) {
+
+        const elem = document.querySelector('.area__canvas');
+
+        const ctx = elem.getContext('2d');
+
+        ctx.beginPath();
+
+        argDraw(ctx);
+
+        ctx.stroke();
+
+    };
+
+
+    function getRadians(degrees) {
+
+        return (Math.PI / 180) * degrees;
 
     };
 
@@ -246,6 +322,7 @@
         button.addEventListener('click', () => {
 
             calculateArea();
+
         });
 
         const wrap = document.querySelector('.area__wrap');
@@ -317,6 +394,19 @@
         title.innerHTML = ucFirst(argStr);
 
         area.appendChild(title);
+
+    };
+
+
+    function addCanvasBlock() {
+
+        const block = createElem('div');
+
+        block.innerHTML = '<canvas class="area__canvas" width="150" height="100"></canvas>';
+
+        block.classList.add('area__canvas-wrap');
+
+        area.appendChild(block);
 
     };
 
@@ -427,6 +517,12 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+                margin-top: 10px;
+            }
+            .area__canvas-wrap {
+                width: 150px;
+                height: 100px;
+                margin-bottom: 10px;
             }
             `;
 
