@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            max-height: 100vh;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        .table {
+            position: relative;
+            border: 1px solid #000000;
+        }
+        td {
+            width: 10px;
+            height: 10px;
+            border: 1px solid #000000;
+        }
+
+        .gamer1 {
+            background-color: green;
+        }
+        .gamer2 {
+            background-color: yellow;
+        }
+
+        .win {
+            width: 400px;
+            height: 100px;
+            border: 1px solid #000000;
+            z-index: 100;
+            position: absolute;
+            top: 50%;
+            background-color: red;
+            color: white;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 27px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div id="dots" class="dots">
+    </div>
+
+
+
+<script src="dots.js"></script>
+</body>
+
+
+
+</html>
