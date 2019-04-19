@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            /* max-height: 100vh;
+            height: 100vh; */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        button {
+            margin: 10px;
+        }
+
+        .td {
+            border: 1px solid #cccccc;
+            margin: 5px;
+            padding: 5px;
+        }
+
+        .header {
+            border: 1px solid #cccccc;
+            margin: 5px;
+            padding: 10px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .preloader {
+            padding-top: 30px;
+        }
+
+        /*  */
+        .table_sort table {
+            border-collapse: collapse;
+            /* border: 1px solid #000000; */
+        }
+
+        .table_sort th {
+            color: #ffebcd;
+            background: #008b8b;
+            cursor: pointer;
+        }
+
+        .table_sort td,
+        .table_sort th {
+            width: 150px;
+            height: 30px;
+            text-align: center;
+            border: 2px solid #846868;
+        }
+
+        .table_sort tbody tr:nth-child(even) {
+            background: #e3e3e3;
+        }
+
+        th.sorted[data-order="1"],
+        th.sorted[data-order="-1"] {
+            position: relative;
+        }
+
+        th.sorted[data-order="1"]::after,
+        th.sorted[data-order="-1"]::after {
+            right: 8px;
+            position: absolute;
+        }
+
+        th.sorted[data-order="-1"]::after {
+            content: "▼"
+        }
+
+        th.sorted[data-order="1"]::after {
+            content: "▲"
+        }
+
+        .optionally {
+            margin: 0;
+        }
+        .search {
+            margin: 10px;
+            width: 80%;
+        }
+
+        .search input[type="text"] {
+            width: 80%;
+        }
+        .hide {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="search" class="search hide">
+        <input type="text" id="input">
+        <input type="submit" value="Искать">
+    </div>
+    <div id="sort" class="sort"></div>
+    <div id="preloader" class="preloader"></div>
+    <div id="optionally" class="optionally"></div>
+
+    <script src="sort.js"></script>
+
+</body>
+
+
+
+</html>
