@@ -1,8 +1,8 @@
 (function() {
 	const settings = {
 		elem: document.querySelector('#sort'),
-		bigDataPath: 'http://127.0.0.1:5500/data/big.json',
-		smallDataPath: 'http://127.0.0.1:5500/data/small.json',
+		bigDataPath: 'https://antonvoronezh.github.io/ready-scripts/liga/data/big.json',
+		smallDataPath: 'https://antonvoronezh.github.io/ready-scripts/liga/data/small.json',
 		info: ['id', 'name', 'username', 'email', 'website'],
 		infoRus: {
 			id: 'Выбран пользователь с ID: ',
