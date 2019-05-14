@@ -1,0 +1,101 @@
+[
+    {
+        "slug": "learning-javascript",
+        "title": "Learning JavaScript",
+        "author": "Ethan Brown",
+        "publisher": "O'Reilly",
+        "year": 2016,
+        "pages": 358,
+        "topic": "javascript",
+        "description": "This is an exciting time to learn JavaScript. Now that the latest JavaScript specification—ECMAScript 6.0 (ES6)—has been finalized, learning how to develop high-quality applications with this language is easier and more satisfying than ever. This practical book takes programmers (amateurs and pros alike) on a no-nonsense tour of ES6, along with some related tools and techniques. Author Ethan Brown (Web Development with Node and Express) not only guides you through simple and straightforward topics (variables, control flow, arrays), but also covers complex concepts such as functional and asynchronous programming. You’ll learn how to create powerful and responsive web applications on the client, or with Node.js on the server.",
+        "cover": "learning-javascript.jpg"
+    },
+    {
+        "slug": "secrets-of-the-javascript-ninja",
+        "title": "Secrets of the JavaScript Ninja",
+        "author": "John Resig, Bear Bibeault, Josip Maras",
+        "publisher": "Manning",
+        "year": 2016,
+        "pages": 464,
+        "topic": "javascript",
+        "description": "Secrets of the JavaScript Ninja, Second Edition uses practical examples to clearly illustrate each core concept and technique. This completely revised edition shows you how to master key JavaScript concepts such as functions, closures, objects, prototypes, and promises. It covers APIs such as the DOM, events, and timers. You’ll discover best practice techniques such as testing, and cross-browser development, all taught from the perspective of skilled JavaScript practitioners.",
+        "cover": "secrets-of-the-javascript-ninja.png"
+    },
+    {
+        "slug": "understanding-es6",
+        "title": "Understanding ECMAScript 6",
+        "author": "Nicholas C. Zakas",
+        "publisher": "O'Reilly",
+        "year": 2016,
+        "pages": 352,
+        "topic": "javascript",
+        "description": "ECMAScript 6 represents the biggest update to the core of JavaScript in the history of the language. In Understanding ECMAScript 6, expert developer Nicholas C. Zakas provides a complete guide to the object types, syntax, and other exciting changes that ECMAScript 6 brings to JavaScript. Every chapter is packed with example code that works in any JavaScript environment so you'll be able to see new features in action.",
+        "cover": "understanding-es6.png"
+    },
+    {
+        "slug": "learning-react",
+        "title": "Learning React",
+        "author": "Alex Banks, Eve Porcello",
+        "publisher": "O'Reilly",
+        "year": 2017,
+        "pages": 275,
+        "topic": "react",
+        "description": "Interested in React but find yourself confused about how to use it with the Flux architecture? This is your book. Authors Alex Banks and Eve Porcello show you how to build React applications with the entire React ecosystem—including Flux. You’ll learn about the methodologies behind the creation of the library and its related tools through short interviews with key players in the React community. Learning React is ideal for web developers and software engineers who understand how JavaScript, CSS, and HTML work in the browser, but have no prior understanding of React, functional JavaScript, Flux, or even advanced JavaScript. This book covers both ES5 or ES6 syntax commonly used with React.",
+        "cover": "learning-react.jpg"
+    },
+    {
+        "slug": "fullstack-react",
+        "title": "Fullstack React",
+        "author": "Anthony Accomazzo, Ari Lerner",
+        "publisher": "fullstack.io",
+        "year": 2016,
+        "pages": 584,
+        "topic": "react",
+        "description": "What if you could master the entire framework in less time, with solid foundations, without beating your head against the wall? Imagine how quickly you can get all of your work done with the right tools and best practices. Seriously, let's stop wasting time scouring Google, searching through incorrect, out-of-date, blog posts and get everything you need to be productive in one, well-organized place, complete with both simple and complex examples to get your app up and running. You'll learn what you need to know to work professionally and build solid, well-tested, optimized apps with ReactJS. This book is your definitive guide or your money back.",
+        "cover": "fullstack-react.png"
+    },
+    {
+        "slug": "pro-react",
+        "title": "Pro React",
+        "author": "Cassio de Sousa Antonio",
+        "publisher": "Apress",
+        "year": 2015,
+        "pages": 297,
+        "topic": "react",
+        "description": "Pro React teaches you how to successfully structure increasingly complex front-end applications and interfaces. This book explores the React library in depth, as well as detailing additional tools and libraries in the React ecosystem, enabling you to create complete, complex applications. You will learn how to use React completely, and learn best practices for creating interfaces in a composable way. You will also cover additional tools and libraries in the React ecosystem (such as React Router and Flux architecture). Each topic is covered clearly and concisely and is packed with the details you need to learn to be truly effective. The most important features are given no-nonsense, in-depth treatment, and every chapter details common problems and how to avoid them.",
+        "cover": "pro-react.png"
+    },
+    {
+        "slug": "ng-book-2",
+        "title": "ng-book 2",
+        "author": "Ari Lerner Felipe Coury",
+        "publisher": "fullstack.io",
+        "year": 2016,
+        "pages": 644,
+        "topic": "angular",
+        "description": "What if you could master the entire framework – with solid foundations – in less time without beating your head against a wall? Imagine how quickly you could work if you knew the best practices and the best tools? Stop wasting your time searching and have everything you need to be productive in one, well-organized place, with complete examples to get your project up without needing to resort to endless hours of research. You will learn what you need to know to work professionally with ng-book: The Complete Book on Angular 2 or get your money back.",
+        "cover": "ng-book-2.png"
+    },
+    {
+        "slug": "pro-angular",
+        "title": "Pro Angular",
+        "author": "Adam Freeman",
+        "publisher": "Apress",
+        "year": 2017,
+        "pages": 778,
+        "topic": "angular",
+        "description": "Get the most from Angular 2, the leading framework for building dynamic JavaScript applications. Best-selling author Adam Freeman begins by describing the MVC pattern and the benefits it can offer and then shows you how to use Angular in your projects, starting from the nuts-and-bolts and building up to the most advanced and sophisticated features, going in-depth to give you the knowledge you need. Each topic is covered clearly and concisely and is packed with the details you need to learn to be truly effective. The most important features are given a no-nonsense in-depth treatment and chapters include common problems and details of how to avoid them.",
+        "cover": "pro-angular.png"
+    },
+    {
+        "slug": "angular-in-action",
+        "title": "Angular in Action",
+        "author": "Jeremy Wilken",
+        "publisher": "Manning",
+        "year": 2017,
+        "pages": 275,
+        "topic": "angular",
+        "description": "Angular in Action teaches you modern application development with Angular. You'll begin with the basics of Angular and the technologies and techniques you'll use throughout the book, such as key features of TypeScript, newer ES6 syntax and concepts, and details about the tools needed to write professional Angular applications. Next, you'll build an Angular application from scratch. You'll learn about the primary pieces of an Angular application and see how they work together. Using lots of examples, you'll learn the core parts of Angular, such as Components, the Router, and Services. You'll also learn techniques like server-side rendering. Finally, you'll gain insight into advanced skills that should be part of any professional Angular developer's toolkit, such as testing, tooling options, and performance tuning.",
+        "cover": "angular-in-action.jpg"
+    }
+]
