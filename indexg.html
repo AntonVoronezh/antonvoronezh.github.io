@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Portfolio | welcome page</title>
+    <link rel="stylesheet" href="main.min.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">  
+        <div class="container">
+          <div class="header__wrap">
+            <div class="header__left"> 
+              <div class="header__title">Антон Глушенков</div>
+            </div>
+            <ul class="header__list">
+              <li class="header__item"><a href="https://github.com/AntonVoronezh" target="blank">
+                  <div class="header__item--github"></div></a></li>
+              <li class="header__item"><a href="https://www.linkedin.com/in/anton-glushenkov-87655016a/" target="blank">
+                  <div class="header__item--in"></div></a></li>
+              <li class="header__item"><a href="https://vk.com/topic-128796313_39822077?offset=640" target="blank">
+                  <div class="header__item--vk"> </div></a></li>
+            </ul>
+            <div class="header__right nav">
+              <ul class="nav__list">   
+                <li class="nav__list"> <a class="nav__link" onclick="smoothScrollTo(document.getElementById('portfolio').offsetTop-60)">
+                     Портфолио</a></li>
+                <li class="nav__list"> <a class="nav__link" onclick="smoothScrollTo(document.getElementById('about').offsetTop-60)">
+                      Обо мне</a></li>
+                <li class="nav__list"> <a class="nav__link" onclick="smoothScrollTo(document.getElementById('contacts').offsetTop-60)">
+                       Контакты</a></li>
+                <li class="nav__list"> <a class="nav__link" href="resume-A.Gluhenkov(frontend-developer).pdf" target="blank">
+                       Скачать резюме</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="container">
+          <section class="main__top top">
+            <div class="top__img-wrap"><img class="top__img" src="../../assets/images/photo/photo.jpg" alt=""></div>
+            <div class="top__wrap">
+              <div class="top__title">Фронтенд разработчик</div>
+              <div class="top__text"> 
+                <ul class="top__list">
+                  <li class="top__item">HTML5</li>
+                  <li class="top__item">CSS3</li>
+                  <li class="top__item">JavaScript</li>
+                  <li class="top__item">Git</li>
+                  <li class="top__item">Gulp</li>
+                  <li class="top__item">Pug</li>
+                  <li class="top__item">SASS</li>
+                  <li class="top__item">Flexbox</li>
+                  <li class="top__item">SVG</li>
+                  <li class="top__item">BEM</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <div class="container" id="portfolio">
+        <section class="portfolio">
+          <h2 class="title">Портфолио</h2>
+          <div class="portfolio__block">
+            <div class="portfolio__block-title"> SPA сайт-портфолио Владимира Астахова
+              <div class="flip-container">
+                <div class="flipper">
+                  <div class="front"><a class="portfolio__block-link portfolio__block-link--front" href="https://antonvoronezh.github.io/edu-17-mountains/index.html" target="blank">Посмотреть вживую</a><a class="portfolio__block-link-git portfolio__block-link-git--front" href="https://github.com/AntonVoronezh/educaton-HTML-CSS-17-mountains" target="blank">Посмотреть код на github</a>
+                    <button class="portfolio__block-more portfolio__block-more--front">Почитать описание </button><img class="portfolio__img" src="../../assets/images/portfolio/cover/1.png" alt="">
+                  </div>
+                  <div class="back"><a class="portfolio__block-link portfolio__block-link--back" href="https://antonvoronezh.github.io/edu-17-mountains/index.html" target="blank">Посмотреть вживую</a><a class="portfolio__block-link-git portfolio__block-link-git--back" href="https://github.com/AntonVoronezh/educaton-HTML-CSS-17-mountains" target="blank">Посмотреть код на github</a>
+                    <button class="portfolio__block-index portfolio__block-more--back">Вернуться назад </button>
+                    <div class="portfolio__text">
+                      <div class="portfolio__block-pic"> <img class="portfolio__block-img portfolio__block-img--desktop" src="../../assets/images/portfolio/1/1.png" alt=""><img class="portfolio__block-img portfolio__block-img--tablet" src="../../assets/images/portfolio/1/2.png" alt=""><img class="portfolio__block-img portfolio__block-img--phones" src="../../assets/images/portfolio/1/3.png" alt=""></div>
+                      <div class="portfolio__text-wrap">
+                        <div class="portfolio__title">
+                          <p class="portfolio__paragraph portfolio__paragraph--strong"> Выпускной проект на курсе "Продвинутый курс по веб-разработке"</p>
+                          <p class="portfolio__paragraph">Реализация SPA на Vue.js.</p>
+                          <p class="portfolio__paragraph">Сборка JS на Webpack.</p>
+                          <p class="portfolio__paragraph">Автоматизация сборки c помощью Gulp.</p>
+                          <p class="portfolio__paragraph">Написание прелоадера, параллакса, прокруток, валидаторов с помощью native JS.</p>
+                          <p class="portfolio__paragraph">Множество деталей, сложная сетка с перестроениями, нестандартные компоненты.</p>
+                          <p class="portfolio__paragraph">Кроссбраузерная валидная Pixel Perfect верстка по psd-макетам.</p>
+                          <p class="portfolio__paragraph">Верстка трёх состояний (мобильного, планшетного и десктопного) каждой страницы.</p>
+                          <p class="portfolio__paragraph">Адаптивность на media queries и резиновая сетка.</p>
+                          <p class="portfolio__paragraph">Использованы флексбоксы и немого гриды.</p>
+                          <p class="portfolio__paragraph">Использование БЭМ методологии.</p>
+                          <p class="portfolio__paragraph">Использование CSS-препроцессора SASS.</p>
+                          <p class="portfolio__paragraph">Адаптивная графика: использование векторной графики, кадрирование контекстных изображений, ретинизация растровой графики.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__block">
+            <div class="portfolio__block-title"> Сайт-лэндинг бургерной
+              <div class="flip-container">
+                <div class="flipper">
+                  <div class="front"><a class="portfolio__block-link portfolio__block-link--front" href="https://antonvoronezh.github.io/edu-14-burger/index.html" target="blank">Посмотреть вживую</a><a class="portfolio__block-link-git portfolio__block-link-git--front" href="https://github.com/AntonVoronezh/educaton-HTML-CSS-14-burger" target="blank">Посмотреть код на github</a>
+                    <button class="portfolio__block-more portfolio__block-more--front">Почитать описание </button><img class="portfolio__img" src="../../assets/images/portfolio/cover/2.png" alt="">
+                  </div>
+                  <div class="back"><a class="portfolio__block-link portfolio__block-link--back" href="https://antonvoronezh.github.io/edu-14-burger/index.html" target="blank">Посмотреть вживую</a><a class="portfolio__block-link-git portfolio__block-link-git--back" href="https://github.com/AntonVoronezh/educaton-HTML-CSS-14-burger" target="blank">Посмотреть код на github</a>
+                    <button class="portfolio__block-index portfolio__block-more--back">Вернуться назад </button>
+                    <div class="portfolio__text">
+                      <div class="portfolio__block-pic"> <img class="portfolio__block-img portfolio__block-img--desktop" src="../../assets/images/portfolio/2/1.png" alt=""><img class="portfolio__block-img portfolio__block-img--tablet" src="../../assets/images/portfolio/2/2.png" alt=""><img class="portfolio__block-img portfolio__block-img--phones" src="../../assets/images/portfolio/2/3.png" alt=""></div>
+                      <div class="portfolio__text-wrap">
+                        <div class="portfolio__title">
+                          <p class="portfolio__paragraph portfolio__paragraph--strong"> Выпускной проект на курсе "Веб-разработка для начинающих"</p>
+                          <p class="portfolio__paragraph">Автоматизация сборки c помощью Gulp.</p>
+                          <p class="portfolio__paragraph">Написание слайдеров, аккордеонов, прокруток с помощью native JS.</p>
+                          <p class="portfolio__paragraph">Стилизация видеоплеера помощью native JS.</p>
+                          <p class="portfolio__paragraph">Множество деталей, сложная сетка с перестроениями, нестандартные компоненты.</p>
+                          <p class="portfolio__paragraph">Кроссбраузерная валидная Pixel Perfect верстка по psd-макетам.</p>
+                          <p class="portfolio__paragraph">Верстка трёх состояний (мобильного, планшетного и десктопного) каждой страницы.</p>
+                          <p class="portfolio__paragraph">Адаптивность на media queries и резиновая сетка.</p>
+                          <p class="portfolio__paragraph">Использованы флексбоксы.</p>
+                          <p class="portfolio__paragraph">Использование БЭМ методологии.</p>
+                          <p class="portfolio__paragraph">Использование CSS-препроцессора SASS.</p>
+                          <p class="portfolio__paragraph">Адаптивная графика: использование векторной графики SVG.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__block">
+            <div class="portfolio__block-title"> Сайт-визитка барбершопа Borodinsky
+              <div class="flip-container">
+                <div class="flipper">
+                  <div class="front"><a class="portfolio__block-link portfolio__block-link--front" href="https://antonvoronezh.github.io/edu-15-barbershop/index.html" target="blank">Посмотреть вживую</a><a class="portfolio__block-link-git portfolio__block-link-git--front" href="https://github.com/AntonVoronezh/educaton-HTML-CSS-15-barbershop" target="blank">Посмотреть код на github</a>
+                    <button class="portfolio__block-more portfolio__block-more--front">Почитать описание </button><img class="portfolio__img" src="../../assets/images/portfolio/cover/3.png" alt="">
+                  </div>
+                  <div class="back"><a class="portfolio__block-link portfolio__block-link--back" href="https://antonvoronezh.github.io/edu-15-barbershop/index.html" target="blank">Посмотреть вживую</a><a class="portfolio__block-link-git portfolio__block-link-git--front" href="https://github.com/AntonVoronezh/educaton-HTML-CSS-15-barbershop" target="blank">Посмотреть код на github</a>
+                    <button class="portfolio__block-index portfolio__block-more--back">Вернуться назад </button>
+                    <div class="portfolio__text">
+                      <div class="portfolio__block-pic"> <img class="portfolio__block-img portfolio__block-img--desktop" src="../../assets/images/portfolio/3/1.png" alt=""><img class="portfolio__block-img portfolio__block-img--tablet" src="../../assets/images/portfolio/3/2.png" alt=""><img class="portfolio__block-img portfolio__block-img--phones" src="../../assets/images/portfolio/3/3.png" alt=""></div>
+                      <div class="portfolio__text-wrap">
+                        <div class="portfolio__title">
+                          <p class="portfolio__paragraph portfolio__paragraph--strong"> Выпускной проект на курсе "Профессиональный HTML и CSS"</p>
+                          <p class="portfolio__paragraph">Автоматизация сборки c помощью Gulp.</p>
+                          <p class="portfolio__paragraph">Написание слайдеров, аккордеонов, прокруток с помощью native JS.</p>
+                          <p class="portfolio__paragraph">Множество деталей, сложная сетка с перестроениями, нестандартные компоненты.</p>
+                          <p class="portfolio__paragraph">Кроссбраузерная валидная Pixel Perfect верстка по psd-макетам.</p>
+                          <p class="portfolio__paragraph">Верстка трёх состояний (мобильного, планшетного и десктопного) каждой страницы.</p>
+                          <p class="portfolio__paragraph">Адаптивность на media queries и резиновая сетка.</p>
+                          <p class="portfolio__paragraph">Использованы флексбоксы.</p>
+                          <p class="portfolio__paragraph">Использование БЭМ методологии.</p>
+                          <p class="portfolio__paragraph">Использование CSS-препроцессора SASS.</p>
+                          <p class="portfolio__paragraph">Адаптивная графика: использование векторной графики SVG.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__block">
+            <div class="portfolio__block-title"> Сайт-визитка авиакомпании AIR Plane
+              <div class="flip-container">
+                <div class="flipper">
+                  <div class="front"><a class="portfolio__block-link portfolio__block-link--front" href="https://antonvoronezh.github.io/edu-2-(2)-airplanet/index.html" target="blank">Посмотреть вживую</a><a class="portfolio__block-link-git portfolio__block-link-git--front" href="https://github.com/AntonVoronezh/educaton-HTML-CSS-2" target="blank">Посмотреть код на github</a>
+                    <button class="portfolio__block-more portfolio__block-more--front">Почитать описание </button><img class="portfolio__img" src="../../assets/images/portfolio/cover/4.png" alt="">
+                  </div>
+                  <div class="back"><a class="portfolio__block-link portfolio__block-link--back" href="https://antonvoronezh.github.io/edu-2-(2)-airplanet/index.html" target="blank">Посмотреть вживую</a><a class="portfolio__block-link-git portfolio__block-link-git--front" href="https://github.com/AntonVoronezh/educaton-HTML-CSS-2" target="blank">Посмотреть код на github</a>
+                    <button class="portfolio__block-index portfolio__block-more--back">Вернуться назад </button>
+                    <div class="portfolio__text portfolio__text--first">
+                      <div class="portfolio__block-pic"> <img class="portfolio__block-img-first" src="../../assets/images/portfolio/4/1.png" alt=""><img class="portfolio__block-img-first" src="../../assets/images/portfolio/4/2.png" alt=""><img class="portfolio__block-img-first" src="../../assets/images/portfolio/4/3.png" alt=""></div>
+                      <div class="portfolio__text-wrap">
+                        <div class="portfolio__title portfolio__title--first">
+                          <p class="portfolio__paragraph portfolio__paragraph--strong"> Выпускной проект на курсе "Основы вёрстки сайтов"</p>
+                          <p class="portfolio__paragraph">Кроссбраузерная валидная Pixel Perfect верстка по psd-макетам.</p>
+                          <p class="portfolio__paragraph">Использованы флексбоксы.</p>
+                          <p class="portfolio__paragraph">Использование БЭМ методологии.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="portfolio__block">
+            <div class="portfolio__block-title"> Тренировочные проекты
+              <div class="other">
+                <div class="other__wrap">
+                  <div class="other__title">Fudi</div>
+                  <div class="other__top"><a class="other__link" href="https://antonvoronezh.github.io/edu-8-fudi/index.html" target="blank">Посмотреть вживую</a></div>
+                  <div class="other__middle"><img class="other__img" src="assets/images/portfolio/5/4.png" alt=""></div>
+                  <div class="other__bottom"><a class="other__link" href="https://github.com/AntonVoronezh/educaton-HTML-CSS-8-fudi" target="blank">Посмотреть код на github</a></div>
+                </div>
+                <div class="other__wrap">
+                  <div class="other__title">Reen</div>
+                  <div class="other__top"><a class="other__link" href="https://antonvoronezh.github.io/edu-9-reen/index.html" target="blank">Посмотреть вживую</a></div>
+                  <div class="other__middle"><img class="other__img" src="assets/images/portfolio/5/5.png" alt=""></div>
+                  <div class="other__bottom"><a class="other__link" href="https://github.com/AntonVoronezh/educaton-HTML-CSS-9-reen" target="blank">Посмотреть код на github</a></div>
+                </div>
+                <div class="other__wrap">
+                  <div class="other__title">Nerds</div>
+                  <div class="other__top"><a class="other__link" href="https://antonvoronezh.github.io/edu-10-nerds/index.html" target="blank">Посмотреть вживую</a></div>
+                  <div class="other__middle"><img class="other__img" src="assets/images/portfolio/5/6.png" alt=""></div>
+                  <div class="other__bottom"><a class="other__link" href="https://github.com/AntonVoronezh/educaton-HTML-CSS-10-nerds" target="blank">Посмотреть код на github</a></div>
+                </div>
+                <div class="other__wrap">
+                  <div class="other__title">Gllacy</div>
+                  <div class="other__top"><a class="other__link" href="https://antonvoronezh.github.io/edu-11-gllacy/index.html" target="blank">Посмотреть вживую</a></div>
+                  <div class="other__middle"><img class="other__img" src="assets/images/portfolio/5/7.png" alt=""></div>
+                  <div class="other__bottom"><a class="other__link" href="https://github.com/AntonVoronezh/educaton-HTML-CSS-11-gllacy" target="blank">Посмотреть код на github</a></div>
+                </div>
+                <div class="other__wrap">
+                  <div class="other__title">Marble</div>
+                  <div class="other__top"><a class="other__link" href="https://antonvoronezh.github.io/edu-12-marble/index.html" target="blank">Посмотреть вживую</a></div>
+                  <div class="other__middle"><img class="other__img" src="assets/images/portfolio/5/8.png" alt=""></div>
+                  <div class="other__bottom"><a class="other__link" href="https://github.com/AntonVoronezh/educaton-HTML-CSS-12-marble" target="blank">Посмотреть код на github</a></div>
+                </div>
+                <div class="other__wrap">
+                  <div class="other__title">Magmagazine</div>
+                  <div class="other__top"><a class="other__link" href="https://antonvoronezh.github.io/edu-13-magmagazine/index.html" target="blank">Посмотреть вживую</a></div>
+                  <div class="other__middle"><img class="other__img" src="assets/images/portfolio/5/9.png" alt=""></div>
+                  <div class="other__bottom"><a class="other__link" href="https://github.com/AntonVoronezh/educaton-HTML-CSS-13-magmagazine" target="blank">Посмотреть код на github</a></div>
+                </div>
+                <div class="other__wrap">
+                  <div class="other__title">Coworking</div>
+                  <div class="other__top"><a class="other__link" href="https://antonvoronezh.github.io/edu-4-coworking/index.html" target="blank">Посмотреть вживую</a></div>
+                  <div class="other__middle"><img class="other__img" src="assets/images/portfolio/5/1.png" alt=""></div>
+                  <div class="other__bottom"><a class="other__link" href="https://github.com/AntonVoronezh/educaton-HTML-CSS-4-coworking" target="blank">Посмотреть код на github</a></div>
+                </div>
+                <div class="other__wrap">
+                  <div class="other__title">Blogin</div>
+                  <div class="other__top"><a class="other__link" href="https://antonvoronezh.github.io/edu-7-blogs/index.html" target="blank">Посмотреть вживую</a></div>
+                  <div class="other__middle"><img class="other__img" src="assets/images/portfolio/5/3.png" alt=""></div>
+                  <div class="other__bottom"><a class="other__link" href="https://github.com/AntonVoronezh/educaton-HTML-CSS-7-blog" target="blank">Посмотреть код на github</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="container">
+        <section class="portfolio">
+          <h2 class="title">Портфолио по JavaScript</h2>
+          <div class="portfolio__block">
+            <div class="portfolio__block-title"> Готовые виджеты</div>
+            <div class="other">
+              <div class="other__wrap">
+                <div class="other__title">Стикеры (ООП)</div>
+                <div class="other__top"><a class="other__link" href="https://antonvoronezh.github.io/ready-scripts/stickers/index.html" target="blank">Посмотреть вживую</a></div>
+                <div class="other__middle"><img class="other__img" src="./assets/images/portfolio/js/11.jpg" alt=""></div>
+                <div class="other__bottom"><a class="other__link" href="https://github.com/AntonVoronezh/OOP/blob/master/stickers.js" target="blank">Посмотреть код на github</a></div>
+              </div>
+              <div class="other__wrap">
+                <div class="other__title">Игра "5 в ряд" (ООП)</div>
+                <div class="other__top"><a class="other__link" href="https://antonvoronezh.github.io/ready-scripts/5dots/index.html" target="blank">Посмотреть вживую</a></div>
+                <div class="other__middle"><img class="other__img" src="./assets/images/portfolio/js/10.jpg" alt=""></div>
+                <div class="other__bottom"><a class="other__link" href="https://github.com/AntonVoronezh/OOP/blob/master/dots.js" target="blank">Посмотреть код на github</a></div>
+              </div>
+              <div class="other__wrap">
+                <div class="other__title">Игра "Жизнь"</div>
+                <div class="other__top"><a class="other__link" href="https://antonvoronezh.github.io/ready-scripts/life/index.html" target="blank">Посмотреть вживую</a></div>
+                <div class="other__middle"><img class="other__img" src="./assets/images/portfolio/js/9.jpg" alt=""></div>
+                <div class="other__bottom"><a class="other__link" href="https://github.com/AntonVoronezh/ready-scripts/blob/master/life/life.js" target="blank">Посмотреть код на github</a></div>
+              </div>
+              <div class="other__wrap">
+                <div class="other__title">Игра "Двигай буквы"</div>
+                <div class="other__top"><a class="other__link" href="https://antonvoronezh.github.io/ready-scripts/moveword/index.html" target="blank">Посмотреть вживую</a></div>
+                <div class="other__middle"><img class="other__img" src="./assets/images/portfolio/js/8.jpg" alt=""></div>
+                <div class="other__bottom"><a class="other__link" href="https://github.com/AntonVoronezh/ready-scripts/blob/master/moveword/moveword.js" target="blank">Посмотреть код на github</a></div>
+              </div>
+              <div class="other__wrap">
+                <div class="other__title">Следующее число</div>
+                <div class="other__top"><a class="other__link" href="https://antonvoronezh.github.io/ready-scripts/nextnumber/index.html" target="blank">Посмотреть вживую</a></div>
+                <div class="other__middle"><img class="other__img" src="./assets/images/portfolio/js/2.jpg" alt=""></div>
+                <div class="other__bottom"><a class="other__link" href="https://github.com/AntonVoronezh/ready-scripts/blob/master/nextnumber/nextnumber.js" target="blank">Посмотреть код на github</a></div>
+              </div>
+              <div class="other__wrap">
+                <div class="other__title">Kалендарь </div>
+                <div class="other__top"><a class="other__link" href="https://antonvoronezh.github.io/ready-scripts/calendar/index.html" target="blank">Посмотреть вживую</a></div>
+                <div class="other__middle"><img class="other__img" src="./assets/images/portfolio/js/3.jpg" alt=""></div>
+                <div class="other__bottom"><a class="other__link" href="https://github.com/AntonVoronezh/ready-scripts/blob/master/calendar/calendar.js" target="blank">Посмотреть код на github</a></div>
+              </div>
+              <div class="other__wrap">
+                <div class="other__title">Расчет площадей</div>
+                <div class="other__top"><a class="other__link" href="https://antonvoronezh.github.io/ready-scripts/calculatearea/index.html" target="blank">Посмотреть вживую</a></div>
+                <div class="other__middle"><img class="other__img" src="./assets/images/portfolio/js/4.jpg" alt=""></div>
+                <div class="other__bottom"><a class="other__link" href="https://github.com/AntonVoronezh/ready-scripts/blob/master/calculatearea/calculatearea.js" target="blank">Посмотреть код на github</a></div>
+              </div>
+              <div class="other__wrap">
+                <div class="other__title">Блокнот </div>
+                <div class="other__top"><a class="other__link" href="https://antonvoronezh.github.io/ready-scripts/checklist/index.html" target="blank">Посмотреть вживую</a></div>
+                <div class="other__middle"><img class="other__img" src="./assets/images/portfolio/js/5.jpg" alt=""></div>
+                <div class="other__bottom"><a class="other__link" href="https://github.com/AntonVoronezh/ready-scripts/blob/master/checklist/checklist.js" target="blank">Посмотреть код на github</a></div>
+              </div>
+              <div class="other__wrap">
+                <div class="other__title">Сохранитель форм </div>
+                <div class="other__top"><a class="other__link" href="https://antonvoronezh.github.io/ready-scripts/savinghtmlform/index.html" target="blank">Посмотреть вживую</a></div>
+                <div class="other__middle"><img class="other__img" src="./assets/images/portfolio/js/6.jpg" alt=""></div>
+                <div class="other__bottom"><a class="other__link" href="https://github.com/AntonVoronezh/ready-scripts/blob/master/savinghtmlform/savinghtmlform.js" target="blank">Посмотреть код на github</a></div>
+              </div>
+              <div class="other__wrap">
+                <div class="other__title">Угадыватель числа</div>
+                <div class="other__top"><a class="other__link" href="https://antonvoronezh.github.io/ready-scripts/numberfor7steps/index.html" target="blank">Посмотреть вживую</a></div>
+                <div class="other__middle"><img class="other__img" src="./assets/images/portfolio/js/7.jpg" alt=""></div>
+                <div class="other__bottom"><a class="other__link" href="https://github.com/AntonVoronezh/ready-scripts/blob/master/numberfor7steps/numberfor7steps.js" target="blank">Посмотреть код на github</a></div>
+              </div>
+              <div class="other__wrap">
+                <div class="other__title">Крестики-нолики</div>
+                <div class="other__top"><a class="other__link" href="https://antonvoronezh.github.io/ready-scripts/cross-zero/index.html" target="blank">Посмотреть вживую</a></div>
+                <div class="other__middle"><img class="other__img" src="./assets/images/portfolio/js/1.jpg" alt=""></div>
+                <div class="other__bottom"><a class="other__link" href="https://github.com/AntonVoronezh/ready-scripts/blob/master/cross-zero/cross-zero.js" target="blank">Посмотреть код на github</a></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="container" id="about"> 
+        <section class="about">
+          <h2 class="title">Обо мне</h2>
+          <div class="about__wrap">
+            <div class="about__paragraph">Родился в апреле 1978г.<br>Женат, двое детей.<br>Увлечения - кулинария, чтение.</div>
+            <div class="about__subtitle">Образование</div>
+            <div class="about__paragraph"><strong>
+                 Академия Психологии, Предпринимательства и Менеджмента</strong><br>2001 - 2003 гг.<br>г. Санкт-Петербург<br>Специальность - Менеджер по персоналу</div>
+            <div class="about__paragraph"> <strong>Военный Институт Радиоэлектронники</strong><br>1995 - 2000 гг.<br>г. Воронеж<br>Специальность - Инженер</div>
+            <div class="about__subtitle">Опыт работы</div>
+            <div class="about__paragraph"><strong>
+                 Рынок валютных операций Forex</strong><br>07.2016 - 07.2018 гг.<br>Самозанятый трейдер, программист MQL4.<br>Получил статус Gold-партнера.<br>Написано много скриптов - торговых роботов на языке MQL4.<br><a class="about__link" href="https://github.com/AntonVoronezh/forex" target="blank">Посмотреть скрипты MQL4 на github.</a></div>
+            <div class="about__paragraph"><strong>
+                 ИП Глушенков А.И.</strong><br>04.2009 - 07.2016 гг.<br>Автор скриптов, программист, копирайтер, дизайнер.<br>Автор и создатель более 20 скриптов на PHP (MyMonster, Fantastico, Nipel, Eldorado и др.).<br>Владелец магазина собственных скриптов.<br>Автор скрипта на PHP для создания сети сайтов для работы с AdSence.<br>Владелец сети сайтов.<br><a class="about__link" href="https://github.com/AntonVoronezh/fantastico-for-example" target="blank">Посмотреть один скрипт PHP на github.</a></div>
+            <div class="about__paragraph"><strong>
+                 Работа в других областях</strong><br>2003 - 2009 гг.<br>Дизайнер, маркетолог, менеджер по персоналу.</div>
+            <div class="about__subtitle">Интервью со мной</div>
+            <div class="about__paragraph"><strong>Вот можно почитать обо мне. </strong><br>Всё от 2009-2010 гг., т.к. после я перестал давать интервью.
+              <div class="about__paragraph about__paragraph--img"><a class="about__link" href="http://shakin.ru/interview/seoboxer.html" target="blank"><img class="about__img" src="./assets/images/int/1.png" alt=""></a><a class="about__link" href="http://www.terehoff.com/mymonster.html" target="blank">   <img class="about__img" src="./assets/images/int/2.png" alt=""></a><a class="about__link" href="https://www.armadaboard.com/articles254.htm" target="blank"><img class="about__img" src="./assets/images/int/3.png" alt=""></a><a class="about__link" href="http://ladymaksima.com/raj-dlya-manimejkera-ili-samyj-bolshoj-vybor-kachestvennyx-skriptov-v-magazine-seoboxer-ru/" target="blank"><img class="about__img" src="./assets/images/int/4.png" alt=""></a><a class="about__link" href="http://blog.dimok.ru/seoboxerru-u-dyadyushki-yakova-tovaru-vsyakogo" target="blank"><img class="about__img" src="./assets/images/int/5.png" alt=""></a></div>
+            </div>
+            <div class="about__subtitle">Дополнительное обучение</div>
+            <div class="about__paragraph">Фронтенд JS-программист от hexlet.io <br><a class="about__link" href="https://ru.hexlet.io/u/anton_voronezh" target="blank">Посмотреть мой профиль.</a><br><a class="about__link" href="https://github.com/AntonVoronezh/project-lvl1-s328" target="blank">Посмотреть мой проект Brain Games от Hexlet.</a></div>
+            <div class="about__paragraph">Обучение JavaScript под руководством ментора Д. Трепачёва. <br><a class="about__link" href="https://vk.com/topic-128796313_39822077?offset=640" target="blank">Посмотреть мой прогресс.</a></div>
+          </div>
+        </section>
+      </div>
+      <div class="container">
+        <section class="sertificats"> 
+          <h2 class="title">Мои сертификаты</h2>
+          <div class="sertificats__wrap"><a class="sertificats__link" href="https://loftschool.com/diploma/NPR14439AL222PZT3/ru/pdf" target="blank"><img class="sertificats__img" src="../../assets/images/sertificates/002147c2a7.jpg" alt=""></a><a class="sertificats__link" href="https://loftschool.com/diploma/WN1534764076/ru/pdf" target="blank"><img class="sertificats__img" src="../../assets/images/sertificates/820e3c862b.jpg" alt=""></a><a class="sertificats__link" href="https://loftschool.com/diploma/SL1534764075/ru/pdf" target="blank"><img class="sertificats__img" src="../../assets/images/sertificates/8771f2db45.jpg" alt=""></a><a class="sertificats__link" href="https://loftschool.com/diploma/PW1534764076/ru/pdf" target="blank"> <img class="sertificats__img" src="../../assets/images/sertificates/4e3d8ee430.jpg" alt=""></a></div>
+        </section>
+      </div>
+      <div class="container" id="contacts"> 
+        <section class="contacts">
+          <h2 class="title">Контакты</h2>
+          <div class="contacts__p">Телефон:<a class="about__link" href="tel:+79518702249">+7 951 870-22-49</a><br>E-mail: <a class="about__link" href="mailto:pstut@mail.ru">pstut@mail.ru</a><br>SKYPE: <a class="about__link" href="skype:live:pstut">live:pstut</a><br><a class="about__link" href="resume-A.Gluhenkov(frontend-developer).pdf" target="blank">
+                 Скачать резюме</a></div>
+        </section>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__wrap">Антон Глушенков Ⓒ 2019</div>
+        </div>
+      </footer>
+    </div>
+    <script src="auth.bundle.js"></script>
+  </body>
+</html>
