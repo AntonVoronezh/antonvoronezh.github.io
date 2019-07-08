@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <title>React App</title>
+</head>
+
+<body>
+
+    <div id="root"></div>
+    <script>
+        console.log('start');
+
+
+        function Dog(name, ves, pol) {
+            this.name = name;
+            this.ves = ves;
+            this.pol = pol;
+        }
+
+        Dog.prototype.hvost = function () {
+            console.log(this.name, 'виляет хвостом');
+        }
+
+        Dog.prototype.run = function () {
+            console.log("Run!");
+        };
+
+        const dog1 = new Dog('Dog1', 'ves1', 'pol1');
+        const dog2 = new Dog('Dog2', 'ves2', 'pol2');
+        const dog3 = new Dog('Dog3', 'ves3', 'pol3');
+
+        dog1.hvost();
+        console.log(dog1);
+
+        dog2.hvost();
+
+        dog3.hvost = function () {
+            console.log(this.name, 'виляет хвостом как-то подругому');
+        }
+
+        dog3.hvost();
+
+        dog1.run();
+
+
+        Dog.prototype.sitting = false;
+        console.log(dog1.hasOwnProperty('sitting'));
+
+        Dog.prototype.sit = function () {
+            if (this.sitting) {
+                console.log(this.name + " is already sitting");
+            } else {
+                this.sitting = true;
+                console.log(this.name + " is now sitting");
+            }
+        };
+
+        dog1.sit();
+        console.log(dog1.hasOwnProperty('sitting'));
+
+
+        console.log(dog1);
+        dog1.sit();
+
+
+        console.log('-------------------------');
+
+        function ShowDog(name, ves, pol, handler) {
+            Dog.call(this, name, ves, pol);
+            this.handler = handler;
+        }
+
+        ShowDog.prototype = new Dog();
+        ShowDog.prototype.constructor = ShowDog;
+
+
+
+        ShowDog.prototype.groom = function () {
+            console.log(this.name + " Groom");
+        };
+
+        const showDog2 = new ShowDog('ShowDog2', 'ves2', 'pol2');
+        const showDog3 = new ShowDog('ShowDog3', 'ves3', 'pol3');
+        const showDog1 = new ShowDog('ShowDog1', 'ves1', 'pol1');
+
+        showDog1.groom();
+        showDog1.sit();
+        console.log(showDog1);
+
+
+
+        console.log('-------------------------');
+
+        console.log(showDog1.toString());
+
+        ShowDog.prototype.toString = function () {
+            return this.name + " belonging to " + this.name;
+        };
+
+        console.log(showDog1.toString());
+    </script>
+
+</body>
+
+</html>
