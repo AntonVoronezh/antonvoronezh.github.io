@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title>Portfolio | </title>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="http://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="main.min.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__wrap"> 
+            <div class="logo">
+              <div class="logo__wrap">
+                <div class="logo__circle-outer">
+                  <div class="logo__circle-inner">
+                    <div class="logo__item logo__item--left"></div>
+                    <div class="logo__item logo__item--right"></div>
+                  </div>
+                </div><img class="logo__img" src="assets/images/logo/TOXIN.png" alt="login">
+              </div>
+            </div>
+            <nav class="top-nav">
+              <div class="top-nav__wrap"> 
+                <ul class="top-nav__list">
+                  <li class="top-nav__item"><a class="top-nav__link top-nav__link--active" href="О нас">О нас</a>
+                  </li>
+                  <li class="top-nav__item">
+                    <div class="top-nav__select">
+                      <select class="top-nav__dropdown">
+                        <option class="top-nav__option">Услуги </option>
+                        <option>Услуги</option>
+                        <option>Услуги</option>
+                      </select>
+                    </div>
+                  </li>
+                  <li class="top-nav__item"><a class="top-nav__link" href="вакансии.html">Вакансии</a>
+                  </li>
+                  <li class="top-nav__item"><a class="top-nav__link" href="новости.html">Новости</a>
+                  </li>
+                  <li class="top-nav__item">
+                    <div class="top-nav__select">
+                      <select class="top-nav__dropdown">
+                        <option class="top-nav__option">Соглашения </option>
+                        <option>Соглашения</option>
+                        <option>Соглашения</option>
+                      </select>
+                    </div>
+                  </li>
+                  <li class="top-nav__item">
+                    <button class="btn btn__counter btn__counter--white btn__counter--nav">войти</button>
+                  </li>
+                  <li class="top-nav__item">
+                    <button class="btn btn__counter btn__counter--purple btn__counter--nav">зарегистрироваться</button>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <nav class="top-nav-mobile"> 
+              <div class="top-nav-mobile__wrap"> 
+                <div class="top-nav-mobile__open js-mobile-menu-open"></div>
+              </div>
+            </nav>
+            <div class="mobile-menu">
+              <div class="mobile-menu__close js-mobile-menu-close"></div>
+              <div class="mobile-menu__wrap">
+                <div class="logo">
+                  <div class="logo__wrap">
+                    <div class="logo__circle-outer">
+                      <div class="logo__circle-inner">
+                        <div class="logo__item logo__item--left"></div>
+                        <div class="logo__item logo__item--right"></div>
+                        <ul class="mobile-menu__list">
+                          <li class="mobile-menu__item"><a class="mobile-menu__link" href="Home">Home</a></li>
+                          <li class="mobile-menu__item"><a class="mobile-menu__link" href="About Us">About Us</a></li>
+                          <li class="mobile-menu__item"><a class="mobile-menu__link" href="Services">Services</a></li>
+                          <li class="mobile-menu__item"><a class="mobile-menu__link" href="Careers">Careers</a></li>
+                          <li class="mobile-menu__item"><a class="mobile-menu__link" href="News">News</a></li>
+                          <li class="mobile-menu__item"><a class="mobile-menu__link" href="Documentation">Documentation</a></li>
+                          <li class="mobile-menu__item"><a class="mobile-menu__link" href="Login">Login</a></li>
+                          <li class="mobile-menu__item"><a class="mobile-menu__link" href="Register">Register</a></li>
+                        </ul>
+                      </div>
+                    </div><img class="logo__img" src="assets/images/logo/TOXIN.png" alt="login">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="maincontent-search-room">
+        <div class="container">
+          <aside class="aside-search-room">
+            <div class="datepicker2">
+              <h3 class="mb5">даты пребывания в отеле</h3>
+              <div class="datepicker2__wrap">
+                <div class="datepicker2__label js-in-2">
+                  <label class="date-from"><b>день месяц</b></label>
+                  <label id="checkinDate2"></label>
+                  <label id="checkoutDate2"></label>
+                </div>
+              </div>
+              <div class="datepicker2__main-wrap"> 
+                <div class="datepicker2__main close"> 
+                  <div id="Datepicker2"> </div>
+                  <div class="datepicker2__bottom">
+                    <div class="datepicker2__bottom-left"> 
+                      <button class="btn btn__without gray db js-reset-datepicker-2">очистить</button>
+                    </div>
+                    <div class="datepicker2__bottom-right"> 
+                      <button class="btn btn__without js-ok-datepicker-2">применить</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dropdown dropdown2 mt20">
+              <h3 class="mb5">гости</h3><span class="dropdown__title js-dropdown">Сколько гостей</span>
+              <div class="dropdown__list">
+                <div class="dropdown__item">  
+                  <div class="dropdown__item-left">
+                     взрослые</div>
+                  <div class="dropdown__item-right"> 
+                    <div class="dropdown__minus js-big-minus">-</div>
+                    <div class="dropdown__number js-big-number">0</div>
+                    <div class="dropdown__plus js-big-plus">
+                       +</div>
+                  </div>
+                </div>
+                <div class="dropdown__item">  
+                  <div class="dropdown__item-left">
+                     дети</div>
+                  <div class="dropdown__item-right"> 
+                    <div class="dropdown__minus js-small-minus">-</div>
+                    <div class="dropdown__number js-small-number">0</div>
+                    <div class="dropdown__plus js-small-plus">
+                       +</div>
+                  </div>
+                </div>
+                <div class="dropdown__item">  
+                  <div class="dropdown__item-left">
+                     младенцы</div>
+                  <div class="dropdown__item-right"> 
+                    <div class="dropdown__minus js-smaller-minus">
+                       -</div>
+                    <div class="dropdown__number js-smaller-number">0</div>
+                    <div class="dropdown__plus js-smaller-plus">
+                       +</div>
+                  </div>
+                </div>
+                <div class="dropdown__item dropdown__item--bottom">
+                  <div class="dropdown__item-left"> 
+                    <button class="btn btn__without gray js-reset">очистить</button>
+                  </div>
+                  <div class="dropdown__item-right"> 
+                    <button class="btn btn__without js-ok-dropdown">применить</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="range">
+              <div class="range__text">
+                <label class="range__label" for="range__amount">диапазон цены</label>
+                <input class="range__amount" type="text" readonly="">
+              </div>
+              <div class="range__slider">   
+                <div class="js-range-slider range-slider"></div>
+              </div>
+              <p class="range__info">Стоимость за сутки пребывания в номере</p>
+            </div>
+            <div class="checkboxs-block mt20">
+              <h3 class="checkboxs-block__title">Checkbox Buttons</h3>
+              <label class="checkbox">
+                <input class="checkbox__input" type="checkbox" name="checkbox-smoke"><span class="checkbox__custom"></span><span class="checkbox__label">Можно курить</span>
+              </label>
+              <label class="checkbox">
+                <input class="checkbox__input" type="checkbox" name="checkbox-zoo" checked><span class="checkbox__custom"></span><span class="checkbox__label">Можно с питомцами</span>
+              </label>
+              <label class="checkbox">
+                <input class="checkbox__input" type="checkbox" name="checkbox-guests" checked><span class="checkbox__custom"></span><span class="checkbox__label">Можно пригласит гостей (до 10 человек)</span>
+              </label>
+            </div>
+            <div class="rich mt25">
+              <div class="rich__title">
+                <h3>доступность</h3>
+              </div>
+              <div class="rich__list">
+                <div class="rich__item">
+                  <div class="rich__checkbox-block">
+                    <label class="checkbox">
+                      <input class="checkbox__input rich__checkbox" type="checkbox" name="checkbox-sd"><span class="checkbox__custom"></span>
+                    </label>
+                  </div>
+                  <div class="rich__text">
+                    <div class="rich__text-title">Широкий коридор</div>
+                    <div class="rich__text-text">Ширина коридоров в номере не менее 91 см.</div>
+                  </div>
+                </div>
+                <div class="rich__item">
+                  <div class="rich__checkbox-block">
+                    <label class="checkbox">
+                      <input class="checkbox__input rich__checkbox" type="checkbox" name="checkbox-ld"><span class="checkbox__custom"></span>
+                    </label>
+                  </div>
+                  <div class="rich__text">
+                    <div class="rich__text-title">Помощник для инвалидов</div>
+                    <div class="rich__text-text">На 1 этаже вас встретит специалист и проводит до номера.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dropdown-count js-dropdown-count">
+              <h3 class="mb5">удобства номера</h3><span class="dropdown-count__title">2 спальни, 2 кровати...</span>
+              <div class="dropdown-count__list">
+                <div class="dropdown-count__item">  
+                  <div class="dropdown-count__item-left">
+                     спальни</div>
+                  <div class="dropdown-count__item-right"> 
+                    <div class="dropdown-count__minus js-big-count-minus">-</div>
+                    <div class="dropdown-count__number js-big-count-number">2</div>
+                    <div class="dropdown-count__plus js-big-count-plus">
+                       +</div>
+                  </div>
+                </div>
+                <div class="dropdown-count__item">  
+                  <div class="dropdown-count__item-left">
+                     кровати</div>
+                  <div class="dropdown-count__item-right"> 
+                    <div class="dropdown-count__minus js-small-count-minus">-</div>
+                    <div class="dropdown-count__number js-small-count-number">2</div>
+                    <div class="dropdown-count__plus js-small-count-plus">
+                       +</div>
+                  </div>
+                </div>
+                <div class="dropdown-count__item">  
+                  <div class="dropdown-count__item-left">
+                     ванные комнаты</div>
+                  <div class="dropdown-count__item-right"> 
+                    <div class="dropdown-count__minus js-smaller-count-minus">
+                       -</div>
+                    <div class="dropdown-count__number js-smaller-count-number">0</div>
+                    <div class="dropdown-count__plus js-smaller-count-plus">
+                       +</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="exp-list js-exp-list mt15"><span class="exp-list__title">дополнительные удобства</span>
+              <ul class="exp-list__list">
+                <li class="exp-list__item">
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox" name="checkbox-smoke"><span class="checkbox__custom"></span><span class="checkbox__label">Завтрак</span>
+                  </label>
+                </li>
+                <li class="exp-list__item">
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox" name="checkbox-smoke" checked><span class="checkbox__custom"></span><span class="checkbox__label">Письменный стол</span>
+                  </label>
+                </li>
+                <li class="exp-list__item">
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox" name="checkbox-smoke" checked><span class="checkbox__custom"></span><span class="checkbox__label">Стул для кормления</span>
+                  </label>
+                </li>
+                <li class="exp-list__item">
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox" name="checkbox-smoke" checked><span class="checkbox__custom"></span><span class="checkbox__label">Кроватка</span>
+                  </label>
+                </li>
+                <li class="exp-list__item">
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox" name="checkbox-smoke"><span class="checkbox__custom"></span><span class="checkbox__label">Телевизор</span>
+                  </label>
+                </li>
+                <li class="exp-list__item">
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox" name="checkbox-smoke"><span class="checkbox__custom"></span><span class="checkbox__label">Шампунь</span>
+                  </label>
+                </li>
+                <li class="exp-list__item">
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox" name="checkbox-smoke"><span class="checkbox__custom"></span><span class="checkbox__label">Телевизор</span>
+                  </label>
+                </li>
+                <li class="exp-list__item">
+                  <label class="checkbox">
+                    <input class="checkbox__input" type="checkbox" name="checkbox-smoke"><span class="checkbox__custom"></span><span class="checkbox__label">Шампунь</span>
+                  </label>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          <main class="main-search-room"> 
+            <div class="main-search-room__title">Номера, которые мы для вас подобрали</div>
+            <div class="main-search-room__content">
+                        <div class="block-room">
+                          <div class="block-room__wrap block-room__wrap--img">
+                            <div class="block-room__circles"><span class="block-room__sp block-room__sp--all"></span><span class="block-room__sp"></span><span class="block-room__sp"></span><span class="block-room__sp"></span></div>
+                            <div class="block-room__img"> <img class="block-room__pic" src="assets/images/rooms/image-1.png"></div>
+                          </div>
+                          <div class="block-room__wrap block-room__wrap--center">
+                            <div class="block-check__number"><span class="block-check__num">№ </span><span class="block-check__more block-room__sm">888</span><span class="block-check__lux">люкс</span></div>
+                            <div class="block-check__price"><span class="block-check__sum">9990</span><span class="block-check__sut">в сутки</span></div>
+                          </div>
+                          <div class="block-room__wrap block-room__wrap--bottom">
+                            <div class="block-check__number">
+                                        <div class="rate-block"> 
+                                          <ul class="rate-block__list">
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                          </ul>
+                                        </div>
+                            </div>
+                            <div class="block-check__price"><span class="block-check__sum">145</span><span class="block-check__sut">Отзывов</span></div>
+                          </div>
+                        </div>
+                        <div class="block-room">
+                          <div class="block-room__wrap block-room__wrap--img">
+                            <div class="block-room__circles"><span class="block-room__sp block-room__sp--all"></span><span class="block-room__sp"></span><span class="block-room__sp"></span><span class="block-room__sp"></span></div>
+                            <div class="block-room__img"> <img class="block-room__pic" src="assets/images/rooms/image.png"></div>
+                          </div>
+                          <div class="block-room__wrap block-room__wrap--center">
+                            <div class="block-check__number"><span class="block-check__num">№ </span><span class="block-check__more block-room__sm">840</span><span class="block-check__lux"></span></div>
+                            <div class="block-check__price"><span class="block-check__sum">9990</span><span class="block-check__sut">в сутки</span></div>
+                          </div>
+                          <div class="block-room__wrap block-room__wrap--bottom">
+                            <div class="block-check__number">
+                                        <div class="rate-block"> 
+                                          <ul class="rate-block__list">
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--border">                      </button>
+                                            </li>
+                                          </ul>
+                                        </div>
+                            </div>
+                            <div class="block-check__price"><span class="block-check__sum">65</span><span class="block-check__sut">Отзывов</span></div>
+                          </div>
+                        </div>
+                        <div class="block-room">
+                          <div class="block-room__wrap block-room__wrap--img">
+                            <div class="block-room__circles"><span class="block-room__sp block-room__sp--all"></span><span class="block-room__sp"></span><span class="block-room__sp"></span><span class="block-room__sp"></span></div>
+                            <div class="block-room__img"> <img class="block-room__pic" src="assets/images/rooms/image-2.png"></div>
+                          </div>
+                          <div class="block-room__wrap block-room__wrap--center">
+                            <div class="block-check__number"><span class="block-check__num">№ </span><span class="block-check__more block-room__sm">980</span><span class="block-check__lux">люкс</span></div>
+                            <div class="block-check__price"><span class="block-check__sum">8500</span><span class="block-check__sut">в сутки</span></div>
+                          </div>
+                          <div class="block-room__wrap block-room__wrap--bottom">
+                            <div class="block-check__number">
+                                        <div class="rate-block"> 
+                                          <ul class="rate-block__list">
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--border">                      </button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--border">                      </button>
+                                            </li>
+                                          </ul>
+                                        </div>
+                            </div>
+                            <div class="block-check__price"><span class="block-check__sum">35</span><span class="block-check__sut">Отзывов</span></div>
+                          </div>
+                        </div>
+                        <div class="block-room">
+                          <div class="block-room__wrap block-room__wrap--img">
+                            <div class="block-room__circles"><span class="block-room__sp block-room__sp--all"></span><span class="block-room__sp"></span><span class="block-room__sp"></span><span class="block-room__sp"></span></div>
+                            <div class="block-room__img"> <img class="block-room__pic" src="assets/images/rooms/image-5.png"></div>
+                          </div>
+                          <div class="block-room__wrap block-room__wrap--center">
+                            <div class="block-check__number"><span class="block-check__num">№ </span><span class="block-check__more block-room__sm">856</span><span class="block-check__lux"></span></div>
+                            <div class="block-check__price"><span class="block-check__sum">7300</span><span class="block-check__sut">в сутки</span></div>
+                          </div>
+                          <div class="block-room__wrap block-room__wrap--bottom">
+                            <div class="block-check__number">
+                                        <div class="rate-block"> 
+                                          <ul class="rate-block__list">
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                          </ul>
+                                        </div>
+                            </div>
+                            <div class="block-check__price"><span class="block-check__sum">19</span><span class="block-check__sut">Отзывов</span></div>
+                          </div>
+                        </div>
+                        <div class="block-room">
+                          <div class="block-room__wrap block-room__wrap--img">
+                            <div class="block-room__circles"><span class="block-room__sp block-room__sp--all"></span><span class="block-room__sp"></span><span class="block-room__sp"></span><span class="block-room__sp"></span></div>
+                            <div class="block-room__img"> <img class="block-room__pic" src="assets/images/rooms/image-3.png"></div>
+                          </div>
+                          <div class="block-room__wrap block-room__wrap--center">
+                            <div class="block-check__number"><span class="block-check__num">№ </span><span class="block-check__more block-room__sm">740</span><span class="block-check__lux"></span></div>
+                            <div class="block-check__price"><span class="block-check__sum">6000</span><span class="block-check__sut">в сутки</span></div>
+                          </div>
+                          <div class="block-room__wrap block-room__wrap--bottom">
+                            <div class="block-check__number">
+                                        <div class="rate-block"> 
+                                          <ul class="rate-block__list">
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--border">                      </button>
+                                            </li>
+                                          </ul>
+                                        </div>
+                            </div>
+                            <div class="block-check__price"><span class="block-check__sum">44</span><span class="block-check__sut">Отзывов</span></div>
+                          </div>
+                        </div>
+                        <div class="block-room">
+                          <div class="block-room__wrap block-room__wrap--img">
+                            <div class="block-room__circles"><span class="block-room__sp block-room__sp--all"></span><span class="block-room__sp"></span><span class="block-room__sp"></span><span class="block-room__sp"></span></div>
+                            <div class="block-room__img"> <img class="block-room__pic" src="assets/images/rooms/image-4.png"></div>
+                          </div>
+                          <div class="block-room__wrap block-room__wrap--center">
+                            <div class="block-check__number"><span class="block-check__num">№ </span><span class="block-check__more block-room__sm">982</span><span class="block-check__lux"></span></div>
+                            <div class="block-check__price"><span class="block-check__sum">5800</span><span class="block-check__sut">в сутки</span></div>
+                          </div>
+                          <div class="block-room__wrap block-room__wrap--bottom">
+                            <div class="block-check__number">
+                                        <div class="rate-block"> 
+                                          <ul class="rate-block__list">
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--border">                      </button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--border">                      </button>
+                                            </li>
+                                          </ul>
+                                        </div>
+                            </div>
+                            <div class="block-check__price"><span class="block-check__sum">56</span><span class="block-check__sut">Отзывов</span></div>
+                          </div>
+                        </div>
+                        <div class="block-room">
+                          <div class="block-room__wrap block-room__wrap--img">
+                            <div class="block-room__circles"><span class="block-room__sp block-room__sp--all"></span><span class="block-room__sp"></span><span class="block-room__sp"></span><span class="block-room__sp"></span></div>
+                            <div class="block-room__img"> <img class="block-room__pic" src="assets/images/rooms/image-8.png"></div>
+                          </div>
+                          <div class="block-room__wrap block-room__wrap--center">
+                            <div class="block-check__number"><span class="block-check__num">№ </span><span class="block-check__more block-room__sm">678</span><span class="block-check__lux"></span></div>
+                            <div class="block-check__price"><span class="block-check__sum">5500</span><span class="block-check__sut">в сутки</span></div>
+                          </div>
+                          <div class="block-room__wrap block-room__wrap--bottom">
+                            <div class="block-check__number">
+                                        <div class="rate-block"> 
+                                          <ul class="rate-block__list">
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                          </ul>
+                                        </div>
+                            </div>
+                            <div class="block-check__price"><span class="block-check__sum">45</span><span class="block-check__sut">Отзывов</span></div>
+                          </div>
+                        </div>
+                        <div class="block-room">
+                          <div class="block-room__wrap block-room__wrap--img">
+                            <div class="block-room__circles"><span class="block-room__sp block-room__sp--all"></span><span class="block-room__sp"></span><span class="block-room__sp"></span><span class="block-room__sp"></span></div>
+                            <div class="block-room__img"> <img class="block-room__pic" src="assets/images/rooms/image-6.png"></div>
+                          </div>
+                          <div class="block-room__wrap block-room__wrap--center">
+                            <div class="block-check__number"><span class="block-check__num">№ </span><span class="block-check__more block-room__sm">450</span><span class="block-check__lux"></span></div>
+                            <div class="block-check__price"><span class="block-check__sum">5300</span><span class="block-check__sut">в сутки</span></div>
+                          </div>
+                          <div class="block-room__wrap block-room__wrap--bottom">
+                            <div class="block-check__number">
+                                        <div class="rate-block"> 
+                                          <ul class="rate-block__list">
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--border">                      </button>
+                                            </li>
+                                          </ul>
+                                        </div>
+                            </div>
+                            <div class="block-check__price"><span class="block-check__sum">39</span><span class="block-check__sut">Отзывов</span></div>
+                          </div>
+                        </div>
+                        <div class="block-room">
+                          <div class="block-room__wrap block-room__wrap--img">
+                            <div class="block-room__circles"><span class="block-room__sp block-room__sp--all"></span><span class="block-room__sp"></span><span class="block-room__sp"></span><span class="block-room__sp"></span></div>
+                            <div class="block-room__img"> <img class="block-room__pic" src="assets/images/rooms/image-7.png"></div>
+                          </div>
+                          <div class="block-room__wrap block-room__wrap--center">
+                            <div class="block-check__number"><span class="block-check__num">№ </span><span class="block-check__more block-room__sm">350</span><span class="block-check__lux"></span></div>
+                            <div class="block-check__price"><span class="block-check__sum">5000</span><span class="block-check__sut">в сутки</span></div>
+                          </div>
+                          <div class="block-room__wrap block-room__wrap--bottom">
+                            <div class="block-check__number">
+                                        <div class="rate-block"> 
+                                          <ul class="rate-block__list">
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--border">                      </button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--border">                      </button>
+                                            </li>
+                                          </ul>
+                                        </div>
+                            </div>
+                            <div class="block-check__price"><span class="block-check__sum">77</span><span class="block-check__sut">Отзывов</span></div>
+                          </div>
+                        </div>
+                        <div class="block-room">
+                          <div class="block-room__wrap block-room__wrap--img">
+                            <div class="block-room__circles"><span class="block-room__sp block-room__sp--all"></span><span class="block-room__sp"></span><span class="block-room__sp"></span><span class="block-room__sp"></span></div>
+                            <div class="block-room__img"> <img class="block-room__pic" src="assets/images/rooms/image-10.png"></div>
+                          </div>
+                          <div class="block-room__wrap block-room__wrap--center">
+                            <div class="block-check__number"><span class="block-check__num">№ </span><span class="block-check__more block-room__sm">666</span><span class="block-check__lux"></span></div>
+                            <div class="block-check__price"><span class="block-check__sum">5000</span><span class="block-check__sut">в сутки</span></div>
+                          </div>
+                          <div class="block-room__wrap block-room__wrap--bottom">
+                            <div class="block-check__number">
+                                        <div class="rate-block"> 
+                                          <ul class="rate-block__list">
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                          </ul>
+                                        </div>
+                            </div>
+                            <div class="block-check__price"><span class="block-check__sum">25</span><span class="block-check__sut">Отзывов</span></div>
+                          </div>
+                        </div>
+                        <div class="block-room">
+                          <div class="block-room__wrap block-room__wrap--img">
+                            <div class="block-room__circles"><span class="block-room__sp block-room__sp--all"></span><span class="block-room__sp"></span><span class="block-room__sp"></span><span class="block-room__sp"></span></div>
+                            <div class="block-room__img"> <img class="block-room__pic" src="assets/images/rooms/image-5.png"></div>
+                          </div>
+                          <div class="block-room__wrap block-room__wrap--center">
+                            <div class="block-check__number"><span class="block-check__num">№ </span><span class="block-check__more block-room__sm">444</span><span class="block-check__lux"></span></div>
+                            <div class="block-check__price"><span class="block-check__sum">5000</span><span class="block-check__sut">в сутки</span></div>
+                          </div>
+                          <div class="block-room__wrap block-room__wrap--bottom">
+                            <div class="block-check__number">
+                                        <div class="rate-block"> 
+                                          <ul class="rate-block__list">
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--border">                      </button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--border">                      </button>
+                                            </li>
+                                          </ul>
+                                        </div>
+                            </div>
+                            <div class="block-check__price"><span class="block-check__sum">15</span><span class="block-check__sut">Отзывов</span></div>
+                          </div>
+                        </div>
+                        <div class="block-room">
+                          <div class="block-room__wrap block-room__wrap--img">
+                            <div class="block-room__circles"><span class="block-room__sp block-room__sp--all"></span><span class="block-room__sp"></span><span class="block-room__sp"></span><span class="block-room__sp"></span></div>
+                            <div class="block-room__img"> <img class="block-room__pic" src="assets/images/rooms/image-10.png"></div>
+                          </div>
+                          <div class="block-room__wrap block-room__wrap--center">
+                            <div class="block-check__number"><span class="block-check__num">№ </span><span class="block-check__more block-room__sm">352</span><span class="block-check__lux"></span></div>
+                            <div class="block-check__price"><span class="block-check__sum">5000</span><span class="block-check__sut">в сутки</span></div>
+                          </div>
+                          <div class="block-room__wrap block-room__wrap--bottom">
+                            <div class="block-check__number">
+                                        <div class="rate-block"> 
+                                          <ul class="rate-block__list">
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--full"></button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--border">                      </button>
+                                            </li>
+                                            <li class="rate-block__item">
+                                              <button class="rate rate--border">                      </button>
+                                            </li>
+                                          </ul>
+                                        </div>
+                            </div>
+                            <div class="block-check__price"><span class="block-check__sum">55</span><span class="block-check__sut">Отзывов</span></div>
+                          </div>
+                        </div>
+            </div>
+            <div class="main-search-room__wrap"> 
+              <nav class="pagination">
+                <div class="pagination__numbers">
+                  <ul class="pagination__list">
+                    <li class="pagination__item"><a class="pagination__link pagination__link--first" href="#">1</a>
+                    </li>
+                    <li class="pagination__item"><a class="pagination__link" href="#">2</a>
+                    </li>
+                    <li class="pagination__item"><a class="pagination__link" href="#">3</a>
+                    </li>
+                    <li class="pagination__item"><a class="pagination__link" href="#">...</a>
+                    </li>
+                    <li class="pagination__item"><a class="pagination__link" href="#">15</a>
+                    </li>
+                    <li class="pagination__item"><a class="pagination__link pagination__link--last" href="#"></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="pagination__text">1 – 12 из 100+ вариантов аренды</div>
+              </nav>
+            </div>
+          </main>
+        </div>
+      </div>
+      <div class="footer-nav">
+        <div class="container">
+          <nav class="footer-nav__wrap"> 
+            <div class="footer-nav__block footer-nav__block--margin">
+              <div class="logo">
+                <div class="logo__wrap">
+                  <div class="logo__circle-outer">
+                    <div class="logo__circle-inner">
+                      <div class="logo__item logo__item--left"></div>
+                      <div class="logo__item logo__item--right"></div>
+                    </div>
+                  </div><img class="logo__img" src="assets/images/logo/TOXIN.png" alt="login">
+                </div>
+              </div>
+              <p class="footer-nav__text">Бронирование номеров в лучшем отеле 2019 года по версии ассоциации «Отельные взгляды»</p>
+            </div>
+            <div class="footer-nav__block-wrap">
+              <div class="footer-nav__block">
+                <h3 class="footer-nav__title">навигация</h3>
+                <ul class="footer-nav__list">
+                  <li class="footer-nav__item"><a class="footer-nav__link" href="О нас">О нас</a></li>
+                  <li class="footer-nav__item"><a class="footer-nav__link" href="Новости">Новости</a></li>
+                  <li class="footer-nav__item"><a class="footer-nav__link" href="Служба поддержки">Служба поддержки</a></li>
+                  <li class="footer-nav__item"><a class="footer-nav__link" href="Услуги">Услуги</a></li>
+                </ul>
+              </div>
+              <div class="footer-nav__block">
+                <h3 class="footer-nav__title">о нас</h3>
+                <ul class="footer-nav__list">
+                  <li class="footer-nav__item"><a class="footer-nav__link" href="О сервисе">О сервисе</a></li>
+                  <li class="footer-nav__item"><a class="footer-nav__link" href="Наша команда">Наша команда</a></li>
+                  <li class="footer-nav__item"><a class="footer-nav__link" href="Вакансии">Вакансии</a></li>
+                  <li class="footer-nav__item"><a class="footer-nav__link" href="Инвесторы">Инвесторы</a></li>
+                </ul>
+              </div>
+              <div class="footer-nav__block">
+                <h3 class="footer-nav__title">Служба поддержки</h3>
+                <ul class="footer-nav__list">
+                  <li class="footer-nav__item"><a class="footer-nav__link" href="Соглашения">Соглашения</a></li>
+                  <li class="footer-nav__item"><a class="footer-nav__link" href="Сообщества ">Сообщества </a></li>
+                  <li class="footer-nav__item"><a class="footer-nav__link" href="Связь с нами">Связь с нами</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-nav__block">
+              <h3>Подписка</h3>
+              <p class="footer-nav__text">Получайте специальные предложения и новости сервиса</p>
+              <div class="search">
+                <form class="search__form">
+                  <input class="search__text" name="search-text" type="search" placeholder="Your email address">
+                  <button class="search__submit" type="submit"></button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__wrap"> 
+            <div class="footer__left">Copyright © 2018 Toxin отель. Все права зачищены.</div>
+            <div class="footer__right">
+              <div class="social-links"> 
+                <ul class="social-links__list">
+                  <li><a class="social-links__item social-links__item--twitter" href="#twitter"></a></li>
+                  <li><a class="social-links__item social-links__item--facebook" href="#facebook"></a></li>
+                  <li><a class="social-links__item social-links__item--instagram" href="#instagram"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="demo.bundle.js"></script>
+  </body>
+</html>
